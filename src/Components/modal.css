@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.modal-body img{
+    width: 100px;
+}
+.phone{
+    min-height: 55px !important;
+}
+.select{
+    max-width: 80px !important;
+}
+.modal-header{
+    background-color: #fad703 ;
+}
+

@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+.visit{
+    margin-top: 118px;
+}
+.visit img {
+    filter: brightness(50%);
+}
+
+.visit1 {
+    z-index: 1;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 250px;
+    margin-bottom: 15px;
+} 
+.visit-choose p,.visit-heading p{
+    text-align: justify;
+}
+.country1 .box {
+    height: 16vh;
+    width: 230px;
+    margin-bottom: 0.8rem;
+}
+
+.country1 .box h6 {
+    color: #00008B;
+}
+
+.team {
+
+    height: 38vh;
+    width: 300px;
+    padding: 40px 15px;
+    background-color: white;
+    margin-bottom: 0.8rem;
+}
+
+.team h6{
+    color: #00008B;
+    font-weight: bold;
+}
+
+@media screen and (max-width:768px) {
+
+    .countryimg1{
+        flex-wrap: wrap;
+    }
+    .choose1{
+        flex-wrap: wrap;
+    }
+    .visit1 {
+        top: 190px !important;
+    }
+    .visit{
+        max-height: calc(20vh - (-45px)) !important;
+    }
+
+    .visit .bg-img{
+        width: auto !important;
+        max-height: 222px !important;
+    }
+        .visit .fix-1{
+            display: none;
+        }
+    
+
+}
+
+@media screen and (max-width:414px) {
+    .countryimg1{
+        flex-wrap: wrap;
+    }
+    .choose1{
+        flex-wrap: wrap;
+    }
+   
+    .visit1 {
+        top: 210px !important;
+    }
+    .visit{
+        max-height: calc(20vh - (-60px)) !important;
+    }
+
+    .visit .bg-img{
+        width: auto !important;
+        max-height: 222px !important;
+    }
+        .visit .fix-1{
+            display: none;
+        }
+    
+}
+@media screen and (max-width:600px) {
+    .countryimg1{
+        flex-wrap: wrap;
+    }
+    .choose1{
+        flex-wrap: wrap;
+    }
+   
+    .visit1 {
+        top: 205px !important;
+    }
+    .visit{
+        max-height: calc(20vh - (-60px)) !important;
+    }
+
+    .visit .bg-img{
+        width: auto !important;
+        max-height: 209px !important;
+    }
+        .visit .fix-1{
+            display: none;
+        }
+    
+}
+@media screen and (max-width:992px) {
+.countryimg1{
+    flex-wrap: wrap;
+}
+
+
+}
+@media screen and (max-width:1280px) {
+    .countryimg1{
+        flex-wrap: wrap;
+    }
+    .choose1{
+        flex-wrap: wrap;
+    }
+    .visit1 {
+        top: 120px;
+    }
+    .visit {
+        height: calc(40vh - (-175px)) !important;
+    }
+}
+
+@media screen and (max-width:1680px) {
+    .countryimg1{
+        flex-wrap: wrap;
+    }
+    .choose1{
+        flex-wrap: wrap;
+    } 
+    .visit1 {
+        top: 280px;
+    }
+    .visit{
+        height: calc(34vh - (-115px)) !important;
+    }
+
+    .visit .bg-img{
+        width: auto !important;
+        height: 369px !important;
+    }
+    .country1 .box {
+        height: 20vh;
+        width: 230px;
+        margin-bottom: 0.8rem;
+    }
+    .team {
+
+        height: 44vh;
+    }
+}

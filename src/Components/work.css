@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.work1{
+    margin-top: 118px;
+}
+.work1 img {
+    filter: brightness(40%);
+}
+
+.work {
+    z-index: 1;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 250px;
+    margin-bottom: 15px;
+}
+
+.work4 .service-box {
+    height: 25vh;
+    width: 250px;
+    padding: 16px;
+    margin-bottom: 0.8rem;
+}
+.work7 .box {
+    height: 16vh;
+    width: 230px;
+    margin-bottom: 0.8rem;
+}
+.work2 h6, .work3 h6, .work4 h6 , .work6 h6, .work7 .countryimg1 h6{
+    color: #00008B;
+}
+.work2 p, .work3 p, .work4 p{
+    text-align: justify;
+}
+@media screen and (max-width:414px) {
+    .work4 .servicebox1{
+        flex-direction: column;
+      
+    }
+    .service-box{
+        height: 30vh !important;
+    }
+    .work {
+        top: 210px !important;
+    }
+    .work1 {
+        max-height: calc(20vh - (-60px)) !important;
+    }
+
+    .work1 .bg-img{
+        width: auto !important;
+        max-height: 222px !important;
+    }
+    .work1 .fix-1{
+        display: none;
+    }
+}
+@media screen and (max-width:600px) {
+    .work4 .servicebox1{
+        flex-wrap: wrap;
+    
+    }
+    .work {
+        top: 280px;
+    }
+    .work1 {
+        max-height: calc(20vh - (-65px)) !important;
+    }
+
+    .work1 .bg-img{
+        width: auto !important;
+        max-height: 222px !important;
+    }
+    .work1 .fix-1{
+        display: none;
+    }
+}
+@media screen and (max-width:768px) {
+    .work4 .servicebox1{
+        flex-wrap: wrap;
+    }
+    .work {
+        top: 190px !important;
+    }
+    .work1 {
+        max-height: calc(20vh - (-45px)) !important;
+    }
+
+    .work1 .bg-img{
+        width: auto !important;
+        max-height: 222px !important;
+    }
+    .work1 .fix-1{
+        display: none;
+    }
+}
+@media screen and (max-width:992px) {
+    .work4 .servicebox1{
+        flex-wrap: wrap;
+    
+    }
+}
+@media screen and (max-width:1280px) {
+    .work4 .servicebox1{
+        flex-wrap: wrap;
+    
+    }
+    .work {
+        top: 120px;
+    }
+
+    .work1 {
+        height: calc(40vh - (-175px)) !important;
+    } 
+}
+@media screen and (max-width:1680px){
+    .work {
+        top: 250px;
+    }
+    .work1 {
+        height: calc(34vh - (-115px)) !important;
+    }
+
+    .work1 .bg-img{
+        width: auto !important;
+        height: 369px !important;
+    }
+    .work7 .box {
+        height: 20vh;
+        width: 230px;
+        margin-bottom: 0.8rem;
+    }
+    
+.work4 .service-box {
+    height: 30vh;
+
+}
+}

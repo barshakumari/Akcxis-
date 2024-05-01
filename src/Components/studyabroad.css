@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.section20{
+    margin-top: 118px;
+}
+.section20 img{
+    filter: brightness(30%) ;
+}
+.studyabroad1{
+    z-index: 1;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 250px;
+    margin-bottom: 15px;
+}
+
+.study h6{
+    text-align:left;
+}
+.facts, .document{
+    background-color:  #fad70326;
+}
+.destination .box{
+    height: 16vh;
+    width: 300px;
+    margin-bottom: 0.8rem;
+}
+.study h6, .section22 h5, .destination p{
+    text-align: justify;
+}
+.destination .box h6, .section21 h6, .journey h6{
+    color:  #00008B;
+}
+
+
+@media screen and (max-width:768px) {
+    .studyabroad1 {
+        top: 190px !important;
+    }
+    .section20 {
+        max-height: calc(20vh - (-45px)) !important;
+    }
+
+    .section20 .bg-img{
+        width: auto !important;
+        max-height: 222px !important;
+    }
+ .section20 .fix-1{
+    display: none;
+ }
+    .countryimg{
+        flex-wrap: wrap;
+    }
+
+}
+
+@media screen and (max-width:414px) {
+    .studyabroad1 {
+        top: 210px !important;
+    }
+    .section20 {
+        max-height: calc(20vh - (-60px)) !important;
+    }
+
+    .section20 .bg-img{
+        width: auto !important;
+        max-height: 222px !important;
+    }
+ .section20 .fix-1{
+    display: none;
+ }
+    .countryimg{
+        flex-wrap: wrap;
+    }
+
+}
+@media screen and (max-width:600px) {
+    .studyabroad1 {
+        top: 210px !important;
+    }
+    .section20 {
+        max-height: calc(20vh - (-60px)) !important;
+    }
+
+    .section20 .bg-img{
+        width: auto !important;
+        max-height: 209px !important;
+    }
+ .section20 .fix-1{
+    display: none;
+ }
+    .countryimg{
+        flex-wrap: wrap;
+    }
+
+}
+@media screen and (max-width:992px) {
+   
+    .countryimg{
+        flex-wrap: wrap;
+    }
+
+}
+
+@media screen and (max-width:1280px) {
+   
+    .countryimg{
+        flex-wrap: wrap;
+    }
+    .studyabroad1 {
+        top: 120px;
+    }
+    .section20 {
+        height: calc(40vh - (-175px)) !important;
+    } 
+ 
+}
+@media screen and (max-width:1680px) {
+    .studyabroad1 {
+        top: 250px;
+    }
+    .section20 {
+        height: calc(34vh - (-115px)) !important;
+    }
+
+    .section20 .bg-img{
+        width: auto !important;
+        height: 369px !important;
+    }
+    .destination .box{
+        height: 22vh;
+        width: 300px;
+        margin-bottom: 0.8rem;
+    }
+}

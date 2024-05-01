@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.section28{
+    margin-top: 118px;
+}
+.section28 img{
+    filter: brightness(30%);
+}
+.migrate1{
+    z-index: 1;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 250px;
+    margin-bottom: 15px;
+}
+.section30 .box{
+    height: 16vh;
+    width: 250px;
+    margin-bottom: 0.8rem;
+}
+.section30 .box h6{
+    color: #00008B;
+}
+.migrate-heading p, .migrate-benefit, .migrate-requirement p, .migrate-how p ,.section30 p, .migrate-apply p , .migrate-how h6{
+    text-align: justify;
+}
+
+@media screen and (max-width:768px) {
+    .migrate1 {
+        top: 190px !important;
+    }
+    .section28 {
+        max-height: calc(20vh - (-45px)) !important;
+    }
+
+    .section28 .bg-img{
+        width: auto !important;
+        max-height: 222px !important;
+    }
+    .section28 .fix-1{
+        display: none;
+    }
+}
+
+@media screen and (max-width:414px) {
+    .migrate1 {
+        top: 210px !important;
+    }
+
+  
+    .section28 {
+        max-height: calc(20vh - (-60px)) !important;
+    }
+
+    .section28 .bg-img{
+        width: auto !important;
+        max-height: 222px !important;
+    }
+.section28 .fix-1{
+    display: none;
+}
+}
+@media screen and (max-width:600px) {
+    .migrate1 {
+        top: 210px !important;
+    }
+
+  
+    .section28 {
+        max-height: calc(20vh - (-60px)) !important;
+    }
+
+    .section28 .bg-img{
+        width: auto !important;
+        max-height: 209px !important;
+    }
+.section28 .fix-1{
+    display: none;
+}
+}
+@media screen and (max-width:1280px) {
+    .migrate1 {
+        top: 120px;
+    }
+
+    .section28 {
+        height: calc(40vh - (-175px)) !important;
+    } 
+}
+@media screen and (max-width:1680px) {
+    .migrate1{
+        top: 250px;
+    }
+    .section28 {
+        height: calc(34vh - (-115px)) !important;
+    }
+
+    .section28 .bg-img{
+        width: auto !important;
+        height: 369px !important;
+    }
+    .section30 .box{
+        height: 20vh;
+        width: 250px;
+        margin-bottom: 0.8rem;
+    }
+
+}

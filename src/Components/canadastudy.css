@@ -1,0 +1,71 @@
+h1 , h2{
+    color: #003465;
+   
+}
+body{
+    font-family: 'Montserrat', sans-serif !important;
+
+}
+body p{
+   font-size: 18px !important;
+   text-align: justify;
+}
+/* .heading h1{
+    font-size: 30px;
+    font-weight: 500;
+    color: #003465;
+    font-family: sans-serif;
+} */
+.list-group a{
+color: black;
+font-weight: bold;
+}
+.list-group a:hover{
+background-color:#2d3e50;
+color: white;
+
+}
+.list-group{
+    background-color: #003465 !important;
+}
+
+
+
+.linking-page{
+    font-size: 16px;
+    color: #2d3e50;
+    margin-bottom: -40px;
+    float: left;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    font-weight: bold;
+}
+.link-name{
+    display: inline-block;
+    float: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding: 5px 10px 5px 0;
+    vertical-align: top;
+}
+.link-name a{
+    text-decoration: none;
+    color: black;
+}
+.link-name a:hover{
+  color:  #2d3e50;
+}
+.link-icon{
+    font-size: 18px;
+    color: #2d3e50;
+}
+.link-icon::before{
+    content: '›';
+    padding-left: 10px;
+}
+
+.col-lg-3 .fixtext{
+    background-color:  #2d3e50;
+    color: white;
+}

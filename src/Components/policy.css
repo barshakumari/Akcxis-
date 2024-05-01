@@ -1,0 +1,22 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ .policy{
+    margin-top: 118px;
+}
+p{
+    text-align: justify;
+    font-size: 18px;
+    
+}
+li{
+    text-align: justify;
+    font-size: 18px;
+}
+
+h5{
+    font-weight: bold;
+}

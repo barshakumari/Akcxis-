@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.PTE2 img{
+
+    /* filter: brightness(50%); */
+}
+.PTE2{
+    margin-top: 118px;
+}
+.main-section .box{
+    top: 280px; 
+}
+
+.about-pte p, .pte-score p, .benefit-pte p{
+    text-align: justify;
+}
+.main-section .benefit-box{
+   height: 300px;
+
+}
+
+@media screen and (max-width:414px) {
+.PTE2 .fix-1{
+    display: none !important;
+}
+.PTE2{
+    height: 23vh;
+}
+.PTE2 img{
+    height: 100%;
+}}
+
+@media screen and (max-width:600px) {
+    .PTE2 .fix-1{
+        display: none !important;
+    }
+    .PTE2{
+        height: 23vh;
+    }
+    .PTE2 img{
+        height: 100%;
+    }}
+    @media screen and (max-width:768px) {
+        .PTE2 .fix-1{
+            display: none !important;
+        }
+    }
+
+.Toefl {
+    margin-top: 118px;
+}
+.Toefl img{
+    filter: brightness(50%);
+}
+.TOEFL-section .box{
+    top: 280px; 
+}
+.TOEFL-section p{
+    text-align: justify;
+}
+
+/* IELTS */
+.Ielts2{
+    margin-top: 118px;
+}
+.Ielts2 img{
+    filter: brightness(50%);
+}
+.box-ielts{
+    top: 280px;
+}
+.IELTS-section  p{
+    text-align: justify;
+}
+@media screen and (max-width:414px) {
+    .Ielts2 .fix-1{
+        display: none !important;
+    }
+    .Ielts2{
+        height: 23vh;
+    }
+    .Ielts2 img{
+        height: 100%;
+    }}
+    
+    @media screen and (max-width:600px) {
+        .Ielts2 .fix-1{
+            display: none !important;
+        }
+        .Ielts2{
+            height: 23vh;
+        }
+        .Ielts2 img{
+            height: 100%;
+        }}
+        @media screen and (max-width:768px) {
+            .Ielts2 .fix-1{
+                display: none !important;
+            }
+        }
+/* Spoken */
+.spoken1{
+    margin-top: 118px;
+}
+.spoken1 img{
+    filter: brightness(50%);
+} 
+
+/* French */
+.French1{
+    margin-top: 118px;
+}
+.French1 img{
+    filter: brightness(50%);
+} 
+/* celpip */
+.CELPIP{
+    margin-top: 118px;
+}
+.CELPIP img{
+    filter: brightness(50%);
+}

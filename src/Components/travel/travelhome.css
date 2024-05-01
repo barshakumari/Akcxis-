@@ -1,0 +1,47 @@
+
+.travel-content p{
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Coiny';
+}
+.travel-section1{
+    /* margin-top: 118px; */
+}
+
+.heading-title{
+    text-align: center;
+    padding-bottom: 10px;
+}
+.heading-title h1{
+    font-size: 38px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 20px; 
+    position: relative;
+    color:#003465;
+    font-family: 'Coiny';
+}
+.heading-title h1::after{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: #f58220;
+    bottom: 0;
+    left: calc(50% - 25px);
+
+}
+.video1{
+    width: 100%;
+    height: auto;
+  }
+  .navbar .nav-item a{
+    color: black;
+  }
+  .navbar .nav-item a:hover{
+    color:#003465 !important;
+  }
+
+

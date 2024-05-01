@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif !important;
+
+}
+ .section12{
+    margin-top: 118px;
+}
+.section12 img {
+    filter: brightness(30%);
+}
+
+.direct {
+    background-color: #fad703;
+}
+
+.about1 {
+    z-index: 1;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 250px;
+    margin-bottom: 15px;
+} 
+
+
+
+
+.section13 h6,
+.section15 h6,
+.section14 h6,
+.VISION h6 {
+    color: #00008B;
+}
+
+.section13 p,
+.section14 p,
+.section15 p,
+.VISION p {
+    text-align: justify;
+}
+
+.section15 {
+
+    background-color: #fad70326;
+}
+
+.section14 img {
+    height: 450px;
+}
+
+@media screen and (max-width:768px) {
+
+    .about1 {
+        top: 130px !important;
+    }
+   
+    .section12 {
+        max-height: calc(20vh - (-45px)) !important;
+    }
+
+    .section12 .bg-img{
+        width: auto !important;
+        max-height: 222px !important;
+    }
+ .section12 .fix-1{
+    display: none;
+ }
+}
+
+ @media screen and (max-width:992px) {
+    .about1 {
+        top: 222px !important;
+    }
+
+}  
+@media screen and (max-width:1280px) {
+    .about1 {
+        top: 120px;
+    }
+
+    .section12 {
+        height: calc(40vh - (-175px)) !important;
+    } 
+}
+
+@media screen and (max-width:1680px) {
+    .about1 {
+        top: 250px;
+    }
+
+    .section12 {
+        height: calc(34vh - (-115px)) !important;
+        top: 116px;
+    }
+
+    .section12 .bg-img{
+        width: auto !important;
+        height: 369px !important;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .about1 {
+        top: 200px !important;
+    }
+   
+ 
+    .section12 {
+        max-height: calc(20vh - (-30px)) !important;
+    }
+
+    .section12 .bg-img{
+        width: auto !important;
+        max-height: 200px !important;
+    }
+ .section12 .fix-1{
+    display: none;
+ }
+  
+ 
+}
+
+@media screen and (max-width:414px) {
+    .about1 {
+        top: 180px !important;
+    }
+   
+    .section12 {
+        max-height: calc(20vh - (-50px)) !important;
+    }
+
+    .section12 .bg-img{
+        width: auto !important;
+        max-height: 200px !important;
+    }
+ .section12 .fix-1{
+    display: none;
+ }
+    
+}

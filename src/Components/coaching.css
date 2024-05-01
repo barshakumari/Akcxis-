@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section16 {
+    margin-top: 118px;
+}
+
+.section16 img {
+    filter: brightness(30%);
+}
+
+.coaching1 {
+    z-index: 1;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 250px;
+    margin-bottom: 15px;
+}
+
+.section17 h6,
+.section18 h6,
+.heading h6 {
+    color: #00008B;
+}
+
+.section17 .cardstudy h4 {
+    color: #00008B;
+}
+
+.section17 p,
+.heading p,
+.accordion-body {
+    text-align: justify;
+}
+
+.section17 .cardstudy {
+    height: 45vh;
+    width: 460px;
+    padding: 12px;
+    margin-top: 20px;
+
+}
+
+ .section17 .cardstudy:hover{
+    transform: scale(1.1);
+    background-color:  #fad70326;
+} 
+
+@media screen and (max-width:768px) {
+    .coaching1 {
+        top: 190px !important;
+    }
+    .section16 {
+        max-height: calc(20vh - (-45px)) !important;
+    }
+
+    .section16 .bg-img {
+        width: auto !important;
+        max-height: 222px !important;
+    }
+    .section17 .material {
+        flex-wrap: wrap;
+    }
+    .section16 .fix-1 {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width:414px) {
+
+    .section17 .material {
+        flex-wrap: wrap;
+    }
+    .section17 .cardstudy {
+        height: auto !important;
+    
+    
+    }
+    .coaching1 {
+        top: 60px !important;
+    }
+
+    .section16 {
+        max-height: calc(20vh - (-60px)) !important;
+    }
+
+    .section16 .bg-img {
+        width: auto !important;
+        max-height: 222px !important;
+    }
+
+    .section16 .fix-1 {
+        display: none;
+    }
+
+
+    .section16 .fix-1 {
+        display: none;
+    }
+}
+
+@media screen and (max-width:600px) {
+
+    .section17 .material {
+        flex-wrap: wrap;
+    }
+    .section17 .cardstudy {
+        height: auto !important;
+    
+    
+    }
+     .coaching1 {
+        top: 60px !important;
+    }
+
+   
+    .section16 {
+        max-height: calc(20vh - (-60px)) !important;
+    }
+
+    .section16 .bg-img {
+        width: auto !important;
+        max-height: 209px !important;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .section17 .material {
+        flex-wrap: wrap;
+    }
+
+    .coaching1 {
+        top: 200px !important;
+    }
+}
+
+@media screen and (max-width:1280px) {
+    .section17 .material {
+        flex-wrap: wrap;
+    }
+
+    .couching1 {
+        top: 120px;
+    }
+
+    .section16 {
+        height: calc(40vh - (-175px)) !important;
+    }
+
+}
+
+@media screen and (max-width:1680px) {
+    .section17 .material {
+        flex-wrap: wrap;
+    }
+
+    .coaching1 {
+        top: 250px;
+    }
+
+    .section16 {
+        height: calc(34vh - (-115px)) !important;
+    }
+
+    .section16 .bg-img {
+        width: auto !important;
+        height: 369px !important;
+    }
+
+    .section17 .cardstudy {
+        height: 50vh;
+    }
+}

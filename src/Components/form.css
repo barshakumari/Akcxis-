@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.form-page{
+    background-color: white;
+    top: 110px !important;
+    z-index: 1000;
+}
+.form-page .col-lg-4 img{
+   filter: brightness(100%) !important;
+   position: absolute;
+  bottom: 20px;
+    /* padding-right: 250px;  */
+
+}
+.form-page button:hover{
+    background-color: #FAD703;
+    border: none;
+    color: black;
+}
+.phone{
+    min-height: 55px !important;
+}
+.select{
+    max-width: 80px !important;
+}
