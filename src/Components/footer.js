@@ -27,7 +27,7 @@ console.log(location)
                 </h4>
                 <h5 className='mb-3 fs-4'>Akcxis International Services</h5>
                 <p className='mb-4 fs-5'>
-                  Akcxis has forayed its wings in to Travel, Study Visa, Coaching and Consultancy business. Our experienced team ensures a seamless for all travel related requirements of our clients, and assist students to achieve their goal of studying at international level.
+                  Akcxis has forayed its wings in to Travel, Study Visa, Coaching and Consultancy business. Our experienced team ensures a seamless process for all travel related requirements of our clients, and assist students to achieve their goal of studying at international level.
                 </p>
               </div>
 

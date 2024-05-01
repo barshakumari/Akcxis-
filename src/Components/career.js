@@ -36,14 +36,16 @@ const Career = () => {
         </div>
       </div>
       {/*section25 */}
-      <div className='section25 py-3'>
+      <div className='section25 py-5'>
         <div className='container'>
         <div className="cardMain">
           <Modal title="Apply Now" className="ms-1 fw-semibold fs-5" />
         </div>
-          <h6 className=' text-decoration-underline fw-bolder text-center Text1'>CAREER AT AKCXIS</h6>
-          <h5 className='text-center fw-semibold'>BUILD A REWARDING CAREER DOING MEANINGFUL WORK</h5>
-          <p className='fs-6 text-secondary mt-3'>We confer a dynamic and global environment to our students and clients to live up to their potential. Additionally, if you want to build your career that not only gives you satisfaction but also allows you to achieve your dreams. Our expert team will help you by guiding you in the right direction.</p>
+        <div className='heading-title1'>
+            <h1>CAREER AT AKCXIS</h1>
+          </div>
+          <h5 className=' fw-semibold'>BUILD A REWARDING CAREER DOING MEANINGFUL WORK</h5>
+          <p className=' mt-3'>We confer a dynamic and global environment to our students and clients to live up to their potential. Additionally, if you want to build your career that not only gives you satisfaction but also allows you to achieve your dreams. Our expert team will help you by guiding you in the right direction.</p>
           <div className='row mt-5'>
             <div className="col-lg-4 d-flex">
               <img src={man} alt="" className='img-fluid' />
@@ -72,12 +74,14 @@ const Career = () => {
       </div>
 
       {/* section26 */}
-      <div className="section26 py-3">
+      <div className="section26 py-5 bg-light">
         <div className="container px-4">
-          <h6 className=' text-decoration-underline fw-bolder text-center Text1'>JOIN THE TEAM</h6>
-          <h5 className='text-center text-uppercase fw-semibold'>Your Future With Akcxis</h5>
-          <p className='text-secondary mt-4'>With Akcxis, you can find better job opportunities as per your qualification. Our HR team not only provides better job options, but also helps to build your career and help you in your career growth. In current economic scenario, Akcxis allows you a role that is refreshingly challenging and assists you to establish genuinely valuable skills and knowledge. </p>
-          <p className='text-secondary'>Moreover, our brand is trustworthy and recognized in India. We believe in conferring authentic and best services to our clients. Our customers refer to us as a most reliable and trustworthy firm because of their experience with us. This plays a significant role in our growth.</p>
+        <div className='heading-title1'>
+            <h1>JOIN THE TEAM</h1>
+          </div>
+          <h5 className=' text-uppercase fw-semibold'>Your Future With Akcxis</h5>
+          <p className=' mt-4'>With Akcxis, you can find better job opportunities as per your qualification. Our HR team not only provides better job options, but also helps to build your career and help you in your career growth. In current economic scenario, Akcxis allows you a role that is refreshingly challenging and assists you to establish genuinely valuable skills and knowledge. </p>
+          <p className='mb-5'>Moreover, our brand is trustworthy and recognized in India. We believe in conferring authentic and best services to our clients. Our customers refer to us as a most reliable and trustworthy firm because of their experience with us. This plays a significant role in our growth.</p>
 
           <div className="row ">
             <div className="col-lg-1 ">

@@ -60,37 +60,44 @@ const Visit = () => {
       </div>
 
       {/* visit heading */}
-      <div className='visit-heading py-4'>
+      <div className='visit-heading py-5'>
         <div className='container'>
-        <h6 className='text-decoration-underline fw-bolder Text1 text-center'>GLOBE TROTTER</h6>
-          <h5 className='text-uppercase fw-semibold text-center'>Travel and Explore the world with us</h5>
-          <p className='text-secondary  mt-4'>Visitor Visa is a non-immigrant visa that allows you to travel to a country for tourism and holiday purpose. If the purpose of the visit is to conduct business, one must apply for a business visa. This allows you to travel to a country to carry out business activities like conduct meetings, participate in exhibitions, attend conferences or carry out commercial transactions.
+        <div className='heading-title1'>
+            <h1>GLOBE TROTTER</h1>
+          </div>
+          <h5 className='text-uppercase fw-semibold '>Travel and Explore the world with us</h5>
+          <p className=' mt-4'>Visitor Visa is a non-immigrant visa that allows you to travel to a country for tourism and holiday purpose. If the purpose of the visit is to conduct business, one must apply for a business visa. This allows you to travel to a country to carry out business activities like conduct meetings, participate in exhibitions, attend conferences or carry out commercial transactions.
           </p>
-          <p className='text-secondary '>Every country has a set of its own eligibility, application and document requirements, which must be fulfilled to get a tourist or a business visit visa. We assist you in your application and documentation, making the entire process quick and wrinkle-free for you.</p>
+          <p className=''>Every country has a set of its own eligibility, application and document requirements, which must be fulfilled to get a tourist or a business visit visa. We assist you in your application and documentation, making the entire process quick and wrinkle-free for you.</p>
         </div>
       </div>
 
       {/* our services */}
-      <div className='service py-1 bg-light'>
+      <div className='service py-4 bg-light'>
         <div className='container'>
         <div className="cardMain">
           <Modal title="Apply Now" className="ms-1 fw-semibold fs-5" />
         </div>
-          <h5 className='text-uppercase fw-semibold '>Our Services</h5>
-          <p className='text-secondary  mt-3'><BsCheck2Square className='fs-4 text-warning ' />&nbsp; Application Form</p>
-          <p className='text-secondary '><BsCheck2Square className='fs-4 text-warning ' />&nbsp; Document Checklist</p>
-          <p className='text-secondary '><BsCheck2Square className='fs-4 text-warning ' />&nbsp; Cover Letter</p>
-          <p className='text-secondary '><BsCheck2Square className='fs-4 text-warning ' />&nbsp; Mock Interview</p>
-          <p className='text-secondary '><BsCheck2Square className='fs-4 text-warning ' />&nbsp; Flight and Hotel Booking</p>
-          <p className='text-secondary '><BsCheck2Square className='fs-4 text-warning ' />&nbsp; Review of Document and Filing</p>
-          <p className='text-secondary '><BsCheck2Square className='fs-4 text-warning ' />&nbsp; Collection of Documents from Embassy</p>
+        <div className='heading-title1'>
+            <h1>Our Services</h1>
+          </div>
+  
+          <p className='  '><BsCheck2Square className='fs-4 text-warning ' />&nbsp; Application Form</p>
+          <p className=' '><BsCheck2Square className='fs-4 text-warning ' />&nbsp; Document Checklist</p>
+          <p className=' '><BsCheck2Square className='fs-4 text-warning ' />&nbsp; Cover Letter</p>
+          <p className=' '><BsCheck2Square className='fs-4 text-warning ' />&nbsp; Mock Interview</p>
+          <p className=' '><BsCheck2Square className='fs-4 text-warning ' />&nbsp; Flight and Hotel Booking</p>
+          <p className=' '><BsCheck2Square className='fs-4 text-warning ' />&nbsp; Review of Document and Filing</p>
+          <p className=' '><BsCheck2Square className='fs-4 text-warning ' />&nbsp; Collection of Documents from Embassy</p>
         </div>
       </div>
 
       {/* why choose us */}
       <div className='visit-choose py-5'>
         <div className='container '>
-        <h6 className='text-decoration-underline fw-bolder Text1 text-center'>ONE - STOP SOLUTION</h6>
+        <div className='heading-title1'>
+            <h1>ONE - STOP SOLUTION</h1>
+          </div>
           <h5 className='text-uppercase fw-semibold text-center pb-3  '>Why Choose Us</h5>
           <div className='d-flex justify-content-around align-items-center mt-3 choose1 '>
             <div className='team border-dark border-opacity-25 rounded-3 shadow-lg'>
@@ -127,93 +134,44 @@ const Visit = () => {
       </div>
 
       {/* general document */}
-      <div className='general py-4 bg-light'>
+      <div className='general py-5 bg-light'>
         <div className='container'>
-          <h5 className=' text-uppercase fw-semibold'> Tourist Visa General Document Checklist</h5>
-          <div className='mt-4'>
-            <div className='d-flex justify-content-between border px-3'>
-              <h6 className='' >1. &nbsp;Passport (minimum validity 6 months)</h6>
-              <input className="form-check-input fs-5" type="checkbox" defaultValue id="flexCheckDefault" />
-            </div>
-            <div className='d-flex justify-content-between border px-3'>
-              <h6 className=''>2.  &nbsp;Photocopy of passport's bio pages</h6>
-              <input className="form-check-input fs-5" type="checkbox" defaultValue id="flexCheckDefault" /></div>
-            <div className='d-flex justify-content-between border px-3'>
-              <h6 className=''>3.  &nbsp;2 Photographs (white background)</h6>
-              <input className="form-check-input fs-5" type="checkbox" defaultValue id="flexCheckDefault" /> </div>
-
-            <div className='d-flex justify-content-between border px-3'>
-              <h6 className=''>4.  &nbsp;Cover letter</h6>
-              <input className="form-check-input fs-5" type="checkbox" defaultValue id="flexCheckDefault" />
-            </div>
-
-            <div className='d-flex justify-content-between border px-3'>
-              <h6 className=''>5.  &nbsp;Return flight bookings</h6>
-              <input className="form-check-input fs-5" type="checkbox" defaultValue id="flexCheckDefault" />
-            </div>
-            <div className='d-flex justify-content-between border px-3'>
-              <h6 className=''>6.  &nbsp;Hotel booking vouchers</h6>
-              <input className="form-check-input fs-5" type="checkbox" defaultValue id="flexCheckDefault" />
-            </div>
-
-            <div className='d-flex justify-content-between border px-3'>
-              <h6 className=''>7.  &nbsp;Recent bank statement (evidence of finance)</h6>
-              <input className="form-check-input fs-5" type="checkbox" defaultValue id="flexCheckDefault" />
-            </div>
-            <div className='d-flex justify-content-between border px-3'>
-              <h6 className=''>8.  &nbsp;Invitation letter (in case applicable)</h6>
-              <input className="form-check-input fs-5" type="checkbox" defaultValue id="flexCheckDefault" />
-            </div>
-            <div className='d-flex justify-content-between border px-3'>
-              <h6 className=''>9.  &nbsp;Birth certificate (in case of minors)</h6>
-              <input className="form-check-input fs-5" type="checkbox" defaultValue id="flexCheckDefault" />
-            </div>
+        <div className='heading-title1'>
+            <h1>Tourist Visa General Document Checklist</h1>
+          </div>
+          <div className=''>
+            <ul>
+              <li>Passport (minimum validity 6 months)</li>
+              <li>Photocopy of passport's bio pages</li>
+              <li>2 Photographs (white background)</li>
+              <li>Cover letter</li>
+              <li>Return flight bookings</li>
+              <li>Hotel booking vouchers</li>
+              <li>Recent bank statement (evidence of finance)</li>
+              <li>Invitation letter (in case applicable)</li>
+              <li>Birth certificate (in case of minors)</li>
+            </ul>
           </div>
 
+          <div className='heading-title1 mt-5'>
+            <h1>Business Visa General Document Checklist</h1>
+          </div>
+          <div className=''>
+            <ul>
+              <li>Passport (minimum validity 6 months)</li>
+              <li>Photocopy of passport's bio pages</li>
+              <li>2 Photographs (white background)</li>
+              <li>Cover letter</li>
+              <li>Return flight booking</li>
+              <li>Hotel booking vouchers</li>
+              <li>Recent bank statement  (evidence of finance)</li>
+              <li>Invitation letter (in case applicable)</li>
+              <li>Sponsorship letter (in case of sponsorship)</li>
+              <li>Letter by employer (in case of employee)</li>
 
-          <h5 className=' text-uppercase fw-semibold mt-4'> Business Visa General Document Checklist</h5>
-          <div className='mt-4'>
-            <div className='d-flex justify-content-between border px-3'>
-              <h6 className='' >1. &nbsp;Passport (minimum validity 6 months)</h6>
-              <input className="form-check-input fs-5" type="checkbox" defaultValue id="flexCheckDefault" />
-            </div>
-            <div className='d-flex justify-content-between border px-3'>
-              <h6 className=''>2.  &nbsp;Photocopy of passport's bio pages</h6>
-              <input className="form-check-input fs-5" type="checkbox" defaultValue id="flexCheckDefault" /></div>
-            <div className='d-flex justify-content-between border px-3'>
-              <h6 className=''>3.  &nbsp;2 Photographs (white background)</h6>
-              <input className="form-check-input fs-5" type="checkbox" defaultValue id="flexCheckDefault" /> </div>
-
-            <div className='d-flex justify-content-between border px-3'>
-              <h6 className=''>4.  &nbsp;Cover letter</h6>
-              <input className="form-check-input fs-5" type="checkbox" defaultValue id="flexCheckDefault" />
-            </div>
-
-            <div className='d-flex justify-content-between border px-3'>
-              <h6 className=''>5.  &nbsp;Return flight booking</h6>
-              <input className="form-check-input fs-5" type="checkbox" defaultValue id="flexCheckDefault" />
-            </div>
-            <div className='d-flex justify-content-between border px-3'>
-              <h6 className=''>6.  &nbsp;Hotel booking vouchers</h6>
-              <input className="form-check-input fs-5" type="checkbox" defaultValue id="flexCheckDefault" />
-            </div>
-
-            <div className='d-flex justify-content-between border px-3'>
-              <h6 className=''>7.  &nbsp;Recent bank statement  (evidence of finance)</h6>
-              <input className="form-check-input fs-5" type="checkbox" defaultValue id="flexCheckDefault" />
-            </div>
-            <div className='d-flex justify-content-between border px-3'>
-              <h6 className=''>8.  &nbsp;Invitation letter (in case applicable)</h6>
-              <input className="form-check-input fs-5" type="checkbox" defaultValue id="flexCheckDefault" />
-            </div>
-            <div className='d-flex justify-content-between border px-3'>
-              <h6 className=''>9.  &nbsp;Sponsorship letter (in case of sponsorship)</h6>
-              <input className="form-check-input fs-5" type="checkbox" defaultValue id="flexCheckDefault" />
-            </div>
-            <div className='d-flex justify-content-between border ps-2 pe-3'>
-              <h6 className=''>10.  &nbsp;Letter by employer (in case of employee)</h6>
-              <input className="form-check-input fs-5" type="checkbox" defaultValue id="flexCheckDefault" />
-            </div>
+            </ul>
+      
+          
           </div>
         </div>
       </div>
@@ -221,7 +179,9 @@ const Visit = () => {
       {/* choose country */}
       <div className='country1 py-5 bg-light'>
         <div className='container'>
-          <h5 className='text-uppercase fw-semibold  text-center '>CHOOSE YOUR COUNTRY</h5>
+        <div className='heading-title1'>
+            <h1>CHOOSE YOUR COUNTRY</h1>
+          </div>
           <div className='countryimg1 d-flex justify-content-around align-items-center mt-5'>
             <div className='box  border-dark border-opacity-25 rounded-3 shadow-lg'>
               <div className='d-flex justify-content-center'>

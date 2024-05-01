@@ -52,7 +52,9 @@ import UsaVisit from './Components/visitorvisa/UsaVisit';
 import canadaVisit from './Components/visitorvisa/canadaVisit'
 import SingaporeVisit from './Components/visitorvisa/SingaporeVisit'
 import GermanyVisit from './Components/visitorvisa/GermanyVisit'
-
+import CanadaVisit from './Components/visitorvisa/canadaVisit';
+import UkVisitor from './Components/visitorvisa/UkVisitor';
+import AusVisit from './Components/visitorvisa/AusVisit';
 import NzVisit from './Components/visitorvisa/NzVisit'
 
 
@@ -60,9 +62,8 @@ import Refundpolicy from './Components/refundpolicy';
 import Termcondition from './Components/termcondition';
 import Privacypolicy from './Components/privacypolicy';
 import Travelhome from './Components/travel/travelhome';
-import CanadaVisit from './Components/visitorvisa/canadaVisit';
-import UkVisitor from './Components/visitorvisa/UkVisitor';
-import AusVisit from './Components/visitorvisa/AusVisit';
+import Testimonial from './Components/testimonial';
+
 
 
 function App() {
@@ -131,6 +132,8 @@ function App() {
           <Route path="/privacypolicy" element={< Privacypolicy />} />
           <Route path="/termcondition" element={< Termcondition />} />
           <Route path="/refundpolicy" element={< Refundpolicy />} />
+
+          <Route path="/testimonial" element={< Testimonial />} />
 
           <Route path="/travelhome" element={< Travelhome />} />
         </Routes>

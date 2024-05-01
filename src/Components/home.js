@@ -11,7 +11,7 @@ import student from "./images/scholarship-left-1.png"
 import { AiOutlineArrowRight } from 'react-icons/ai';
 import trofy from "./images/akcxis trofy.png"
 import map from "./images/map.png"
-import team from "./images/akcxis team.png"
+
 import building from "./images/Buildings.jpg"
 import skill from "./images/t-skill.png"
 // import { FaHeadset } from 'react-icons/fa';
@@ -42,6 +42,9 @@ import sneha from "./images/testi3.png"
 import gagan from "./images/testi4.png"
 import rahul from "./images/testi5.png"
 import testimonial from './images/testimonial.png'
+import sahera from './images/sahera.png'
+import urmila from './images/urmila.png'
+import pawan from './images/pawan.png'
 
 import { AiFillStar } from 'react-icons/ai';
 import { AiOutlineStar } from "react-icons/ai"
@@ -67,7 +70,7 @@ const Home = () => {
     dots: true, 
     infinite: true,
     autoplay: true,
-    autoplaySpeed: 3000,
+    autoplaySpeed: 4000,
     slidesToShow: 1,
     slidesToScroll: 1,
   };
@@ -155,7 +158,7 @@ const Home = () => {
             <ul type="disc" className='country-list'>
               <li><a href='/newzealandstudy' className=''>Study Visa</a></li>
               <li><a href='/NzWork'>Work Visa</a></li>
-              {/* <li><a href='/Nzvisit'>Visitor Visa</a></li> */}
+              <li><a href='/Nzvisit'>Visitor Visa</a></li>
             </ul>
           </div>
           
@@ -250,7 +253,7 @@ const Home = () => {
               <a href='/migrate' className='text-decoration-none'>
               <div className="card-body">
                 <div className="card-title fs-4 fw-semibold">
-                  PR Visa
+                  PR 
                 </div>
                 <p className='text-secondary'>Permanent Resident visa permits the holder to travel, work and settle in a foreign nation with his or her family. It is a path way for citizenship for that country.</p>
               </div>
@@ -278,9 +281,9 @@ const Home = () => {
               <a href='/visit' className='text-decoration-none'>
               <div className="card-body">
                 <div className="card-title fs-4 fw-semibold">
-                  Tourist & Visitor Visa
+                 Visitor Visa
                 </div>
-                <p className='text-secondary'>Tourist or Visitor visa is a temporary visa that permits the holder to travel to and remain in a foreign nation solely for tourist and leisure purposes.</p>
+                <p className='text-secondary'>Visitor visa is a temporary visa that permits the holder to travel to and remain in a foreign nation solely for tourist and leisure purposes.</p>
               </div>
               </a>
              
@@ -367,7 +370,7 @@ const Home = () => {
           <div className='row '>
             <div className='col-lg-6 d-flex justify-content-center align-items-center'>
               <div>
-                <h4 className='  fw-bold'>POWERED BY VIDHATA GROUP</h4>
+                <h4 className='  fw-bold mb-3'>A VIDHATA GROUP VERTICAL</h4>
                 <h5 className='fw-semibold  '>Building Your Dreams With Genuine Passion</h5>
                 <p className='text-secondary py-4 '>Our primary goal is to assist students, individuals, families, entrepreneurs and investors from all over the world to relocate and succeed in the country of their choice. We are dedicated to establish the path for you and your families future.</p>
                 <a href="about"><button className='btn  px-4 py-3'>READ MORE &nbsp;
@@ -435,13 +438,21 @@ const Home = () => {
         <div className='container py-3'>
           <div>
             <Slider {...settings}>
-              <div>
+              <div>               
                 <div className='d-flex justify-content-center'>
-                  <img src={rahul} className='img-fluid ' alt='' />
+                  <img src={sahera} className='img-fluid ' alt='' />
                 </div>
-                <h4 className='text-center mt-3 fw-bold'>Rohan Das</h4>
+                <h4 className='text-center mt-3 fw-bold'>Sahera Thaman</h4>
                 <p className='text-center text-warning fs-4'><FaStar /><FaStar /><FaStar /><FaStar /><FaStar /></p>
-                <p className=' text-center fs-5'> <RiDoubleQuotesL className='fs-3 mb-3 icon' /> Hi…my name is Rohan Das and currently I am studying in Australia. I processed my whole study visa process from Akcxis Immigrations in 2022. I really thank them for helping me to reach here within six months and fulfilling my dream to study in Australia. <RiDoubleQuotesR className='fs-3 mt-1 icon' /></p>
+                <p className=' text-center fs-5'> <RiDoubleQuotesL className='fs-3 mb-3 icon' />Hey everyone, Sahera Thaman here! Just wanted to share some exciting news — I've been granted my UK study visa, and I achieved a solid 7 band in IELTS! Big shoutout to Akcxis Immigrations for their incredible support and guidance throughout. They made the process smooth and stress-free. Can't wait to embark on this new adventure in the UK! <RiDoubleQuotesR className='fs-3 mt-1 icon' /></p>
+              </div>
+              <div>               
+                <div className='d-flex justify-content-center'>
+                  <img src={pawan} className='img-fluid ' alt='' />
+                </div>
+                <h4 className='text-center mt-3 fw-bold'>Pawandeep Kaur</h4>
+                <p className='text-center text-warning fs-4'><FaStar /><FaStar /><FaStar /><FaStar /><FaStar /></p>
+                <p className=' text-center fs-5'> <RiDoubleQuotesL className='fs-3 mb-3 icon' />"I'm thrilled to have received my Canada study visa with the help of Akcxis Immigrations. Their dedicated team, provided invaluable support throughout the process. Thanks to them, I'm now pursuing my academic dreams in Canada. Highly recommend their services!"<RiDoubleQuotesR className='fs-3 mt-1 icon' /></p>
               </div>
               <div>
                 <div className='d-flex justify-content-center'>
@@ -451,6 +462,15 @@ const Home = () => {
                 <p className='text-center text-warning fs-4'><FaStar /><FaStar /><FaStar /><FaStar /><IoIosStarOutline /></p>
                 <p className=' text-center fs-5'><RiDoubleQuotesL className='fs-3 mb-3 icon' /> I really appreciate Akcxis Immigrations for getting my first international multi-entry tourist visa within 10 days, at the age of 48. Thank you so much for making this dream come true for me. <RiDoubleQuotesR className='fs-3 mt-1 icon' /></p>
               </div>
+              <div>               
+                <div className='d-flex justify-content-center'>
+                  <img src={rahul} className='img-fluid ' alt='' />
+                </div>
+                <h4 className='text-center mt-3 fw-bold'>Rohan Das</h4>
+                <p className='text-center text-warning fs-4'><FaStar /><FaStar /><FaStar /><FaStar /><FaStar /></p>
+                <p className=' text-center fs-5'> <RiDoubleQuotesL className='fs-3 mb-3 icon' /> Hi…my name is Rohan Das and currently I am studying in Australia. I processed my whole study visa process from Akcxis Immigrations in 2022. I really thank them for helping me to reach here within six months and fulfilling my dream to study in Australia. <RiDoubleQuotesR className='fs-3 mt-1 icon' /></p>
+              </div>
+             
               <div>
                 <div className='d-flex justify-content-center '>
                   <img src={sneha} className='img-fluid ' alt='' />
@@ -473,7 +493,7 @@ const Home = () => {
                 </div>
                 <h4 className='text-center mt-3 fw-bold'>Rahul Verma</h4>
                 <p className='text-center text-warning fs-4'><FaStar /><FaStar /><FaStar /><FaStar /><IoIosStarOutline /></p>
-                <p className=' text-center fs-5'><RiDoubleQuotesL className='fs-3 mb-3 icon' /> My name is Rahul Verma. Currently I am in UK. I came from a government school. All thanks to the teachers of Akcxis Immigrations who helped me to reach here by getting 6.5 bands in IELTS. The teachers are very hard working and were always there to motivate me and solve my problems. <RiDoubleQuotesR className='fs-3 mt-1 icon' /></p>
+                <p className=' text-center fs-5'><RiDoubleQuotesL className='fs-3 mb-3 icon' /> My name is Rahul Verma. Currently I am in UK. I came from a government school. All thanks to the teachers of Akcxis Immigrations who helped me to reach here by getting 6.5 bands in IELTS. The teachers are very hard working and were always there to motivate me and solve my problems.<RiDoubleQuotesR className='fs-3 mt-1 icon' /></p>
               </div>
             </Slider>
           </div>

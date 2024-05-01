@@ -11,16 +11,16 @@ import "./nav.css"
 const Navbar = () => {
     const [isNavExpanded, setIsNavExpanded] = useState(false);
 
-    const location=useLocation()
+    const location = useLocation()
     console.log(location)
-    
+
     const handleNavToggle = () => {
         setIsNavExpanded(!isNavExpanded);
     };
     return (
         <>
             {/* navbar1 */}
-            <div className='section fixed-top bg-white' style={{display:location.pathname==='/travelhome'?'none':'block'}}>
+            <div className='section fixed-top bg-white' style={{ display: location.pathname === '/travelhome' ? 'none' : 'block' }}>
                 <div className='navbar1 w-100 container-fluid'>
                     <div className='py-1 d-flex justify-content-between align-items-center'>
                         <div>
@@ -48,10 +48,14 @@ const Navbar = () => {
                                 <li className="nav-item">
                                     <a className="nav-link active me-1 fs-6" aria-current="page" href="/">Home</a>
                                 </li>
-                                <li className="nav-item">
-                                    <a className="nav-link  active  me-1 fs-6" href="about">About us</a>
+                            
+                                <li className="nav-item dropdown active  me-1">
+                                    <a className="nav-link dropdown-toggle active   fs-6" href="/about">About us</a>
+                                    <ul className="dropdown-menu dropdown-menu-white p-3">
+                                        <li><a className="dropdown-item fs-6" href="/testimonial">Testimonial</a></li>
+                                        <li><a className="dropdown-item fs-6" href="/">Gallery</a></li>
+                                    </ul>
                                 </li>
-
 
                                 <li className="nav-item dropdown">
                                     <a className="nav-link dropdown-toggle active me-1 fs-6" href="/coaching">Coaching</a>
@@ -82,7 +86,7 @@ const Navbar = () => {
                                 </li>
 
                                 <li className="nav-item dropdown active  me-1">
-                                <a className="nav-link dropdown-toggle  active  fs-6 " href="work">work</a>
+                                    <a className="nav-link dropdown-toggle  active  fs-6 " href="work">work</a>
                                     <ul className="dropdown-menu dropdown-menu-white p-3">
                                         <li><a className="dropdown-item fs-6" href="/UsaWork">USA</a></li>
                                         <li><a className="dropdown-item fs-6" href="/CanadaWork">Canada</a></li>
@@ -93,23 +97,24 @@ const Navbar = () => {
                                         <li><a className="dropdown-item fs-6" href="/SingaporeWork">Singapore</a></li> */}
                                     </ul>
                                 </li>
-                           
+
                                 <li className="nav-item dropdown active  me-1">
-                                <a className="nav-link dropdown-toggle active   fs-6" href="migrate">pr</a>
+                                    <a className="nav-link dropdown-toggle active   fs-6" href="migrate">pr</a>
                                     <ul className="dropdown-menu dropdown-menu-white p-3">
                                         <li><a className="dropdown-item fs-6" href="/CanadaPr">Canada</a></li>
                                         <li><a className="dropdown-item fs-6" href="/AusPr">Austalia</a></li>
                                     </ul>
                                 </li>
-                           
+
                                 <li className="nav-item dropdown active  me-1">
-                                <a className="nav-link dropdown-toggle  active   fs-6" href="visit">visit</a>
+                                    <a className="nav-link dropdown-toggle  active   fs-6" href="visit">visit</a>
                                     <ul className="dropdown-menu dropdown-menu-white p-3">
                                         <li><a className="dropdown-item fs-6" href="/AusVisit">Australia</a></li>
                                         <li><a className="dropdown-item fs-6" href="/UkVisitor">UK</a></li>
                                         <li><a className="dropdown-item fs-6" href="/UsaVisit">USA</a></li>
                                         <li><a className="dropdown-item fs-6" href="/CanadaVisit">Canada</a></li>
                                         <li><a className="dropdown-item fs-6" href="/SingaporeVisit">Singapore</a></li>
+                                        <li><a className="dropdown-item fs-6" href="/NzVisit">New Zealand</a></li>
                                         <li><a className="dropdown-item fs-6" href="/GermanyVisit">Germany</a></li>
 
                                     </ul>

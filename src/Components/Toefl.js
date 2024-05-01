@@ -33,15 +33,15 @@ const TOEFL = () => {
                  
                             {/* about */}
                             <div className='py-4'>
-                                <h2 className=' mb-3'>
+                                <h3 className=' mb-3'>
                                     Test of English as a Foreign Language
-                                </h2>
+                                </h3>
                                 <p className=''>TOEFL iBT test measures, a candidate's ability, in academic English across all four sections- listening, reading, speaking and writing. It tests the English skills in a manner where it is actually used in a classroom. It gives the institution the right parameter to know how well the student will succeed in an English-speaking academic environment. TOEFL scores are used in over 150 countries including USA, Canada, the UK, Australia, New Zealand etc. Besides universities and colleges, workplaces and immigration authorities might also use TOEFL for migration purposes.</p>
 
                             </div>
                             {/* types of TOEFL */}
                             <div className='py-2'>
-                                <h2 className=' mb-3'>Types of TOEFL exam</h2>
+                                <h3 className=' mb-3'>Types of TOEFL exam</h3>
                                 <p className=''>Most prevalent version of TOEFL exam is TOEFL iBT. The TOEFL iBT (internet-based examination), being one of the most preferred versions of the TOEFL exam, is offered in an online mode. TOEFL iBT can be taken at a test centre or at home and is a 3 hour long exam with fair and unbiased scoring.</p>
                                 <h5 className='fw-bold mb-3'>Besides TOEFL iBT, other TOEFL assessments are:</h5>
                                 <h6 className='text-uppercase fw-bold' >1. TOEFL PBT</h6>
@@ -61,18 +61,20 @@ const TOEFL = () => {
                             </div>
                             {/* benefits of TOEFL */}
                             <div className='py-3'>
-                                <h2 className=' mb-3'>Benefits of TOEFL</h2>
-                                <h6 className=''>< BsCheck2Square className='fs-5 text-warning ' /> &nbsp;Objective assessment</h6>
-                                <h6 className=''>< BsCheck2Square className='fs-5 text-warning ' /> &nbsp;Widely-accepted English language test</h6>
-                                <h6 className=''>< BsCheck2Square className='fs-5 text-warning ' /> &nbsp;Improves knowledge of academic English</h6>
-                                <h6 className=''>< BsCheck2Square className='fs-5 text-warning ' /> &nbsp;Adds on a skill to your CV</h6>
-                                <h6 className=''>< BsCheck2Square className='fs-5 text-warning ' /> &nbsp;More job opportunities</h6>
-                                <h6 className=''>< BsCheck2Square className='fs-5 text-warning ' /> &nbsp;Measures skills in a classroom environment</h6>
+                                <h3 className=' mb-3'>Benefits of TOEFL</h3>
+                                <ul>
+                                    <li>Objective assessment</li>
+                                    <li>Widely-accepted English language test</li>
+                                    <li>Improves knowledge of academic English</li>
+                                    <li>Adds on a skill to your CV</li>
+                                    <li>More job opportunities</li>
+                                    <li>Measures skills in a classroom environment</li>
+                                </ul>
 
                             </div>
                             {/* exam pattern */}
                             <div className='py-4'>
-                                <h2 className=' text-center  mb-3 '>TOEFL Exam Pattern</h2>
+                                <h3 className='   mb-3 '>TOEFL Exam Pattern</h3>
                                 <table className="table table-bordered border-dark  table-striped my-4 ">
                                     <thead className='table-dark'>
                                         <tr className='fs-5 text-center'>
@@ -110,7 +112,7 @@ const TOEFL = () => {
 
                             {/* score */}
                             <div className='py-4'>
-                                <h2 className='text-center mb-3'>TOEFL Scoring</h2>
+                                <h3 className=' mb-3'>TOEFL Scoring</h3>
                                 <p className=''>TOEFL iBT score is calculated by adding together scores of each of the 4 section - reading, listening, speaking, writing - where each section is worth 30 points.</p>
                                 <table class="table table-bordered border-dark  table-striped my-4">
                                     <thead className='table-dark '>
@@ -182,7 +184,7 @@ const TOEFL = () => {
 
                             {/* comparison */}
                             <div className='py-4'>
-                                <h2 className=' text-center'>TOEFL and IELTS Comparision</h2>
+                                <h3 className=' '>TOEFL and IELTS Comparision</h3>
                                 <table class="table table-bordered border-dark table-striped my-4">
                                     <thead className='table-dark'>
                                         <tr className='fs-5 text-center'>
@@ -252,14 +254,14 @@ const TOEFL = () => {
                             </div>
                             {/* FAQ */}
                             <div className='py-4'>
-                                <h2 className=' '>FAQs</h2>
+                                <h3 className=' '>FAQs</h3>
                                 <div className="accordion my-3 " id="accordionExample">
                                     <div className="accordion-item border border-dark ">
-                                        <h2 className="accordion-header" id="headingOne">
+                                        <h3 className="accordion-header" id="headingOne">
                                             <button className="accordion-button btn btn-warning " type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                                                 Q: How long is TOEFL exam?
                                             </button>
-                                        </h2>
+                                        </h3>
                                         <div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                             <div className="accordion-body">
                                                 A: The TOEFL iBT exam takes about 3 hours which includes a 10-minute mandatory break after the first two sections. Typically, a student should keep 3.5 hours allowing half an hour for check-in.
@@ -267,11 +269,11 @@ const TOEFL = () => {
                                         </div>
                                     </div>
                                     <div className="accordion-item mt-3 border border-dark ">
-                                        <h2 className="accordion-header" id="headingTwo">
+                                        <h3 className="accordion-header" id="headingTwo">
                                             <button className="accordion-button collapsed btn btn-warning " type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                                                 Q: What is the TOEFL exam score validity?
                                             </button>
-                                        </h2>
+                                        </h3>
                                         <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                                             <div className="accordion-body">
                                                 A: TOEFL score is valid for 2 years from the day of the exam.
@@ -279,11 +281,11 @@ const TOEFL = () => {
                                         </div>
                                     </div>
                                     <div className="accordion-item mt-3 border border-dark">
-                                        <h2 className="accordion-header" id="headingThree">
+                                        <h3 className="accordion-header" id="headingThree">
                                             <button className="accordion-button collapsed btn btn-warning" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                                                 Q: How many times can I attempt the TOEFL Exam?
                                             </button>
-                                        </h2>
+                                        </h3>
                                         <div id="collapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                                             <div className="accordion-body">
                                                 A: The TOEFL test can be taken by the candidate as many times as he/she wants. However, the candidate cannot register for the exam within 3 days of any existing appointment. Also, the candidate cannot repeat the exam more than once in a period of 12 days and not more than 5 times in a year. A candidate will have to pay full TOEFL exam fee each time they take a test.
@@ -292,11 +294,11 @@ const TOEFL = () => {
                                         </div>
                                     </div>
                                     <div className="accordion-item mt-3 border border-dark">
-                                        <h2 className="accordion-header " id="headingFour">
+                                        <h3 className="accordion-header " id="headingFour">
                                             <button className="accordion-button collapsed btn btn-warning" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
                                                 Q: How much does TOEFL cost? 
                                             </button>
-                                        </h2>
+                                        </h3>
                                         <div id="collapseFour" className="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
                                             <div className="accordion-body">
                                                 A: The TOEFL iBT test fee in India is INR 14,322.03. TOEFL PBT and TOEFL home edition is also priced at par with TOEFL iBT.<br/><br/>
@@ -305,11 +307,11 @@ const TOEFL = () => {
                                         </div>
                                     </div>
                                     <div className="accordion-item mt-3 border border-dark">
-                                        <h2 className="accordion-header" id="headingFive">
+                                        <h3 className="accordion-header" id="headingFive">
                                             <button className="accordion-button collapsed  btn btn-warning" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseThree">
                                                 Q: How do I check my TOEFL score? 
                                             </button>
-                                        </h2>
+                                        </h3>
                                         <div id="collapseFive" className="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
                                             <div className="accordion-body">
                                                 A: A candidate will receive mail when the scores are available and can check his/her score through their ETS account. The score is usually available 6 days after the test date and the candidate can download their PDF score within 8 days after the test.
@@ -317,11 +319,11 @@ const TOEFL = () => {
                                         </div>
                                     </div>
                                     <div className="accordion-item mt-3 border border-dark">
-                                        <h2 className="accordion-header " id="headingSix">
+                                        <h3 className="accordion-header " id="headingSix">
                                             <button className="accordion-button collapsed btn btn-warning" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
                                                 Q: What is a good score In TOEFL?
                                             </button>
-                                        </h2>
+                                        </h3>
                                         <div id="collapseSix" className="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
                                             <div className="accordion-body">
                                                 A: Although there is no pass/fail in TOEFL iBT. A score of 80 is considered a good score to get admission into most universities/colleges. The higher the score, the better are the candidate's chances of getting into a good university. Howsoever, a candidate should check the official website of the university or college to know the minimum score required for the specific course.
@@ -330,11 +332,11 @@ const TOEFL = () => {
                                     </div>
 
                                     <div className="accordion-item mt-3 border border-dark">
-                                        <h2 className="accordion-header " id="headingSeven">
+                                        <h3 className="accordion-header " id="headingSeven">
                                             <button className="accordion-button collapsed btn btn-warning" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
                                                 Q: What is MyBest Scores in TOEFL?
                                             </button>
-                                        </h2>
+                                        </h3>
                                         <div id="collapseSeven" className="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
                                             <div className="accordion-body">
                                                 A: MyBest  scores also sometimes called superscores are the highest scores in each of the 4 sections from all the TOEFL iBt test taken by the candidate in last two years.<br/><br/>Since August 1, 2019, the test score reports automatically include MyBest Scores in addition to scores from a single test date, which allows the candidate to show their best performance in each section, demonstrate growth in areas of relative weakness and compensate for suboptimal performance caused by factors unrelated to the test.

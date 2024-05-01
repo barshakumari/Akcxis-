@@ -40,12 +40,29 @@ const Pte = () => {
                     <div>
                         {/* about */}
                         <div className='about-pte'>
-                            <h2 className='mb-2'>About Pearson Test Of English</h2>
+                            <h3 className='mb-2'>About PTE</h3>
                             <p className=' mb-4'>Pearson Test of English or PTE is fast becoming one of the most accepted English language proficiency tests. PTE Academic is the first completely AI based exam which assesses the candidate's ability in reading, listening, speaking and writing. PTE tests the candidate on day-to-day usage of English language as opposed to high-level English. Pearson test of English uses sophisticated algorithms based on real-world data points which makes scoring of the test precise, consistent and objective. PTE Academic is used by institutes and immigration officers worldwide for study visa, employment and immigration purpose.</p>
+                        </div>
+
+                        {/* types of pte */}
+                        <div className=''>
+                            <h3 className='mb-3'> Types of PTE test</h3>
+                            <p className=''>There are 3 types of PTE tests - PTE Academic, PTE General Training and PTE Home test. The type of test which a candidate should take depends on the reason for taking the test.</p>
+                            <h5 className='fw-bold mb-3'>1. PTE Academic (PTE-A):</h5>
+                            <p >The PTE Academic test is structured for international students to determine their level of proficiency in the English language. Several educational institutions accept PTE as proof of English fluency.
+                            </p>
+                            <p>The Australian and New Zealand governments also accept the test as proof of English proficiency for immigration purposes.</p>
+
+                            <h5 className='fw-bold mb-3'>2. PTE General:</h5>
+                            <p >Also known as The International Certificate, PTE General consists of a written paper and an interview. The exam is designed for vocational purposes, to reward positive achievement in English language study. On the other hand, immigration authorities do not recognise this test. </p>
+
+
+                            <h5 className='fw-bold mb-3'>3. PTE Home:</h5>
+                            <p> PTE Home is a UK Home Office-approved speaking and listening test. People applying for family or settlement visas in the UK mainly take this test.</p>
                         </div>
                         {/* benefits */}
                         <div className='benefit-pte py-4'>
-                            <h2 className=' mb-4'>Why PTE?</h2>
+                            <h3 className=' mb-4'>Why PTE?</h3>
                             <div className='row g-4'>
                                 <div className='col-lg-4  col-md-6 col-sm-6 '>
                                     <div className='border  border-dark border-opacity-25 rounded-3 shadow-lg text-center py-3 px-2 benefit-box'>
@@ -94,7 +111,7 @@ const Pte = () => {
 
                         {/*exam format  */}
                         <div className='exam-format py-5'>
-                            <h2 className=' '>Exam Format</h2>
+                            <h3 className=' '>Exam Format</h3>
                             <table class="table table-bordered border-dark  table-striped my-4">
                                 <thead className='table-dark'>
                                     <tr className='fs-5 text-center '>
@@ -197,7 +214,7 @@ const Pte = () => {
 
                         {/* comparison */}
                         <div className='pte-comparison py-4'>
-                            <h2 className=' '>PTE and IELTS Comparision</h2>
+                            <h3 className=' '>PTE and IELTS Comparision</h3>
                             <table class="table table-bordered border-dark table-striped my-4">
                                 <thead className='table-dark'>
                                     <tr className='fs-5'>
@@ -263,30 +280,32 @@ const Pte = () => {
 
                         {/* score pte */}
                         <div className='pte-score  py-4'>
-                            <h2 className=''>PTE Scoring</h2>
+                            <h3 className=''>PTE Scoring</h3>
                             <p className=''>PTE is scored from 10 to 90 where 10 is the lowest score and 90 is the highest. Graded on the scale, the score showcases the person's ability to read, speak, listen and write day-to-day use English language. Although there is no passing score in PTE, a score in the range of 65-75 is considered to be a good PTE score for admission to top universities. Since PTE is a computer-based test the results are usually given within 3-5 working days from the test date. </p>
                         </div>
 
                         {/* why pte */}
                         <div className='why-pte py-4'>
-                            <h2 className=' mb-3'>Why PTE In Akcxis Immigrations?</h2>
-                            <h6 className=''>< BsCheck2Square className='fs-5 text-warning ' /> &nbsp;Flexible Class Timings</h6>
-                            <h6 className=''>< BsCheck2Square className='fs-5 text-warning ' /> &nbsp;Experienced Staff</h6>
-                            <h6 className=''>< BsCheck2Square className='fs-5 text-warning ' /> &nbsp;Weekend Classes</h6>
-                            <h6 className=''>< BsCheck2Square className='fs-5 text-warning ' /> &nbsp;Section-wise Mock Tests</h6>
-                            <h6 className=''>< BsCheck2Square className='fs-5 text-warning ' /> &nbsp;Full length scored Mock Tests</h6>
+                            <h3 className=' mb-3'>Why PTE in akcxis Immigrations?</h3>
+                            <ul>
+                                <li>Flexible Class Timings</li>
+                                <li>Experienced Staff</li>
+                                <li>Weekend Classes</li>
+                                <li>Section-wise Mock Tests</li>
+                                <li>Full length scored Mock Tests</li>
+                            </ul>
                         </div>
 
                         {/* faq */}
                         <div className='Faq-pte py-4'>
-                            <h2 className=' '>FAQs</h2>
+                            <h3 className=' '>FAQs</h3>
                             <div className="accordion my-3 " id="accordionExample">
                                 <div className="accordion-item border border-dark ">
-                                    <h2 className="accordion-header" id="headingOne">
+                                    <h3 className="accordion-header" id="headingOne">
                                         <button className="accordion-button btn btn-warning " type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                                             Q: What is the PTE exam fee?
                                         </button>
-                                    </h2>
+                                    </h3>
                                     <div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                         <div className="accordion-body">
                                             A: The usual PTE Academic exam fee is RS. 15,900 (as per now) in India. A candidate will have to pay late booking fee as well, if he/she books the exam within 48 hours of the PTE test date.
@@ -294,11 +313,11 @@ const Pte = () => {
                                     </div>
                                 </div>
                                 <div className="accordion-item mt-3 border border-dark ">
-                                    <h2 className="accordion-header" id="headingTwo">
+                                    <h3 className="accordion-header" id="headingTwo">
                                         <button className="accordion-button collapsed btn btn-warning " type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                                             Q: What are the different types of PTE exams?
                                         </button>
-                                    </h2>
+                                    </h3>
                                     <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                                         <div className="accordion-body">
                                             A: The PTE exam is of four different types:<br />
@@ -310,11 +329,11 @@ const Pte = () => {
                                     </div>
                                 </div>
                                 <div className="accordion-item mt-3 border border-dark">
-                                    <h2 className="accordion-header" id="headingThree">
+                                    <h3 className="accordion-header" id="headingThree">
                                         <button className="accordion-button collapsed btn btn-warning" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                                             Q: What is the validity of PTE Academic test?
                                         </button>
-                                    </h2>
+                                    </h3>
                                     <div id="collapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                                         <div className="accordion-body">
                                             A: PTE Academic test scores are valid for 2 years from the date of the result has been issued.
@@ -322,11 +341,11 @@ const Pte = () => {
                                     </div>
                                 </div>
                                 <div className="accordion-item mt-3 border border-dark">
-                                    <h2 className="accordion-header " id="headingFour">
+                                    <h3 className="accordion-header " id="headingFour">
                                         <button className="accordion-button collapsed btn btn-warning" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
                                             Q: What is a good PTE Score?
                                         </button>
-                                    </h2>
+                                    </h3>
                                     <div id="collapseFour" className="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
                                         <div className="accordion-body">
                                             A: Different universities will have different requirements for PTE depending on the course. A candidate should check the official institute's website to see the minimum requirements of PTE score.<br /><br />  However, a minimum of 58 points is needed by most institutes in PTE Academic for study purpose.
@@ -334,11 +353,11 @@ const Pte = () => {
                                     </div>
                                 </div>
                                 <div className="accordion-item mt-3 border border-dark">
-                                    <h2 className="accordion-header" id="headingFive">
+                                    <h3 className="accordion-header" id="headingFive">
                                         <button className="accordion-button collapsed  btn btn-warning" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseThree">
                                             Q: What is PTE Young Learners Test?
                                         </button>
-                                    </h2>
+                                    </h3>
                                     <div id="collapseFive" className="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
                                         <div className="accordion-body">
                                             A: PTE Young Learners is a fun English language assessment for students between the age group of 6 years to 13 years, delivered by Edexcel, the UK's largest examining body. PTE Young learners is not recognized for the purposes of immigration.
@@ -346,11 +365,11 @@ const Pte = () => {
                                     </div>
                                 </div>
                                 <div className="accordion-item mt-3 border border-dark">
-                                    <h2 className="accordion-header " id="headingSix">
+                                    <h3 className="accordion-header " id="headingSix">
                                         <button className="accordion-button collapsed btn btn-warning" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
                                             Q: How can I check my PTE results?
                                         </button>
-                                    </h2>
+                                    </h3>
                                     <div id="collapseSix" className="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
                                         <div className="accordion-body">
                                             A: The PTE test scores can be viewed online. When the result is available, you will be notified via mail. You can then log into Pearson VUE and view your score by clicking on View Score.

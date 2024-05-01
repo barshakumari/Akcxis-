@@ -42,39 +42,64 @@ const Studyabroad = () => {
           <div className="cardMain">
             <Modal title="Apply Now" className="ms-1 fw-semibold fs-5" />
           </div>
-          <h6 className='text-decoration-underline fw-bolder Text1'>EXPLORE THE WORLD</h6>
+          <div className='heading-title1'>
+            <h1 className='text-center'>EXPLORE THE WORLD</h1>
+          </div>
           <h5 className='text-uppercase fw-semibold '>Why Study Abroad? </h5>
-          <h6 className='fw-bold mt-4'><BsCheck2Square className=' fs-4 text-warning' />&nbsp;&nbsp;Top Notch Education - <span className='text-secondary '>Studying internationally offers a wider variety of courses, some of which might also include research options and skill-based training for students.
-          </span> </h6>
-          <h6 className='fw-bold'><BsCheck2Square className='fs-4 text-warning' />&nbsp;&nbsp;Career Opportunities - <span className='text-secondary '> International experience puts you ahead of the pack, when it comes to internships and job applications.
-          </span> </h6>
+          <div className='d-flex mt-4 '>
+            <p className='me-3 '><BsCheck2Square className=' fs-4 text-warning' /></p>
+            <p><b>Top Notch Education - </b>Studying internationally offers a wider variety of courses, some of which might also include research options and skill-based training for students.</p>
+          </div>
+          <div className='d-flex'>
+            <p className='me-3 '><BsCheck2Square className=' fs-4 text-warning' /></p>
+            <p><b>Career Opportunities - </b>International experience puts you ahead of the pack, when it comes to internships and job applications.</p>
+          </div>
 
-          <h6 className='fw-bold'><BsCheck2Square className='fs-4 text-warning' />&nbsp;&nbsp;Enhance Your Network - <span className='text-secondary '> Studying abroad builds invaluable relationships with people all over the world, leading to career opportunities, including internships, job offers and business partnerships.
-          </span> </h6>
-          <h6 className='fw-bold'><BsCheck2Square className='fs-4 text-warning' />&nbsp;&nbsp;Higher Pay - <span className='text-secondary '>  Higher education abroad uplifts job opportunities and salary package. Alumni who have studied abroad on an average gets 25% higher salaries than the rest of the candidates who have applied for the same job.
-          </span> </h6>
-          <h6 className='fw-bold'><BsCheck2Square className='fs-4 text-warning' />&nbsp;&nbsp;Become Independent - <span className='text-secondary '>
-            Away from family and friends, studying abroad makes you self-reliant. You will learn to overcome personal challenges and manage limited finance and resources, preparing you for a more self-sufficient future.
-          </span> </h6>
-          <h6 className='fw-bold'><BsCheck2Square className='fs-4 text-warning' />&nbsp;&nbsp;Brush Up Your Language Skills - <span className='text-secondary '>
-            Studying abroad gives an opportunity to refresh or pick-up foreign language skills. This can add on to your profile on the resume.
-          </span> </h6>
-          <h6 className='fw-bold'><BsCheck2Square className=' fs-4 text-warning' />&nbsp;&nbsp;See the World - <span className='text-secondary '>
-            Studying abroad opens your mind to new experiences and sights and allows you to explore different cultures.
-          </span> </h6>
-          <h6 className='fw-bold'><BsCheck2Square className=' fs-4 text-warning' />&nbsp;&nbsp;An Experience of a lifetime - <span className='text-secondary '>
-            It is an excellent opportunity to travel the world with no commitments except to study and learn. It will be a chance to gain better understanding and create experience of a lifetime.
-          </span> </h6>
+          <div className='d-flex'>
+            <p className='me-3 '><BsCheck2Square className=' fs-4 text-warning' /></p>
+            <p><b>Enhance Your Network -</b> Studying abroad builds invaluable relationships with people all over the world, leading to career opportunities, including internships, job offers and business partnerships.</p>
+          </div>
+
+          <div className='d-flex'>
+            <p className='me-3 '><BsCheck2Square className=' fs-4 text-warning' /></p>
+            <p><b>Higher Pay - </b>  Higher education abroad uplifts job opportunities and salary package. Alumni who have studied abroad on an average gets 25% higher salaries than the rest of the candidates who have applied for the same job.</p>
+          </div>
+
+          <div className='d-flex'>
+            <p className='me-3 '><BsCheck2Square className='fs-4 text-warning' /></p>
+            <p><b>Become Independent - </b>
+              Away from family and friends, studying abroad makes you self-reliant. You will learn to overcome personal challenges and manage limited finance and resources, preparing you for a more self-sufficient future.</p>
+          </div>
+
+          <div className='d-flex'>
+            <p className='me-3 '><BsCheck2Square className='fs-4 text-warning' /></p>
+            <p><b>Brush Up Your Language Skills - </b>
+              Studying abroad gives an opportunity to refresh or pick-up foreign language skills. This can add on to your profile on the resume.</p>
+          </div>
+
+          <div className='d-flex'>
+            <p className='me-3 '><BsCheck2Square className='fs-4 text-warning' /></p>
+            <p><b>See the World - </b>
+              Studying abroad opens your mind to new experiences and sights and allows you to explore different cultures.</p>
+          </div>
+          <div className='d-flex'>
+            <p className='me-3 '><BsCheck2Square className='fs-4 text-warning' /></p>
+            <p><b>An Experience of a lifetime - </b>
+              It is an excellent opportunity to travel the world with no commitments except to study and learn. It will be a chance to gain better understanding and create experience of a lifetime.
+            </p>
+          </div>
         </div>
-
       </div>
 
       {/* section21 */}
       <div className='facts'>
-        <div className='section21 py-4 '>
+        <div className='section21 py-4'>
           <div className='container '>
-            <h6 className=' text-decoration-underline fw-bolder text-center'>FACT CHECKER</h6>
-            <h5 className=' text-center text-uppercase fw-semibold'>
+            <div className='heading-title1'>
+              <h1 className=''>FACT CHECKER</h1>
+            </div>
+
+            <h5 className=' text-center text-uppercase fw-semibold mb-2'>
               Study Abroad Myth - Facts
             </h5>
 
@@ -108,7 +133,10 @@ const Studyabroad = () => {
       {/*Journey AI  */}
       <div className='journey py-5'>
         <div className='container'>
-          <h6 className=' text-decoration-underline fw-bolder text-center'>GLOBAL REACH, LOCAL SUPPORT</h6>
+          <div className='heading-title1'>
+            <h1 className='text-center'>GLOBAL REACH, LOCAL SUPPORT</h1>
+          </div>
+
           <h5 className='text-center text-uppercase fw-semibold'>Study Abroad Journey with Akcxis Immigrations</h5>
           <img src={layer} alt='' className='img-fluid py-3' />
         </div>
@@ -117,43 +145,66 @@ const Studyabroad = () => {
       {/* section22 */}
       <div className='section22 py-5 bg-light '>
         <div className='container '>
-          <h6 className=' text-decoration-underline fw-bolder Text1'>WE CARE</h6>
+          <div className='heading-title1'>
+            <h1 className='text-center'>WE CARE</h1>
+          </div>
+
           <h5 className='  text-uppercase fw-semibold'>Why Choose Us</h5>
-          <h5 className='fw-bold mt-3'><BsCheck2Square className=' fs-4 text-warning' />&nbsp;&nbsp;1. Team of Experienced Education Counsellors: <span className='fs-6 text-secondary fw-semibold'>We understand the challenges that students have during the entire process of admission, filing and visa application. With overseas education expertise and our experienced team of counsellors, we are here to help you at every stage.</span></h5>
-          <h5 className='fw-bold'><BsCheck2Square className=' fs-4 text-warning' />&nbsp;&nbsp;2. Composite Model: <span className='fs-6 fw-semibold text-secondary'>At Akcxis Immigrations, we offer both online and offline mode of services. Getting counselling has never been easier as you can avail this from any corner of the world.</span></h5>
-          <h5 className='fw-bold'><BsCheck2Square className=' fs-4 text-warning' />&nbsp;&nbsp;3. End-to-End Support: <span className='fs-6 fw-semibold text-secondary'>We are your one-stop solution. Right from the course and university shortlisting to the visa documentation filing and post-arrival support, we have you covered.</span></h5>
-          <h5 className='fw-bold'><BsCheck2Square className=' fs-4 text-warning' />&nbsp;&nbsp;4. Technology Oriented: <span className='fs-6 fw-semibold text-secondary'> Our technology driven systems will make your journey towards education abroad smooth and easy. </span></h5>
-          <h5 className='fw-bold'><BsCheck2Square className=' fs-4 text-warning' />&nbsp;&nbsp;5. Post Arrival Support: <span className='fs-6 fw-semibold text-secondary'>Our network across the globe will provide you the assistance needed, even after you arrive at your chosen destination.</span>
-          </h5>
+          <div className='d-flex mt-3'>
+            <p className='me-3'><BsCheck2Square className=' fs-4 text-warning' /></p>
+            <p><b>Team of Experienced Education Counsellors: </b> We understand the challenges that students have during the entire process of admission, filing and visa application. With overseas education expertise and our experienced team of counsellors, we are here to help you at every stage.</p>
+          </div>
+
+          <div className='d-flex mt-3'>
+            <p className='me-3'><BsCheck2Square className=' fs-4 text-warning' /></p>
+            <p><b> Composite Model:</b> At Akcxis Immigrations, we offer both online and offline mode of services. Getting counselling has never been easier as you can avail this from any corner of the world.</p>
+          </div>
+
+          <div className='d-flex mt-3'>
+            <p className='me-3'><BsCheck2Square className=' fs-4 text-warning' /></p>
+            <p><b>End-to-End Support: </b>  We are your one-stop solution. Right from the course and university shortlisting to the visa documentation filing and post-arrival support, we have you covered.</p>
+          </div>
+
+          <div className='d-flex mt-3'>
+            <p className='me-3'><BsCheck2Square className=' fs-4 text-warning' /></p>
+            <p><b>Technology Oriented: </b>  Our technology driven systems will make your journey towards education abroad smooth and easy.</p>
+          </div>
+
+          <div className='d-flex mt-3'>
+            <p className='me-3'><BsCheck2Square className=' fs-4 text-warning' /></p>
+            <p><b>Post Arrival Support: </b> Our network across the globe will provide you the assistance needed, even after you arrive at your chosen destination.</p>
+          </div>
         </div>
       </div>
 
       {/* destinations */}
-      <div className='destination py-4'>
+      <div className='destination py-5'>
         <div className='container'>
-          <h5 className='text-center text-uppercase fw-semibold mb-5'>Popular Study Destination</h5>
-          <h6 className='fw-bold  mt-4 text-uppercase'>The United States of America</h6>
-          <p className='text-secondary '>The United States of America as a country boasts of some of the best universities across the globe. International students are attracted to USA for its quality education and high academic standards.
+          <div className='heading-title1'>
+          <h1 className=''>Popular Study Destination</h1>
+          </div>
+          <h5 className='fw-bold  mt-4 text-uppercase mb-3'>The United States of America</h5>
+          <p className=' '>The United States of America as a country boasts of some of the best universities across the globe. International students are attracted to USA for its quality education and high academic standards.
             USA is home to over 4000 universities and colleges providing a huge array of courses and is in particularly popular for its STEM courses. A student is eligible of 2-year work stay after pursuing a STEM course in the USA.<br /><br />
             Some of the top universities across the globe like Harvard, MIT, Yale, Caltech, Princeton, Stanford etc. are located in USA. With 55 out of 100 top universities across the globe placed in US, the country offers a perfect mix of multi-cultural environment, job and growth opportunities.</p>
-          <h6 className='fw-bold mt-5 text-uppercase'>The United Kingdom</h6>
-          <p className='text-secondary '>UK boasts of a creative and challenging educational system. With universities and colleges like London School of Economic, University College London, King's College London, University of Warwick, UK has institutions that consistently rank amongst the top globally.
+          <h5 className='fw-bold mt-5 text-uppercase mb-3'>The United Kingdom</h5>
+          <p className=' '>UK boasts of a creative and challenging educational system. With universities and colleges like London School of Economic, University College London, King's College London, University of Warwick, UK has institutions that consistently rank amongst the top globally.
             <br /><br />  UK with its variety of programmes offers quality education, post-study work opportunities, cultural diversity and a very strong international student support system.</p>
-          <h6 className='fw-bold mt-5 text-uppercase'>Canada</h6>
-          <p className='text-secondary '>
+          <h5 className='fw-bold mt-5 text-uppercase mb-3'>Canada</h5>
+          <p className=' '>
             With its academic excellence and focus on skill development Canada has slowly but consistently become a preferred higher education destination by international students. Government policies to get post-study work and easy immigration opportunities has made it one of the most sought-after higher education destinations.<br /><br />
             Besides affordable and a strong education system with a wide variety of diplomas and degrees, Canada boasts of a safe and a peaceful environment with high standard of livings. Toronto, Vancouver, Montreal are some of the favoured student destinations in Canada.
           </p>
-          <h6 className='fw-bold mt-5 text-uppercase'>Australia</h6>
-          <p className='text-secondary '>
+          <h5 className='fw-bold mt-5 text-uppercase mb-3'>Australia</h5>
+          <p className=''>
             Australia offers an education system which is designed to help you succeed in the global workspace. There is an increasing number of Indian students choosing Australia for their higher education.<br /><br />
             Australian education institutions besides providing quality education and internationally recognized degrees offer a great support system to International Students. The relaxation in country's visa policies along with its dynamic culture, high standard of living and beautiful landscapes makes it the third most popular English speaking study destinations.
           </p>
-          <h6 className='fw-bold mt-5 text-uppercase'>Germany</h6>
-          <p className='text-secondary '>Germany with it's so many perks is a favoured study destination in Europe by Indian students. International students can enjoy zero or low-cost tuition fee by enrolling in German public universities. Only a small administrative fee and other basic charges are charged per semester from international students making Germany the most cost-effective study destination.<br /><br />
+          <h5 className='fw-bold mt-5 text-uppercase mb-3'>Germany</h5>
+          <p className=' '>Germany with it's so many perks is a favoured study destination in Europe by Indian students. International students can enjoy zero or low-cost tuition fee by enrolling in German public universities. Only a small administrative fee and other basic charges are charged per semester from international students making Germany the most cost-effective study destination.<br /><br />
             With over 800 courses and 350 universities to choose from, Germany offers excellent higher education and infrastructure, internationally recognized degrees and great job opportunities. Most of the Master's programs can be studied in English language</p>
-          <h6 className='fw-bold mt-5 text-uppercase'>Singapore</h6>
-          <p className='text-secondary '>Singapore is amongst the smartest and the safest places in the world. With it's close proximity and affordable education especially when in comparison to western countries, Singapore is a perfect destination for students looking for International degrees.
+          <h5 className='fw-bold mt-5 text-uppercase mb-3' >Singapore</h5>
+          <p className=' '>Singapore is amongst the smartest and the safest places in the world. With it's close proximity and affordable education especially when in comparison to western countries, Singapore is a perfect destination for students looking for International degrees.
             Singapore is known for its management programs and is home to world renowned universities like Nanyang Technological University (NTU) and National University of Singapore (NUS). Singapore as a study destination offers a diverse array of culture and experience.</p>
           <div className='countryimg d-flex justify-content-evenly align-items-center mt-5'>
             <a href='/usastudy' className='text-decoration-none'>
@@ -172,87 +223,63 @@ const Studyabroad = () => {
                 <h6 className='text-center fw-bold '>UK</h6>
               </div>
             </a>
-           <a href='/canadastudy' className='text-decoration-none'>
-           <div className='box border-dark border-opacity-25 rounded-3 shadow-lg'>
-              <div className='d-flex justify-content-center'>
-                <img src={canada} alt='' className='img-fluid w-50 py-1' />
+            <a href='/canadastudy' className='text-decoration-none'>
+              <div className='box border-dark border-opacity-25 rounded-3 shadow-lg'>
+                <div className='d-flex justify-content-center'>
+                  <img src={canada} alt='' className='img-fluid w-50 py-1' />
+                </div>
+                <h6 className='text-center fw-bold'>CANADA</h6>
               </div>
-              <h6 className='text-center fw-bold'>CANADA</h6>
-            </div>
-            </a> 
+            </a>
           </div>
-        
+
           <div className='countryimg d-flex justify-content-evenly align-items-center '>
-          <a href='/australiastudy'  className='text-decoration-none'>
-            <div className='box  border-dark border-opacity-25 rounded-3 shadow-lg'>
-              <div className='d-flex justify-content-center'>
-                <img src={australia} alt='' className='img-fluid w-50 py-1' />
+            <a href='/australiastudy' className='text-decoration-none'>
+              <div className='box  border-dark border-opacity-25 rounded-3 shadow-lg'>
+                <div className='d-flex justify-content-center'>
+                  <img src={australia} alt='' className='img-fluid w-50 py-1' />
+                </div>
+                <h6 className='text-center fw-bold'>AUSTRALIA</h6>
               </div>
-              <h6 className='text-center fw-bold'>AUSTRALIA</h6>
-            </div>
             </a>
-            <a href='germanystudy'  className='text-decoration-none'>
-            <div className='box border-dark border-opacity-25 rounded-3 shadow-lg'>
-              <div className='d-flex justify-content-center '>
-                <img src={germany} alt='' className='img-fluid w-50 py-1' />
+            <a href='germanystudy' className='text-decoration-none'>
+              <div className='box border-dark border-opacity-25 rounded-3 shadow-lg'>
+                <div className='d-flex justify-content-center '>
+                  <img src={germany} alt='' className='img-fluid w-50 py-1' />
+                </div>
+                <h6 className='text-center fw-bold'>GERMANY</h6>
               </div>
-              <h6 className='text-center fw-bold'>GERMANY</h6>
-            </div>
             </a>
-            <a href='singaporestudy'  className='text-decoration-none'>
-            <div className='box  border-dark border-opacity-25 rounded-3 shadow-lg'>
-              <div className='d-flex justify-content-center'>
-                <img src={singapore} alt='' className='img-fluid w-50 py-1' />
+            <a href='singaporestudy' className='text-decoration-none'>
+              <div className='box  border-dark border-opacity-25 rounded-3 shadow-lg'>
+                <div className='d-flex justify-content-center'>
+                  <img src={singapore} alt='' className='img-fluid w-50 py-1' />
+                </div>
+                <h6 className='text-center fw-bold'>SINGAPORE</h6>
               </div>
-              <h6 className='text-center fw-bold'>SINGAPORE</h6>
-            </div>
             </a>
           </div>
         </div>
       </div>
       {/* document */}
-      <div className='document py-4 bg-light  '>
+      <div className='document py-5 bg-light  '>
         <div className='container'>
-          <h5 className=' text-center text-uppercase fw-semibold'>Document Checklist</h5>
-          <div className='mt-4'>
-            <div className='d-flex justify-content-between border px-3'>
-              <h6 className='fw-bold' >1. &nbsp;Passport</h6>
-              <input className="form-check-input fs-5" type="checkbox" defaultValue id="flexCheckDefault" />
-            </div>
-            <div className='d-flex justify-content-between border px-3'>
-              <h6 className='fw-bold'>2.  &nbsp;10th Class Marksheet</h6>
-              <input className="form-check-input fs-5" type="checkbox" defaultValue id="flexCheckDefault" /></div>
-            <div className='d-flex justify-content-between border px-3'>
-              <h6 className='fw-bold'>3.  &nbsp;12th Class Marksheet</h6>
-              <input className="form-check-input fs-5" type="checkbox" defaultValue id="flexCheckDefault" /> </div>
+          <div className='heading-title1'>
+          <h1 className=' text-cente'>Document Checklist</h1>
+          </div>
+          <div className=''>
+            <ul>
+              <li>Passport</li>
+              <li>10th Class Marksheet</li>
+              <li>12th Class Marksheet</li>
+              <li>Bachelor's Degree or Certificate, Transcript (Consolidated Marksheet), Individual Certificates or Diplomas (If any )</li>
+              <li>Statement of Purpose (SOP)</li>
+              <li>Letter of Recommendations (Min. 2 LORs)</li>
+              <li>Updated Resume or Curriculum Vitae</li>
+              <li>Work Experience Letter (Applicable in case of any academic gap)</li>
+              <li>Pre - Requisite Exams - IELTS/PTE/CELPIP/TOEFL/GRE/GMAT/SAT (If any)</li>
 
-            <div className='d-flex justify-content-between border px-3'>
-              <h6 className='fw-bold'>4.  &nbsp;Bachelor's Degree or Certificate, Transcript (Consolidated Marksheet), Individual Certificates or Diplomas (If any )</h6>
-              <input className="form-check-input fs-5" type="checkbox" defaultValue id="flexCheckDefault" />
-            </div>
-            <div className='d-flex justify-content-between border px-3'>
-              <h6 className='fw-bold'>5.  &nbsp;Statement of Purpose (SOP)</h6>
-              <input className="form-check-input fs-5" type="checkbox" defaultValue id="flexCheckDefault" />
-            </div>
-
-            <div className='d-flex justify-content-between border px-3'>
-              <h6 className='fw-bold'>6.  &nbsp;Letter of Recommendations (Min. 2 LORs)</h6>
-              <input className="form-check-input fs-5" type="checkbox" defaultValue id="flexCheckDefault" />
-            </div>
-            <div className='d-flex justify-content-between border px-3'>
-              <h6 className='fw-bold'>7.  &nbsp;Updated Resume or Curriculum Vitae</h6>
-              <input className="form-check-input fs-5" type="checkbox" defaultValue id="flexCheckDefault" />
-            </div>
-
-            <div className='d-flex justify-content-between border px-3'>
-              <h6 className='fw-bold'>8.  &nbsp;Work Experience Letter (Applicable in case of any academic gap)</h6>
-              <input className="form-check-input fs-5" type="checkbox" defaultValue id="flexCheckDefault" />
-            </div>
-
-            <div className='d-flex justify-content-between border px-3'>
-              <h6 className='fw-bold'>9.  &nbsp;Pre - Requisite Exams - IELTS/PTE/CELPIP/TOEFL/GRE/GMAT/SAT (If any)</h6>
-              <input className="form-check-input fs-5" type="checkbox" defaultValue id="flexCheckDefault" />
-            </div>
+            </ul>
           </div>
         </div>
       </div>

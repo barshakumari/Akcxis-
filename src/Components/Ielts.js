@@ -38,7 +38,7 @@ const Ielts = () => {
 
           {/* types of ielts */}
           <div className=''>
-            <h2 className='mb-3'> Types of IELTS test</h2>
+            <h3 className='mb-3'> Types of IELTS test</h3>
             <p className=''>There are 3 types of IELTS tests- IELTS Academic, IELTS General Training and IELTS for UKVI test. The type of test which a candidate should take depends on the reason for taking the test.</p>
             <h5 className='fw-bold mb-3'>1. IELTS Academic:</h5>
             <p >If you have been planning to pursue higher education abroad or seeking professional registration, then IELTS Academic is for you. This test is meant to assess how ready you are to begin studying or training in an environment where English is a primary language of communication.
@@ -123,7 +123,7 @@ const Ielts = () => {
 
           {/* benefits ielts */}
           <div className='py-4'>
-            <h2 className=' mb-3'>Benefits of IELTS</h2>
+            <h3 className=' mb-3'>Benefits of IELTS</h3>
             <p className=' '>English is the third most-spoken language globally, with over 375 million speakers.</p>
             <ul>
               <li>Recognized Worldwide</li>
@@ -135,7 +135,7 @@ const Ielts = () => {
           </div>
           {/* exam format */}
           <div className=''>
-            <h2 className='  '>IELTS Exam Format</h2>
+            <h3 className='  '>IELTS Exam Format</h3>
             <table class="table table-bordered border-dark  table-striped my-4">
 
               <thead className='table-dark'>
@@ -225,9 +225,9 @@ const Ielts = () => {
 
           {/* comparison IELTS PTE TOEFL */}
           <div className='score comparison '>
-            <h2 className=' mb-3'>Equivalency of IELTS, TOEFL and PTE Scores</h2>
-            <table class="table table-bordered border-dark table-striped ">
-              <thead className='table-dark text-center'>
+            <h3 className=' mb-3'>Equivalency of IELTS, TOEFL and PTE Scores</h3>
+            <table class="table table-bordered border-dark table-striped my-4">
+              <thead className='table-dark text-center '>
                 <tr className='fs-5'>
                   <th scope="col">Proficiency Level</th>
                   <th scope="col">IELTS</th>
@@ -320,7 +320,7 @@ const Ielts = () => {
 
           {/* scoring */}
           <div className=''>
-            <h2 className=' mb-3'>IELTS Scoring</h2>
+            <h3 className=' mb-3'>IELTS Scoring</h3>
             <p className=''>IELTS does not have any pass or fail but a higher score increases the probability of successful career and excellent education.</p>
             <p className=''>IELTS scores are accepted by countries such as -</p>
             <ul>
@@ -539,7 +539,7 @@ const Ielts = () => {
                 </table>
               </div>
             </div>
-            <h2 className='mb-3'>Why IELTS?</h2>
+            <h3 className='mb-3'>Why IELTS?</h3>
             <p>While moving to a native English-speaking nation for studying, working, or migrating, candidates are required to demonstrate that they understand the English language. The idea is to prove that they will be able to manage day-to-day activities abroad. For this purpose, IELTS or the International English Language Testing System, has been relied on by students, aspiring migrants, and job seekers for more than 30 years. This test is consistently candidates’ top choice. Here is what makes it so popular:</p>
             <ul>
               <li>Accessibility of the test</li>
@@ -548,20 +548,20 @@ const Ielts = () => {
               <li>Adds weight to your PR application</li>
               <li>Helpful at every stage of the career</li>
             </ul>
-            <h2 className='mb-3'>Why akcxis Immigrations?</h2>
+            <h3 className='mb-3'>Why akcxis Immigrations?</h3>
             <p className=''>akcxis Immigrations trainer ensures that you achieve the required band score in IELTS and make your dream of pursuing higher studies at your dream destination come true! </p>
             <p className=''>With our on-campus classes with free grammar sessions, online classes at your comfort, practice tests, simulated mock tests, expert evaluation sessions and tips for the exam day, we offer a comprehensive knowledge to the learners and leaving no stone unturned to ensure that you clear the test with flying colours!</p>
           </div>
           {/* FAQ */}
           <div className='py-4'>
-            <h2 className=' '>FAQs</h2>
+            <h3 className=' '>FAQs</h3>
             <div className="accordion my-3 " id="accordionExample">
               <div className="accordion-item border border-dark ">
-                <h2 className="accordion-header" id="headingOne">
+                <h3 className="accordion-header" id="headingOne">
                   <button className="accordion-button btn btn-warning " type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                     Q: What is the minimum IELTS score needed for study visa?
                   </button>
-                </h2>
+                </h3>
                 <div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                   <div className="accordion-body">
                     A:  Most of the countries need an overall band of 6 for undergraduate programs and an overall band of 6.5 for post graduate programs. Having said that, each university and course have its own requirements of IELTS score and the student should check the official website to know the exact score requirements. Higher the score, better are the student's chances to get the admission.
@@ -569,12 +569,12 @@ const Ielts = () => {
                 </div>
               </div>
               <div className="accordion-item mt-3 border border-dark ">
-                <h2 className="accordion-header" id="headingTwo">
+                <h3 className="accordion-header" id="headingTwo">
                   <button className="accordion-button collapsed btn btn-warning " type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                     Q: How often is IELTS test conducted?
 
                   </button>
-                </h2>
+                </h3>
                 <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                   <div className="accordion-body">
                     A: In each test centre, IELTS Academic is conducted 4 times in a month, while the IELTS General Training is conducted twice a month.
@@ -582,11 +582,11 @@ const Ielts = () => {
                 </div>
               </div>
               <div className="accordion-item mt-3 border border-dark">
-                <h2 className="accordion-header" id="headingThree">
+                <h3 className="accordion-header" id="headingThree">
                   <button className="accordion-button collapsed btn btn-warning" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                     Q:  Difference Between Computer Based and Paper Based IELTS?
                   </button>
-                </h2>
+                </h3>
                 <div id="collapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                   <div className="accordion-body">
                     A: In the IELTS paper-based test, the Reading, Listening, and Writing sections are to be answered on the examination paper itself. Speaking test is be carried out with a trained IELTS examiner through a face-to-face interview separately within a week prior or after the test date.
@@ -596,12 +596,12 @@ const Ielts = () => {
                 </div>
               </div>
               <div className="accordion-item mt-3 border border-dark">
-                <h2 className="accordion-header " id="headingFour">
+                <h3 className="accordion-header " id="headingFour">
                   <button className="accordion-button collapsed btn btn-warning" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
                     Q: What is the validity of IELTS score?
 
                   </button>
-                </h2>
+                </h3>
                 <div id="collapseFour" className="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
                   <div className="accordion-body">
                     A:  The IELTS score is valid for a period of 2 years from the date of the result.
@@ -610,12 +610,12 @@ const Ielts = () => {
                 </div>
               </div>
               <div className="accordion-item mt-3 border border-dark">
-                <h2 className="accordion-header" id="headingFive">
+                <h3 className="accordion-header" id="headingFive">
                   <button className="accordion-button collapsed  btn btn-warning" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseThree">
                     Q:  Can I reappear in a single section to improve IELTS score?
 
                   </button>
-                </h2>
+                </h3>
                 <div id="collapseFive" className="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
                   <div className="accordion-body">
                     A: IELTS One Skill Retake test must be taken within 60 days of attempting full IELTS test.The candidate will receive a new IELTS Test Report Form (TRF) that has his/her IELTS One Skill Retake score as well as scores from the original performance. The candidate can choose whether to use new or old TRF.<br />There is no limit on number of times a candidate wants to reappear for a full IELTS exam in all 4 sections. However, Single retake test system is still not implemented in India.
@@ -623,12 +623,12 @@ const Ielts = () => {
                 </div>
               </div>
               <div className="accordion-item mt-3 border border-dark">
-                <h2 className="accordion-header " id="headingSix">
+                <h3 className="accordion-header " id="headingSix">
                   <button className="accordion-button collapsed btn btn-warning" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
                     Q:  How much is the IELTS exam fee?
 
                   </button>
-                </h2>
+                </h3>
                 <div id="collapseSix" className="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
 
                   <div className="accordion-body">
@@ -639,12 +639,12 @@ const Ielts = () => {
               </div>
 
               <div className="accordion-item mt-3 border border-dark">
-                <h2 className="accordion-header " id="headingSeven">
+                <h3 className="accordion-header " id="headingSeven">
                   <button className="accordion-button collapsed btn btn-warning" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
                     Q: How soon can I expect the results of my IELTS test?
 
                   </button>
-                </h2>
+                </h3>
                 <div id="collapseSeven" className="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
                   <div className="accordion-body">
                     A: Results for IELTS paper-based test will be available 13 days after the test. For computer based IELTS test, the result may come out anywhere between 3-5 working days.
@@ -654,13 +654,13 @@ const Ielts = () => {
               </div>
 
               <div className="accordion-item mt-3 border border-dark">
-                <h2 className="accordion-header " id="headingEight">
+                <h3 className="accordion-header " id="headingEight">
                   <button className="accordion-button collapsed btn btn-warning" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
                     Q: What are the documents required to appear for the IELTS test?
 
 
                   </button>
-                </h2>
+                </h3>
                 <div id="collapseEight" className="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#accordionExample">
                   <div className="accordion-body">
                     A: The candidate must have a valid passport to book an IELTS exam. He/she must carry the passport on the exam date.
@@ -671,12 +671,12 @@ const Ielts = () => {
 
 
               <div className="accordion-item mt-3 border border-dark">
-                <h2 className="accordion-header " id="headingEight">
+                <h3 className="accordion-header " id="headingEight">
                   <button className="accordion-button collapsed btn btn-warning" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
                     Q: Is it possible to reschedule the IELTS test?
 
                   </button>
-                </h2>
+                </h3>
                 <div id="collapseNine" className="accordion-collapse collapse" aria-labelledby="headingNine" data-bs-parent="#accordionExample">
                   <div className="accordion-body">
                     A: Yes, it is generally possible to reschedule the reschedule the IELTS test, but the specific policies and procedures for rescheduling can vary depending on the test centre and the organization that administers the test in your region. .
@@ -687,13 +687,13 @@ const Ielts = () => {
 
 
               <div className="accordion-item mt-3 border border-dark">
-                <h2 className="accordion-header " id="headingEight">
+                <h3 className="accordion-header " id="headingEight">
                   <button className="accordion-button collapsed btn btn-warning" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
                     Q: What is the refund policy for cancelling the IELTS exam?
 
 
                   </button>
-                </h2>
+                </h3>
                 <div id="collapseTen" className="accordion-collapse collapse" aria-labelledby="headingTen" data-bs-parent="#accordionExample">
                   <div className="accordion-body">
                     A: Refund policies for cancelling an IELTS test vary depending on the test centre, and the organization that administers the test in your region. Generally, IELTS test fees are non-refundable or only partially refundable, and the amount of refund you might receive depends on when you cancel and the specific policies of the test centre.

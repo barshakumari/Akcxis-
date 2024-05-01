@@ -50,14 +50,16 @@ const Work = () => {
       </div>
 
       {/* work2 */}
-      <div className='work2 py-4'>
+      <div className='work2 py-5'>
         <div className='container'>
-        <div className="cardMain">
-          <Modal title="Apply Now" className="ms-1 fw-semibold fs-5" />
-        </div>
-          <h6 className=' text-decoration-underline fw-bolder  '>JOB OPPORTUNITIES</h6>
+          <div className="cardMain">
+            <Modal title="Apply Now" className="ms-1 fw-semibold fs-5" />
+          </div>
+          <div className='heading-title1'>
+            <h1 className=' '>JOB OPPORTUNITIES</h1>
+          </div>
           <h5 className='text-uppercase fw-semibold mb-3'>WORK AND SETTLE ABROAD</h5>
-          <p className='text-secondary'>An international work experience on your resume will not only open plethora of job opportunities across the globe but also will lead to better pay packages and pave way for you and your family to settle abroad. With our pool of resources and experts, Akcxis Immigrations, will help you find the right job fit with your skill sets and assist you in your entire work visa application process.
+          <p className=''>An international work experience on your resume will not only open plethora of job opportunities across the globe but also will lead to better pay packages and pave way for you and your family to settle abroad. With our pool of resources and experts, Akcxis Immigrations, will help you find the right job fit with your skill sets and assist you in your entire work visa application process.
           </p>
         </div>
       </div>
@@ -65,27 +67,34 @@ const Work = () => {
       {/* why work */}
       <div className='work3 bg-light py-3'>
         <div className='container'>
-          <h6 className=' text-decoration-underline fw-bolder '>BRIGHTER FUTURE</h6>
-          <h5 className=' text-uppercase fw-semibold mb-2'>WHY WORK ABROAD? </h5>
-          <p className='text-secondary '>Working in a foreign land can help you build a network of associations. A team with multi-cultural environment can help you build your communication skills, hone your foreign language and broaden your perspective. Working abroad is an excellent way to travel foreign land, understand international economic scenario while at the same time improving your financial standing.
+          <div className='heading-title1'>
+            <h1 className=' '>BRIGHTER FUTURE</h1>
+          </div>
+          <h5 className=' text-uppercase fw-semibold mb-3'>WHY WORK ABROAD? </h5>
+          <p className=''>Working in a foreign land can help you build a network of associations. A team with multi-cultural environment can help you build your communication skills, hone your foreign language and broaden your perspective. Working abroad is an excellent way to travel foreign land, understand international economic scenario while at the same time improving your financial standing.
           </p>
-          <p className='text-secondary'><BsCheck2Square className='fs-4 text-warning' /> &nbsp; Live in a Foreign Land </p>
-          <p className='text-secondary'><BsCheck2Square className='fs-4 text-warning' /> &nbsp; Earn in Dollars</p>
-          <p className='text-secondary'><BsCheck2Square className='fs-4 text-warning' /> &nbsp; Benefits of Increased Pay </p>
-          <p className='text-secondary'><BsCheck2Square className='fs-4 text-warning' /> &nbsp; Improved Career Opportunities </p>
-          <p className='text-secondary'><BsCheck2Square className='fs-4 text-warning' /> &nbsp; Gain Insights into Other Culture </p>
-          <p className='text-secondary'><BsCheck2Square className='fs-4 text-warning' /> &nbsp; Enjoy Travel Opportunities </p>
-          <p className='text-secondary'><BsCheck2Square className='fs-4 text-warning' /> &nbsp; Move with your Family </p>
-          <p className='text-secondary'><BsCheck2Square className='fs-4 text-warning' /> &nbsp; Gain access to World-Class Education and Healthcare Benefits </p>
-          <p className='text-secondary'><BsCheck2Square className='fs-4 text-warning' /> &nbsp; Pathway to Citizenship</p>
+          <ul>
+            <li> Live in a Foreign Land </li>
+            <li> Earn in Dollars</li>
+            <li> Benefits of Increased Pay </li>
+            <li> Improved Career Opportunities </li>
+            <li> Gain Insights into Other Culture </li>
+            <li> Enjoy Travel Opportunities </li>
+            <li> Move with your Family </li>
+            <li> Gain access to World-Class Education and Healthcare Benefits </li>
+            <li> Pathway to Citizenship</li>
+          </ul>
         </div>
       </div>
       {/* services */}
       <div className='work4 py-4'>
         <div className='container'>
-          <h6 className=' text-decoration-underline fw-bolder  text-center'>OUR SERVICES</h6>
-          <h5 className='text-center text-uppercase fw-semibold mb-3'>EFFICIENT AND EFFECTIVE </h5>
-          <p className='text-secondary'>We help our clients build their profile to meet international standards so as to get the best of opportunities in their desired destination country and to increase their chances of acceptance.</p>
+          <div className='heading-title1'>
+            <h1 className=' '>OUR SERVICES</h1>
+          </div>
+
+          <h5 className=' text-uppercase fw-semibold mb-3'>EFFICIENT AND EFFECTIVE </h5>
+          <p className=''>We help our clients build their profile to meet international standards so as to get the best of opportunities in their desired destination country and to increase their chances of acceptance.</p>
           <div className='d-flex justify-content-between align-items-center servicebox1 mt-4'>
             <div className='service-box border-dark border-opacity-25 rounded-3 shadow-lg py-2'>
               <div className='d-flex justify-content-center'>
@@ -116,76 +125,50 @@ const Work = () => {
       </div>
 
       {/* document */}
-      <div className='work5 py-4 bg-light'>
+      <div className='work5 py-5 bg-light'>
         <div className='container'>
-          <h5 className='text-center text-uppercase fw-semibold mb-2'>Documents Requirement</h5>
-          <div className='mt-4'>
-            <div className='d-flex justify-content-between border px-3'>
-              <h6 className='' >1. &nbsp;Passport </h6>
-              <input className="form-check-input fs-5" type="checkbox" defaultValue id="flexCheckDefault" />
-            </div>
-            <div className='d-flex justify-content-between border px-3'>
-              <h6 className=''>2.  &nbsp;Academic Marksheets and Certificates</h6>
-              <input className="form-check-input fs-5" type="checkbox" defaultValue id="flexCheckDefault" /></div>
-            <div className='d-flex justify-content-between border px-3'>
-              <h6 className=''>3.  &nbsp;Work Experience Letter</h6>
-              <input className="form-check-input fs-5" type="checkbox" defaultValue id="flexCheckDefault" /> </div>
-
-            <div className='d-flex justify-content-between border px-3'>
-              <h6 className=''>4.  &nbsp;Updated Resume or Curriculum Vitae </h6>
-              <input className="form-check-input fs-5" type="checkbox" defaultValue id="flexCheckDefault" />
-            </div>
-
-            <div className='d-flex justify-content-between border px-3'>
-              <h6 className=''>5.  &nbsp;Letter of Recommendations (From Previous Employer)</h6>
-              <input className="form-check-input fs-5" type="checkbox" defaultValue id="flexCheckDefault" />
-            </div>
-            <div className='d-flex justify-content-between border px-3'>
-              <h6 className=''>6.  &nbsp;Marriage certificate (if applying with a spouse)</h6>
-              <input className="form-check-input fs-5" type="checkbox" defaultValue id="flexCheckDefault" />
-            </div>
-
-            <div className='d-flex justify-content-between border px-3'>
-              <h6 className=''>7.  &nbsp;Children's birth certificates (if applying with children)</h6>
-              <input className="form-check-input fs-5" type="checkbox" defaultValue id="flexCheckDefault" />
-            </div>
-            <div className='d-flex justify-content-between border px-3'>
-              <h6 className=''>8.  &nbsp;Job offer Letter</h6>
-              <input className="form-check-input fs-5" type="checkbox" defaultValue id="flexCheckDefault" />
-            </div>
-            <div className='d-flex justify-content-between border px-3'>
-              <h6 className=''>9.  &nbsp;Proof of Funds</h6>
-              <input className="form-check-input fs-5" type="checkbox" defaultValue id="flexCheckDefault" />
-            </div>
-            <div className='d-flex justify-content-between border ps-2 pe-3'>
-              <h6 className=''>10.  &nbsp;Pre - Requisite Exams - IELTS/PTE/CELPIP</h6>
-              <input className="form-check-input fs-5" type="checkbox" defaultValue id="flexCheckDefault" />
-            </div>
-            <div className='d-flex justify-content-between border ps-2 pe-3'>
-              <h6 className=''>11.  &nbsp;Health insurance for foreign workers</h6>
-              <input className="form-check-input fs-5" type="checkbox" defaultValue id="flexCheckDefault" />
-            </div>
+          <div className='heading-title1'>
+            <h1 className=' '>Documents Requirement</h1>
+          </div>
+          <div className=''>
+            <ul>
+              <li>Passport</li>
+              <li>Academic Marksheets and Certificates</li>
+              <li>Work Experience Letter</li>
+              <li>Updated Resume or Curriculum Vitae</li>
+              <li>Letter of Recommendations (From Previous Employer)</li>
+              <li>Marriage certificate (if applying with a spouse)</li>
+              <li>Children's birth certificates (if applying with children)</li>
+              <li>Job offer Letter</li>
+              <li>Proof of Funds</li>
+              <li>Pre - Requisite Exams - IELTS/PTE/CELPIP</li>
+              <li>Health insurance for foreign workers</li>
+            </ul>
           </div>
         </div>
       </div>
 
       {/* step */}
-      <div className='work6 py-4'>
+      <div className='work6 py-5'>
         <div className='container'>
-          <h6 className=' text-decoration-underline fw-bolder'>STEPS TO APPLY</h6>
+          <div className='heading-title1'>
+            <h1 className=' '>STEPS TO APPLY</h1>
+          </div>
           <h5 className=' text-uppercase fw-semibold mb-3'>Applying for a Work Visa</h5>
-          <h5>Step1: <span className=' fs-6'>Decide whether you are applying online or offline</span></h5>
-          <h5>Step2: <span className=' fs-6'>Get all necessary documents from your current and previous employers</span></h5>
-          <h5>Step3: <span className=' fs-6'>Complete the visa application form by entering all required information</span></h5>
-          <h5>Step4: <span className=' fs-6'>Pay the fees required for visa processing</span></h5>
-          <h5>Step5: <span className=' fs-6'>Send the filled application to the concerned embassy</span></h5>
+          <p>Step1: <span className=' fs-6'>Decide whether you are applying online or offline</span></p>
+          <p>Step2: <span className=' fs-6'>Get all necessary documents from your current and previous employers</span></p>
+          <p>Step3: <span className=' fs-6'>Complete the visa application form by entering all required information</span></p>
+          <p>Step4: <span className=' fs-6'>Pay the fees required for visa processing</span></p>
+          <p>Step5: <span className=' fs-6'>Send the filled application to the concerned embassy</span></p>
         </div>
       </div>
 
       {/* country */}
       <div className='work7 py-4 bg-light'>
         <div className='container'>
-          <h5 className='text-center   fw-semibold'>CHOOSE YOUR COUNTRY</h5>
+          <div className='heading-title1'>
+            <h1 className=' '>CHOOSE YOUR COUNTRY</h1>
+          </div>
           <div className='countryimg1 d-flex justify-content-around align-items-center mt-5'>
             <div className='box  border-dark border-opacity-25 rounded-3 shadow-lg'>
               <div className='d-flex justify-content-center'>
@@ -301,7 +284,7 @@ const Work = () => {
       </div>
 
       {/* faq */}
-      <div className='work8'>
+      <div className='work8 py-5'>
         <div className='container'>
           <h5 className='   fw-semibold'>FAQs</h5>
           <div className="accordion my-3" id="accordionExample">
