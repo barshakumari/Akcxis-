@@ -42,6 +42,10 @@ import UkWork from './Components/Wowkvisa/UkWork'
 import UsaWork from './Components/Wowkvisa/UsaWork'
 import SingaporeWork from './Components/Wowkvisa/SingaporeWork'
 import AusWork from './Components/Wowkvisa/AusWork';
+import PolandWork from './Components/Wowkvisa/polandWork';
+import MaltaWork from './Components/Wowkvisa/maltaWork';
+import FranceWork from './Components/Wowkvisa/franceWork';
+import BelgiumWork from './Components/Wowkvisa/belgiumWork';
 
 // PR Visa
 import CanadaPr from './Components/PRvisa/CanadaPr'
@@ -63,6 +67,7 @@ import Termcondition from './Components/termcondition';
 import Privacypolicy from './Components/privacypolicy';
 import Travelhome from './Components/travel/travelhome';
 import Testimonial from './Components/testimonial';
+
 
 
 
@@ -116,6 +121,10 @@ function App() {
           <Route path="/UkWork" element={< UkWork />} />
           <Route path="/UsaWork" element={< UsaWork />} />
           <Route path="/AusWork" element={< AusWork />} />
+          <Route path="/polandWork" element={< PolandWork />} />
+          <Route path="/maltaWork" element={< MaltaWork />} />
+          <Route path="/franceWork" element={< FranceWork />} />
+          <Route path="/belgiumWork" element={< BelgiumWork/>} />
 
           <Route path="/CanadaPr" element={< CanadaPr />} />
           <Route path="/AusPr" element={< AusPr />} />

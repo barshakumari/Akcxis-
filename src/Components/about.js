@@ -1,6 +1,6 @@
 import React from 'react'
 import img1 from "../Components/images/about1.jpg"
-import img2 from "../Components/images/about2.jpg"
+import img2 from "../Components/images/about2.png"
 import img4 from "../Components/images/visionimg.png"
 import tropy from '../Components/images/akcxis trofy.png'
 import vidhataGroup from '../Components/images/vidhata group.png'
@@ -61,7 +61,6 @@ const About = () => {
                 </h5>
                 <p className='mt-3'>Vidhata, since it's inception in 1971, has a rich and a trust worthy history. Our focus as a group has always been to bring human insight to business and deliver beyond expectations. Started with humble beginnings, as a typical Indian family run business, the group has over a period of time diversified and distinguished itself in infrastructure and car retail sectors. The group has spread its wings into travels, education and consultancy vertical under Akcxis. Vidhata is well known for its expertise and excellence in the service sector.
                 </p>
-
               </div>
             </div>
             <div className="col-lg-6 d-flex justify-content-center align-items-center">
@@ -95,16 +94,13 @@ const About = () => {
                 <h1 className=''>InterWood</h1>
               </div>
               <h5 className='text-uppercase fw-semibold  mb-3'>Plywood and Doors</h5>
-              <p>
-                The world-class Plywood & Door manufacturing unit spread over 7 acres, is located in Ludhiana, Punjab (India) having the installed capacity of about 36 million sq. ft. The manufacturing unit is equipped for making the complete range of Plywood along with the special expertise for manufacturing Fire-Retardant Plywood, Fire-Rated Doors and Engineered Decorative Premium Textured Laminated Doors. We are a proud Indian company selling under Make In India initiative, to national and international market.
+              <p>The world-class Plywood & Door manufacturing unit spread over 7 acres, is located in Ludhiana, Punjab (India) having the installed capacity of about 36 million sq. ft. The manufacturing unit is equipped for making the complete range of Plywood along with the special expertise for manufacturing Fire-Retardant Plywood, Fire-Rated Doors and Engineered Decorative Premium Textured Laminated Doors. We are a proud Indian company selling under Make In India initiative, to national and international market.
               </p>
-
             </div>
           </div>
           <div className='col-lg-6 d-flex justify-content-center align-items-center'>
             <img src={interwood} className='img-fluid' />
           </div>
-
           <div className='col-lg-6 d-flex justify-content-center align-items-center'>
             <img src={ashoka} className='img-fluid' />
           </div>
@@ -115,9 +111,7 @@ const About = () => {
               </div>
               <h5 className='text-uppercase fw-semibold  mb-3'>Tax and Legal Consultancy</h5>
               <p>Ashoka Associates is a renowned name in the field of taxation from last 45 years having its registered office at Civil Lines,Ludhiana. The firm specializes in consultancy of Income Tax, GST, VAT, TDS etc. Ashoka Associates is professionally managed firm working under the leadership of its Chief Consultant - Sh. Ashok Kumar Juneja - M.Com, LL.B (Gold medalist in Law, Punjab University, Chandigarh). His team includes experienced and dedicated Tax Advocates, Charted Accountants and Tax Consultants. The firm provides services like Litigation, Representation, Audit Assignments, Retainership, Statutory Compliance, Tax Planning and Configuration of Tax-Effecient Business Model.
-
               </p>
-
             </div>
           </div>
           <div className='col-lg-6 d-flex justify-content-center align-items-center'>
@@ -126,15 +120,13 @@ const About = () => {
                 <h1 className=''>Vidhata Kia</h1>
               </div>
               <h5 className='text-uppercase fw-semibold  mb-3'></h5>
-              <p>
-                Vidhata Kia is another State of the Art - Sales & Service Facility. Vidhata Kia is in pipeline and will soon be operational in Ludhiana in summer 2023. Kia is a maker of world-class quality vehicles. It is Korea's oldest manufacturer of automobiles. Vidhata Kia dealership inspired form its parent company aims to provide exciting and inspiring experiences that go beyond customer expectation Vidhata Kia.
+              <p>Vidhata Kia is another State of the Art - Sales & Service Facility. Vidhata Kia is in pipeline and will soon be operational in Ludhiana in summer 2023. Kia is a maker of world-class quality vehicles. It is Korea's oldest manufacturer of automobiles. Vidhata Kia dealership inspired form its parent company aims to provide exciting and inspiring experiences that go beyond customer expectation Vidhata Kia.
               </p>
             </div>
           </div>
           <div className='col-lg-6 d-flex justify-content-center align-items-center'>
             <img src={kia} className='img-fluid' />
           </div>
-
           <div className='col-lg-6 d-flex justify-content-center align-items-center'>
             <img src={spinning} className='img-fluid' />
           </div>
@@ -144,8 +136,7 @@ const About = () => {
                 <h1 className=''>Spinning and Textiles</h1>
               </div>
               <h5 className='text-uppercase fw-semibold  mb-3'></h5>
-              <p>
-                With a legacy of over 40 years of yam manufacturing and over 16000 spindle capacity state of art manufacturing unit backing us - we have foryaed into manufacturing, sourcing and reselling of cotton, polyester, acrylic and fancy yarn. Located in Ludhiana, Punjab (India), We have been constantly evolving and innovating to give the best to our customers.
+              <p>With a legacy of over 40 years of yam manufacturing and over 16000 spindle capacity state of art manufacturing unit backing us - we have foryaed into manufacturing, sourcing and reselling of cotton, polyester, acrylic and fancy yarn. Located in Ludhiana, Punjab (India), We have been constantly evolving and innovating to give the best to our customers.
               </p>
             </div>
           </div>
@@ -157,7 +148,6 @@ const About = () => {
               <h5 className='text-uppercase fw-semibold  mb-3'>Packaging Solutions</h5>
               <p>Providing packaging solutions in the form of Corrugated Boxes made in an engineered plant facility located in Ludhiana, Punjab (India), spread out in over 2 acres. With an experience of more than 30 years, the plant is equipped with the production capacity of about 10,000 boxes a day, serving its main clients across Punjab and Himachal Pradesh.
               </p>
-
             </div>
           </div>
           <div className='col-lg-6 d-flex justify-content-center align-items-center'>
@@ -177,7 +167,6 @@ const About = () => {
               </p>
             </div>
           </div>
-
         </div>
       </div>
 
@@ -187,7 +176,6 @@ const About = () => {
           <div className="cardMain">
             <Modal title="Get in Touch" className="ms-1 fw-bold fs-5" />
           </div>
-
           <div className='row'>
             <div className="col-lg-6 d-flex justify-content-center align-items-center">
               <div>
@@ -263,7 +251,7 @@ const About = () => {
         <div className='container'>
           <div className="row  g-3">
             <div className="col-lg-6 d-flex justify-content-center">
-              <img src={img2} alt="" className='img-fluid  ' />
+              <img src={img2} alt="" height={400} className='img-fluid  ' />
             </div>
             <div className="col-lg-6  d-flex justify-content-center align-items-center">
               <div>

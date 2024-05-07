@@ -6,10 +6,10 @@ import newzealand from '../linkImage/newzealandstudy.png'
 const NzVisit = () => {
   return (
     <>
-       {/* newzealand visitor visa*/}
-     <div className="PTE2">
-                <img src={newzealand} alt="" className='img-fluid w-100' />
-            </div>
+      {/* newzealand visitor visa*/}
+      <div className="PTE2">
+        <img src={newzealand} alt="" className='img-fluid w-100' />
+      </div>
 
       {/* content */}
       <div className='main-section py-5'>
@@ -19,9 +19,10 @@ const NzVisit = () => {
 
               {/*newzealand visitor visa*/}
               <div className='pb-3'>
-                <h3 className='mb-3'>New Zealand  Visitor Visa</h3>
-                <p>There is no doubt as to why so many people from all over the world travel to New Zealand. To your surprise, the number has increased a lot, with an expected growth of 5.1 million visitors each year, according to a report by the Ministry of Tourism. As a result, the government has put strict laws in place regarding visas. If you have an Indian passport, you won't be eligible for a visa waiver, and you'll need to apply for a visa with New Zealand Immigration before your visit. </p>
+                <h3 className='mb-3'>New Zealand Visitor Visa</h3>
+                <p>There is no doubt as to why so many people from all over the world travel to New Zealand. To your surprise, the number has increased a lot, with an expected growth of 5.1 million visitors each year, according to a report by the Ministry of Tourism. As a result, the government has put strict laws in place regarding visas. If you have an Indian passport, you won't be eligible for a visa waiver, and you'll need to apply for a visa with New Zealand Immigration before your visit.</p>
               </div>
+
               {/*  requirement */}
               <div className='pb-3'>
                 <h3 className='mb-3'>New Zealand Tourist Visa Requirements</h3>
@@ -32,7 +33,6 @@ const NzVisit = () => {
                   <li>Proof of funds to sustain during your stay in New Zealand.</li>
                   <li>A sponsorship form is required for Temporary Entry when a New Zealand resident is supporting you.</li>
                   <li>Proof of travel insurance.</li>
-                
                 </ul>
               </div>
 
@@ -46,7 +46,6 @@ const NzVisit = () => {
                 </ul>
               </div>
 
-
               {/* How to get  */}
               <div className='pb-3'>
                 <h3 className='mb-3'>How to Apply for New Zealand Tourist Visa</h3>
@@ -56,8 +55,8 @@ const NzVisit = () => {
                 <p>Step 4: Next, provide your details, like name, address, birth date, and passport number.</p>
                 <p>Step 5: Upload the required documents, like your passport, PAN card, and passport-sized photographs.</p>
                 <p>Step 6: Pay the visa fees using the payment mode available.</p>
-          
               </div>
+
               {/* process time */}
               <div className='pb-3'>
                 <h3 className='mb-3'>Processing Time for a New Zealand Tourist Visa</h3>
@@ -74,19 +73,16 @@ const NzVisit = () => {
             <div className='col-lg-3 '>
               <div className='border py-4 mb-3 fixtext'>
                 <h3 className='text-center fw-bold text-white'>New Zealand</h3>
-
               </div>
               <div class="list-group mb-4 bg-primary">
-                <a href="/canadaVisit" class="list-group-item list-group-item-action py-3">Canada </a>
-                <a href="/Ausvisit" class="list-group-item list-group-item-action py-3">Australia </a>
-                <a href="/GermanyVisit" class="list-group-item list-group-item-action py-3">Germany </a>
-                <a href="/SingaporeVisit" class="list-group-item list-group-item-action py-3 ">Singapore </a>
-                <a href="/UkVisitor" class="list-group-item list-group-item-action py-3 ">UK </a>
-                <a href="/UsaVisit" class="list-group-item list-group-item-action py-3 ">USA</a>
-              
-
+                <a href="/canadaVisit" class="list-group-item list-group-item-action py-3">Canada</a>
+                <a href="/Ausvisit" class="list-group-item list-group-item-action py-3">Australia</a>
+                <a href="/GermanyVisit" class="list-group-item list-group-item-action py-3">Germany</a>
+                <a href="/SingaporeVisit" class="list-group-item list-group-item-action py-3 ">Singapore</a>
+                <a href="/UkVisitor" class="list-group-item list-group-item-action py-3">UK</a>
+                <a href="/UsaVisit" class="list-group-item list-group-item-action py-3">USA</a>
               </div>
-              <div className='box border py-4 px-2 '>
+              <div className='box border py-4 px-2'>
                 <h5 className='fw-bold'>Talk to our Immigration Experts</h5>
                 <h6 className='mt-3'><FiPhone className='fs-5' />&nbsp; Phone: <a href='tel:+91-98727-33369' className='text-secondary'>+91-98727-33369</a></h6>
                 <h6><FaWhatsapp className='fs-5' />&nbsp; Whatsapp: <a href='https://api.whatsapp.com/message/A475MHX2ZGQGO1?autoload=1&app_absent=0' className='text-secondary'>+91-9872833369 </a></h6>
