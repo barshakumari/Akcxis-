@@ -76,7 +76,7 @@ const Canadastudy = () => {
                             <div className='pb-3'>
                                 <h2 className='mb-3'>Top Universities in Canada</h2>
                                 <div className="container">
-                                    <table class="table table-striped table-bordered">
+                                    <table className="table table-striped table-bordered">
                                         <thead>
                                             <tr>
 
@@ -228,7 +228,7 @@ const Canadastudy = () => {
                             {/* university and program */}
                             <div className='pb-3'>
                                 <h2 className='mb-3'>Universities and Programs</h2>
-                                <table class="table table-striped table-bordered">
+                                <table className="table table-striped table-bordered">
                                     <thead>
                                         <tr>
 
@@ -328,15 +328,15 @@ const Canadastudy = () => {
                                 <h3 className='text-center fw-bold text-white'>CANADA</h3>
                                
                             </div>
-                            <div class="list-group mb-4 bg-primary">
-                                    <a href="/usastudy" class="list-group-item list-group-item-action py-3 " aria-current="true">
+                            <div className="list-group mb-4 bg-primary">
+                                    <a href="/usastudy" className="list-group-item list-group-item-action py-3 " aria-current="true">
                                      USA Study
                                     </a>
-                                    <a href="/ukstudy" class="list-group-item list-group-item-action py-3">UK Study</a>
-                                    <a href="/australiastudy" class="list-group-item list-group-item-action py-3">Australia Study</a>
-                                    <a href="/newzealandstudy" class="list-group-item list-group-item-action py-3">New Zealand Study</a>
-                                    <a href="/singaporestudy"  class="list-group-item list-group-item-action py-3 ">Singapore Study</a>
-                                    <a href="/germanystudy"  class="list-group-item list-group-item-action py-3 ">Germany Study</a>
+                                    <a href="/ukstudy" className="list-group-item list-group-item-action py-3">UK Study</a>
+                                    <a href="/australiastudy" className="list-group-item list-group-item-action py-3">Australia Study</a>
+                                    <a href="/newzealandstudy" className="list-group-item list-group-item-action py-3">New Zealand Study</a>
+                                    <a href="/singaporestudy"  className="list-group-item list-group-item-action py-3 ">Singapore Study</a>
+                                    <a href="/germanystudy"  className="list-group-item list-group-item-action py-3 ">Germany Study</a>
                               
                                 </div>
                             <div className='box border py-4 px-2 '>

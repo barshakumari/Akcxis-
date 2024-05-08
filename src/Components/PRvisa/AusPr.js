@@ -118,7 +118,7 @@ const AusPr = () => {
               {/* process time */}
               <div className='pb-3'>
                 <h3 className='mb-3'>Processing Time for a Australia PR</h3>
-                <table class="table table-striped table-bordered">
+                <table className="table table-striped table-bordered">
                                     <thead>
                                         <tr>
 
@@ -151,8 +151,8 @@ const AusPr = () => {
                 <h3 className='text-center fw-bold text-white'>AUSTRALIA PR</h3>
 
               </div>
-              <div class="list-group mb-4 bg-primary">
-                <a href="/CanadaPr" class="list-group-item list-group-item-action py-3 " aria-current="true">
+              <div className="list-group mb-4 bg-primary">
+                <a href="/CanadaPr" className="list-group-item list-group-item-action py-3 " aria-current="true">
                  CANADA PR
                 </a>
 

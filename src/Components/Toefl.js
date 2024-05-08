@@ -114,7 +114,7 @@ const TOEFL = () => {
                             <div className='py-4'>
                                 <h3 className=' mb-3'>TOEFL Scoring</h3>
                                 <p className=''>TOEFL iBT score is calculated by adding together scores of each of the 4 section - reading, listening, speaking, writing - where each section is worth 30 points.</p>
-                                <table class="table table-bordered border-dark  table-striped my-4">
+                                <table className="table table-bordered border-dark  table-striped my-4">
                                     <thead className='table-dark '>
                                         <tr className='fs-5 text-center'>
                                             <th className='text-center '>Sections</th>
@@ -185,7 +185,7 @@ const TOEFL = () => {
                             {/* comparison */}
                             <div className='py-4'>
                                 <h3 className=' '>TOEFL and IELTS Comparision</h3>
-                                <table class="table table-bordered border-dark table-striped my-4">
+                                <table className="table table-bordered border-dark table-striped my-4">
                                     <thead className='table-dark'>
                                         <tr className='fs-5 text-center'>
                                             <th scope="col">IELTS Score</th>

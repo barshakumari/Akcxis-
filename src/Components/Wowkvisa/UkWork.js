@@ -107,13 +107,13 @@ const UkWork = () => {
                 <h3 className='text-center fw-bold text-white'>UK Work Visa</h3>
 
               </div>
-              <div class="list-group mb-4 bg-primary">
-                <a href="/UkWork" class="list-group-item list-group-item-action py-3">UK </a>
-                <a href="/UsaWork" class="list-group-item list-group-item-action py-3 ">USA</a>
-                <a href="/AusWork" class="list-group-item list-group-item-action py-3">Australia </a>
-                <a href="/NzWork" class="list-group-item list-group-item-action py-3">New Zealand </a>
-                <a href="/SingaporeWork" class="list-group-item list-group-item-action py-3 ">Singapore </a>
-                <a href="/GermanyWork" class="list-group-item list-group-item-action py-3 ">Germany </a>             
+              <div className="list-group mb-4 bg-primary">
+                <a href="/UkWork" className="list-group-item list-group-item-action py-3">UK </a>
+                <a href="/UsaWork" className="list-group-item list-group-item-action py-3 ">USA</a>
+                <a href="/AusWork" className="list-group-item list-group-item-action py-3">Australia </a>
+                <a href="/NzWork" className="list-group-item list-group-item-action py-3">New Zealand </a>
+                <a href="/SingaporeWork" className="list-group-item list-group-item-action py-3 ">Singapore </a>
+                <a href="/GermanyWork" className="list-group-item list-group-item-action py-3 ">Germany </a>             
               </div>
               <div className='box border py-4 px-2 '>
                 <h5 className='fw-bold'>Talk to our Immigration Experts</h5>

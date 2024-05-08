@@ -9,9 +9,9 @@ const CountryCard = ({ img, countryName, isBadge, badgeLink, points }) => {
             <h5 className="text-center mt-2">
                 <span>{countryName}
                     {
-                        isBadge && <Link to={badgeLink} class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-info">
+                        isBadge && <Link to={badgeLink} className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-info">
                             PR
-                            <span class="visually-hidden">unread messages</span>
+                            <span className="visually-hidden">unread messages</span>
                         </Link>
                     }
                 </span>

@@ -130,9 +130,9 @@ const Home = () => {
             </div>
             <h5 className="text-center mt-2">
               <span>CANADA
-                <Link to={'/CanadaPr'} class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-info">
+                <Link to={'/CanadaPr'} className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-info">
                   PR
-                  <span class="visually-hidden">unread messages</span>
+                  <span className="visually-hidden">unread messages</span>
                 </Link>
               </span>
             </h5>
@@ -149,9 +149,9 @@ const Home = () => {
             </div>
             <h5 className="  text-center mt-2">
               <span>AUSTRALIA
-                <Link to={'/AusPr'} class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-info">
+                <Link to={'/AusPr'} className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-info">
                   PR
-                  <span class="visually-hidden">unread messages</span>
+                  <span className="visually-hidden">unread messages</span>
                 </Link>
               </span>
             </h5>

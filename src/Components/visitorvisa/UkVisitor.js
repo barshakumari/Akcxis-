@@ -96,13 +96,13 @@ const UkVisitor = () => {
                 <h3 className='text-center fw-bold text-white'>UK Visitor Visa</h3>
 
               </div>
-              <div class="list-group mb-4 bg-primary">
-                <a href="/canadaVisit" class="list-group-item list-group-item-action py-3">Canada </a>
-                <a href="/AusVisit" class="list-group-item list-group-item-action py-3">Australia </a>
-                <a href="/NzVisit" class="list-group-item list-group-item-action py-3">New Zealand </a>
-                <a href="/SingaporeVisit" class="list-group-item list-group-item-action py-3 ">Singapore </a>
-                <a href="/GermanyVisit" class="list-group-item list-group-item-action py-3 ">Germany </a>
-                <a href="/UsaVisit" class="list-group-item list-group-item-action py-3 ">USA</a>
+              <div className="list-group mb-4 bg-primary">
+                <a href="/canadaVisit" className="list-group-item list-group-item-action py-3">Canada </a>
+                <a href="/AusVisit" className="list-group-item list-group-item-action py-3">Australia </a>
+                <a href="/NzVisit" className="list-group-item list-group-item-action py-3">New Zealand </a>
+                <a href="/SingaporeVisit" className="list-group-item list-group-item-action py-3 ">Singapore </a>
+                <a href="/GermanyVisit" className="list-group-item list-group-item-action py-3 ">Germany </a>
+                <a href="/UsaVisit" className="list-group-item list-group-item-action py-3 ">USA</a>
 
               </div>
               <div className='box border py-4 px-2 '>
