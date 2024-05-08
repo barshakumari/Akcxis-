@@ -2,13 +2,13 @@ import React from 'react'
 import { FiPhone } from 'react-icons/fi'
 import { FaWhatsapp } from 'react-icons/fa'
 import { ImClock } from 'react-icons/im'
-import canada from '../linkImage/canadastudy.png'
+import malta from '../linkImage/malta.png'
 const MaltaWork = () => {
     return (
         <>
             {/*Malta */}
             <div className="PTE2">
-                <img src={canada} alt="" className='img-fluid w-100' />
+                <img src={malta} alt="" className='img-fluid w-100' />
             </div>
 
             {/* content */}
@@ -86,7 +86,7 @@ const MaltaWork = () => {
                                 <ul>
                                     <li>Designed for highly qualified individuals.</li>
                                     <li>Applicants must have a salary of at least 1.5 times the average gross salary paid in Malta.</li>
-                                 
+
                                 </ul>
 
                                 <h5 className='fw-bold'>Key Employee Initiative</h5>
@@ -119,11 +119,11 @@ const MaltaWork = () => {
                             {/* How to get  */}
                             <div className='pb-3'>
                                 <h3 className='mb-3'>How to Apply for Malta  Work Visa</h3>
-                           <p>Step 1: Confirm Eligibility and Document Preparation</p>
-                           <p>Step 2: Complete the Malta Work Visa Application Form</p>
-                           <p>Step 3: Schedule a Malta Work Visa Appointment</p>
-                           <p>Step 4: Attend Your Malta Work Visa Appointment</p>
-                           <p>Step 5: Await Malta Work Visa Approval</p>
+                                <p>Step 1: Confirm Eligibility and Document Preparation</p>
+                                <p>Step 2: Complete the Malta Work Visa Application Form</p>
+                                <p>Step 3: Schedule a Malta Work Visa Appointment</p>
+                                <p>Step 4: Attend Your Malta Work Visa Appointment</p>
+                                <p>Step 5: Await Malta Work Visa Approval</p>
 
                             </div>
                             {/* process time */}
@@ -151,7 +151,7 @@ const MaltaWork = () => {
                                             <td>Key employee initiative</td>
                                             <td>5 days</td>
                                         </tr>
-                                     
+
                                     </tbody>
                                 </table>
                             </div>
@@ -166,10 +166,14 @@ const MaltaWork = () => {
                                 <a href="/UkWork" class="list-group-item list-group-item-action py-3">UK </a>
                                 <a href="/UsaWork" class="list-group-item list-group-item-action py-3 ">USA</a>
                                 <a href="/AusWork" class="list-group-item list-group-item-action py-3">Australia </a>
+                                <a href="/CanadaWork" class="list-group-item list-group-item-action py-3 ">Canada </a>
                                 <a href="/NzWork" class="list-group-item list-group-item-action py-3">New Zealand </a>
                                 <a href="/SingaporeWork" class="list-group-item list-group-item-action py-3 ">Singapore </a>
                                 <a href="/GermanyWork" class="list-group-item list-group-item-action py-3 ">Germany </a>
-
+                            
+                                <a href="/polandWork" class="list-group-item list-group-item-action py-3 ">Poland </a>
+                                <a href="/franceWork" class="list-group-item list-group-item-action py-3 ">France</a>
+                                <a href="/belgiumWork" class="list-group-item list-group-item-action py-3 ">Belgium </a>
 
 
                             </div>

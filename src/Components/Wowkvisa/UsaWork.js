@@ -5,9 +5,9 @@ import { ImClock } from 'react-icons/im'
 import usa from '../linkImage/usastudy.png'
 const UsaWork = () => {
   return (
-  <>
-        {/* USA visa*/}
-        <div className="PTE2">
+    <>
+      {/* USA visa*/}
+      <div className="PTE2">
         <img src={usa} alt="" className='img-fluid w-100' />
       </div>
 
@@ -84,7 +84,7 @@ const UsaWork = () => {
                 <h3 className='mb-3'>How to get H1B Visa</h3>
                 <p>Step 1: Determine your visa type by reading Common Non-immigrant Visas. Each visa type explains the qualifications and application items. Choose the visa type that applies to your situation.</p>
                 <p>Step 2: The next step is to complete the Non-immigrant Visa Electronic Application (DS-160) form. Be sure to read the Guidelines for Completing the DS-160 Form carefully. All information must be correct and accurate. Once the form is submitted, you cannot make any changes.</p>
-                <p>Step 3: Once you have completed the DS-160, you must pay the visa fee.</p> 
+                <p>Step 3: Once you have completed the DS-160, you must pay the visa fee.</p>
                 <p>Step 4: You will need to log in to your profile with the same credentials you used to pay your visa fee. On the website, you must schedule two appointments, one for the Visa Application Centre (VAC) and one for the visa interview at the Embassy or Consulate. </p>
                 <p>Step 5: Ensure you take the required documents with you for the Visa Application Centre (VAC) appointment.</p>
                 <p>Step 6: After your visit to the Visa Application Centre to have your photo and fingerprints taken, you will then visit the U.S Embassy or Consulate on the date and time of your visa interview along with the required documents.</p>
@@ -96,7 +96,7 @@ const UsaWork = () => {
               </div>
             </div>
 
-            <div className='col-lg-3 '> 
+            <div className='col-lg-3 '>
               <div className='border py-4 mb-3 fixtext'>
                 <h3 className='text-center fw-bold text-white'>USA Work Visa</h3>
 
@@ -108,7 +108,11 @@ const UsaWork = () => {
                 <a href="/NzWork" class="list-group-item list-group-item-action py-3">New Zealand </a>
                 <a href="/SingaporeWork" class="list-group-item list-group-item-action py-3 ">Singapore </a>
                 <a href="/GermanyWork" class="list-group-item list-group-item-action py-3 ">Germany </a>
-          
+                <a href="/maltaWork" class="list-group-item list-group-item-action py-3 ">Malta </a>
+                <a href="/polandWork" class="list-group-item list-group-item-action py-3 ">Poland </a>
+                <a href="/franceWork" class="list-group-item list-group-item-action py-3 ">France</a>
+                <a href="/belgiumWork" class="list-group-item list-group-item-action py-3 ">Belgium </a>
+
 
 
               </div>
@@ -125,9 +129,9 @@ const UsaWork = () => {
         </div>
 
       </div>
-  
-  
-  </>
+
+
+    </>
   )
 }
 

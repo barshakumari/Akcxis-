@@ -99,7 +99,10 @@ const AusWork = () => {
                                 <a href="/NzWork" class="list-group-item list-group-item-action py-3">New Zealand </a>
                                 <a href="/SingaporeWork" class="list-group-item list-group-item-action py-3 ">Singapore </a>
                                 <a href="/GermanyWork" class="list-group-item list-group-item-action py-3 ">Germany </a>
-
+                                <a href="/maltaWork" class="list-group-item list-group-item-action py-3 ">Malta </a>
+                                <a href="/polandWork" class="list-group-item list-group-item-action py-3 ">Poland </a>
+                                <a href="/franceWork" class="list-group-item list-group-item-action py-3 ">France</a>
+                                <a href="/belgiumWork" class="list-group-item list-group-item-action py-3 ">Belgium </a>
 
 
                             </div>

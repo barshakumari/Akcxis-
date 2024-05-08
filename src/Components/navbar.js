@@ -93,9 +93,10 @@ const Navbar = () => {
                                         <li><a className="dropdown-item fs-6" href="/UkWork">UK</a></li>
                                         <li><a className="dropdown-item fs-6" href="/AusWork">Australia</a></li>
                                         <li><a className="dropdown-item fs-6" href="/maltaWork">Malta</a></li>
-                                        <li><a className="dropdown-item fs-6" href="/belgiumWork">Belgium</a></li>
-                                        <li><a className="dropdown-item fs-6" href="/polandWork">Poland</a></li>
                                         <li><a className="dropdown-item fs-6" href="/franceWork">France</a></li>
+                                        <li><a className="
+                                        dropdown-item fs-6" href="/belgiumWork">Belgium</a></li>
+                                        <li><a className="dropdown-item fs-6" href="/polandWork">Poland</a></li>
                                     </ul>
                                 </li>
 

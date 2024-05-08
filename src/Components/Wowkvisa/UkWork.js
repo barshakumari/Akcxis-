@@ -77,23 +77,23 @@ const UkWork = () => {
                   <li>Have a ‘certificate of sponsorship’ (CoS) from your employer with information about the role you’ve been offered in the UK</li>
                   <li>Do a job that’s on the list of eligible occupations</li>
                   <li>Be paid a minimum salary - how much depends on the type of work you do and the date you got your CoS</li>
-              
+
                 </ul>
               </div>
               {/* How to get  */}
               <div className='pb-3'>
                 <h3 className='mb-3'>How to Apply for UK Work Visa</h3>
-              <ul>
-                <p><b>Determine the Correct Visa Type:</b> Choose the appropriate work visa category based on your job offer, qualifications, and the nature of your work.</p>
-                <p><b>Get Sponsored: </b> For most work visas, you’ll need a job offer from a UK employer licensed to sponsor migrants. Your employer will issue a Certificate of Sponsorship (CoS), which is crucial for the visa application.</p>
-                <p><b>Prepare Your Documents: </b> Gather all the required documents in advance.</p>
-                <p><b>Apply Online: </b> Complete the online visa application form on the UK Government’s official website. This will include filling out your details and your CoS, if applicable, and answering questions about your employment.</p>
-                <p><b>Pay the Visa Fee and Healthcare Surcharge: </b>  Pay the required fee for your visa application and the Immigration Health Surcharge (IHS), and you will be granted access to the National Health Service (NHS) in the UK.</p>
-                <p><b> Book and Attend a Biometric Appointment:</b> You’ll need to have your fingerprints and photograph taken at a Visa Application Centre as part of your application.</p>
-                <p><b>Submit Your Documents: </b> Depending on your location, you might be required to send your documents to the application centre or upload them online.</p>
-                <p><b>Attend an Interview (if required): </b> In some cases, you might be asked to attend an interview.</p>
-                <p><b>Receive Your Visa Decision: </b> Wait for the decision on your visa application. Processing times can vary, so check the typical times for your visa type.</p>
-              </ul>
+                <ul>
+                  <p><b>Determine the Correct Visa Type:</b> Choose the appropriate work visa category based on your job offer, qualifications, and the nature of your work.</p>
+                  <p><b>Get Sponsored: </b> For most work visas, you’ll need a job offer from a UK employer licensed to sponsor migrants. Your employer will issue a Certificate of Sponsorship (CoS), which is crucial for the visa application.</p>
+                  <p><b>Prepare Your Documents: </b> Gather all the required documents in advance.</p>
+                  <p><b>Apply Online: </b> Complete the online visa application form on the UK Government’s official website. This will include filling out your details and your CoS, if applicable, and answering questions about your employment.</p>
+                  <p><b>Pay the Visa Fee and Healthcare Surcharge: </b>  Pay the required fee for your visa application and the Immigration Health Surcharge (IHS), and you will be granted access to the National Health Service (NHS) in the UK.</p>
+                  <p><b> Book and Attend a Biometric Appointment:</b> You’ll need to have your fingerprints and photograph taken at a Visa Application Centre as part of your application.</p>
+                  <p><b>Submit Your Documents: </b> Depending on your location, you might be required to send your documents to the application centre or upload them online.</p>
+                  <p><b>Attend an Interview (if required): </b> In some cases, you might be asked to attend an interview.</p>
+                  <p><b>Receive Your Visa Decision: </b> Wait for the decision on your visa application. Processing times can vary, so check the typical times for your visa type.</p>
+                </ul>
               </div>
               {/* process time */}
               <div className='pb-3'>
@@ -113,7 +113,11 @@ const UkWork = () => {
                 <a href="/AusWork" class="list-group-item list-group-item-action py-3">Australia </a>
                 <a href="/NzWork" class="list-group-item list-group-item-action py-3">New Zealand </a>
                 <a href="/SingaporeWork" class="list-group-item list-group-item-action py-3 ">Singapore </a>
-                <a href="/GermanyWork" class="list-group-item list-group-item-action py-3 ">Germany </a>             
+                <a href="/GermanyWork" class="list-group-item list-group-item-action py-3 ">Germany </a>
+                <a href="/maltaWork" class="list-group-item list-group-item-action py-3 ">Malta </a>
+                <a href="/polandWork" class="list-group-item list-group-item-action py-3 ">Poland </a>
+                <a href="/franceWork" class="list-group-item list-group-item-action py-3 ">France</a>
+                <a href="/belgiumWork" class="list-group-item list-group-item-action py-3 ">Belgium </a>
               </div>
               <div className='box border py-4 px-2 '>
                 <h5 className='fw-bold'>Talk to our Immigration Experts</h5>

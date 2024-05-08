@@ -2,13 +2,13 @@ import React from 'react'
 import { FiPhone } from 'react-icons/fi'
 import { FaWhatsapp } from 'react-icons/fa'
 import { ImClock } from 'react-icons/im'
-import canada from '../linkImage/canadastudy.png'
+import belgium from '../linkImage/belgium.png'
 const BelgiumWork = () => {
     return (
         <>
             {/*Belgium*/}
             <div className="PTE2">
-                <img src={canada} alt="" className='img-fluid w-100' />
+                <img src={belgium} alt="" className='img-fluid w-100' />
             </div>
 
             {/* content */}
@@ -96,10 +96,14 @@ const BelgiumWork = () => {
                                 <a href="/UkWork" class="list-group-item list-group-item-action py-3">UK </a>
                                 <a href="/UsaWork" class="list-group-item list-group-item-action py-3 ">USA</a>
                                 <a href="/AusWork" class="list-group-item list-group-item-action py-3">Australia </a>
+                                <a href="/CanadaWork" class="list-group-item list-group-item-action py-3 ">Canada </a>
                                 <a href="/NzWork" class="list-group-item list-group-item-action py-3">New Zealand </a>
                                 <a href="/SingaporeWork" class="list-group-item list-group-item-action py-3 ">Singapore </a>
                                 <a href="/GermanyWork" class="list-group-item list-group-item-action py-3 ">Germany </a>
-
+                                <a href="/maltaWork" class="list-group-item list-group-item-action py-3 ">Malta </a>
+                                <a href="/polandWork" class="list-group-item list-group-item-action py-3 ">Poland </a>
+                                <a href="/franceWork" class="list-group-item list-group-item-action py-3 ">France</a>
+                 
 
 
                             </div>

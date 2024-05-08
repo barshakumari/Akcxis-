@@ -36,11 +36,9 @@ import Singaporestudy from './Components/singaporestudy';
 
 // work visa
 import CanadaWork from './Components/Wowkvisa/CanadaWork'
-import NzWork from './Components/Wowkvisa/NzWork'
-import EuropeWork from './Components/Wowkvisa/EuropeWork'
+
 import UkWork from './Components/Wowkvisa/UkWork'
 import UsaWork from './Components/Wowkvisa/UsaWork'
-import SingaporeWork from './Components/Wowkvisa/SingaporeWork'
 import AusWork from './Components/Wowkvisa/AusWork';
 import PolandWork from './Components/Wowkvisa/polandWork';
 import MaltaWork from './Components/Wowkvisa/maltaWork';
@@ -118,11 +116,7 @@ function App() {
         <Route path="/germanystudy" element={< Germanystudy />} />
         <Route path="/singaporestudy" element={< Singaporestudy />} />
 
-<<<<<<< HEAD
           <Route path="/canadaWork" element={< CanadaWork />} />
-          <Route path="/Nzwork" element={< NzWork />} />
-          <Route path="/EuropeWork" element={< EuropeWork />} />
-          <Route path="/SingaporeWork" element={< SingaporeWork />} />
           <Route path="/UkWork" element={< UkWork />} />
           <Route path="/UsaWork" element={< UsaWork />} />
           <Route path="/AusWork" element={< AusWork />} />
@@ -130,15 +124,6 @@ function App() {
           <Route path="/maltaWork" element={< MaltaWork />} />
           <Route path="/franceWork" element={< FranceWork />} />
           <Route path="/belgiumWork" element={< BelgiumWork/>} />
-=======
-        <Route path="/canadaWork" element={< CanadaWork />} />
-        <Route path="/Nzwork" element={< NzWork />} />
-        <Route path="/EuropeWork" element={< EuropeWork />} />
-        <Route path="/SingaporeWork" element={< SingaporeWork />} />
-        <Route path="/UkWork" element={< UkWork />} />
-        <Route path="/UsaWork" element={< UsaWork />} />
-        <Route path="/AusWork" element={< AusWork />} />
->>>>>>> 902171eec53d9b0d2ff647cb2c7cc5fa9c98238b
 
         <Route path="/CanadaPr" element={< CanadaPr />} />
         <Route path="/AusPr" element={< AusPr />} />
