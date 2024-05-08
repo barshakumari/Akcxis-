@@ -21,7 +21,7 @@ import French from './Components/French';
 import Ielts from './Components/Ielts';
 import "aos/dist/aos.css"
 import chatimg from './Components/images/WhatsappAVTAR.png'
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import Celpip from './Components/Celpip';
 
 
@@ -63,83 +63,85 @@ import Termcondition from './Components/termcondition';
 import Privacypolicy from './Components/privacypolicy';
 import Travelhome from './Components/travel/travelhome';
 import Testimonial from './Components/testimonial';
-
-
+import { useEffect } from 'react';
 
 function App() {
+  const { pathname } = useLocation()
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [pathname])
   return (
     <>
 
-      <a
-        href="https://wa.me/9872833369?text="
-        class="whatsapp_float"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        {/* <i class="fa fa-whatsapp whatsapp-icon"></i> */}
-        <img src={chatimg} alt='' className='img-fluid whatsapp-icon ' />
-      </a>
+      {
+        !pathname.startsWith("/travelhome") && <a
+          href="https://wa.me/9872833369?text="
+          class="whatsapp_float"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          {/* <i class="fa fa-whatsapp whatsapp-icon"></i> */}
+          <img src={chatimg} alt='' className='img-fluid whatsapp-icon ' />
+        </a>
+      }
 
-      <Router>
-        <Navbar />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/coaching" element={<Coaching />}/>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/coaching" element={<Coaching />} />
 
-          <Route path="pte" element={<Pte />} />
-          <Route path="toefl" element={<Toefl />} />
-          <Route path="spokeneng" element={<SpokenEng />} />
-          <Route path="french" element={<French />} />
-          <Route path="Celpip" element={<Celpip />} />
-          <Route path="ielts" element={<Ielts />} />
+        <Route path="pte" element={<Pte />} />
+        <Route path="toefl" element={<Toefl />} />
+        <Route path="spokeneng" element={<SpokenEng />} />
+        <Route path="french" element={<French />} />
+        <Route path="Celpip" element={<Celpip />} />
+        <Route path="ielts" element={<Ielts />} />
 
-          <Route path="/studyabroad" element={<Studyabroad />} />
-          <Route path="/work" element={<Work />} />
-          <Route path="/migrate" element={<Migrate />} />
-          <Route path="/visit" element={<Visit />} />
-          <Route path="/career" element={<Career />} />
-          <Route path="/contact" element={<Contact />} />
+        <Route path="/studyabroad" element={<Studyabroad />} />
+        <Route path="/work" element={<Work />} />
+        <Route path="/migrate" element={<Migrate />} />
+        <Route path="/visit" element={<Visit />} />
+        <Route path="/career" element={<Career />} />
+        <Route path="/contact" element={<Contact />} />
 
-          <Route path="/canadastudy" element={< Canadastudy />} />
-          <Route path="/usastudy" element={< Usastudy />} />
-          <Route path="/ukstudy" element={< Ukstudy />} />
-          <Route path="/australiastudy" element={< Australiastudy />} />
-          <Route path="/newzealandstudy" element={< Newzealandstudy />} />
-          <Route path="/germanystudy" element={< Germanystudy />} />
-          <Route path="/singaporestudy" element={< Singaporestudy />} />
+        <Route path="/canadastudy" element={< Canadastudy />} />
+        <Route path="/usastudy" element={< Usastudy />} />
+        <Route path="/ukstudy" element={< Ukstudy />} />
+        <Route path="/australiastudy" element={< Australiastudy />} />
+        <Route path="/newzealandstudy" element={< Newzealandstudy />} />
+        <Route path="/germanystudy" element={< Germanystudy />} />
+        <Route path="/singaporestudy" element={< Singaporestudy />} />
 
-          <Route path="/canadaWork" element={< CanadaWork />} />
-          <Route path="/Nzwork" element={< NzWork />} />
-          <Route path="/EuropeWork" element={< EuropeWork />} />
-          <Route path="/SingaporeWork" element={< SingaporeWork />} />
-          <Route path="/UkWork" element={< UkWork />} />
-          <Route path="/UsaWork" element={< UsaWork />} />
-          <Route path="/AusWork" element={< AusWork />} />
+        <Route path="/canadaWork" element={< CanadaWork />} />
+        <Route path="/Nzwork" element={< NzWork />} />
+        <Route path="/EuropeWork" element={< EuropeWork />} />
+        <Route path="/SingaporeWork" element={< SingaporeWork />} />
+        <Route path="/UkWork" element={< UkWork />} />
+        <Route path="/UsaWork" element={< UsaWork />} />
+        <Route path="/AusWork" element={< AusWork />} />
 
-          <Route path="/CanadaPr" element={< CanadaPr />} />
-          <Route path="/AusPr" element={< AusPr />} />
+        <Route path="/CanadaPr" element={< CanadaPr />} />
+        <Route path="/AusPr" element={< AusPr />} />
 
-          <Route path="/UsaVisit" element={< UsaVisit />} />
-          <Route path="/canadaVisit" element={< CanadaVisit />} />
-          <Route path="/GermanyVisit" element={< GermanyVisit />} />
-          <Route path="/SingaporeVisit" element={< SingaporeVisit />} />
-          <Route path="/NzVisit" element={< NzVisit />} />
-          <Route path="/UkVisitor" element={< UkVisitor />} />
-          <Route path="/AusVisit" element={< AusVisit />} />
+        <Route path="/UsaVisit" element={< UsaVisit />} />
+        <Route path="/canadaVisit" element={< CanadaVisit />} />
+        <Route path="/GermanyVisit" element={< GermanyVisit />} />
+        <Route path="/SingaporeVisit" element={< SingaporeVisit />} />
+        <Route path="/NzVisit" element={< NzVisit />} />
+        <Route path="/UkVisitor" element={< UkVisitor />} />
+        <Route path="/AusVisit" element={< AusVisit />} />
 
 
-          <Route path="/privacypolicy" element={< Privacypolicy />} />
-          <Route path="/termcondition" element={< Termcondition />} />
-          <Route path="/refundpolicy" element={< Refundpolicy />} />
+        <Route path="/privacypolicy" element={< Privacypolicy />} />
+        <Route path="/termcondition" element={< Termcondition />} />
+        <Route path="/refundpolicy" element={< Refundpolicy />} />
 
-          <Route path="/testimonial" element={< Testimonial />} />
+        <Route path="/testimonial" element={< Testimonial />} />
 
-          <Route path="/travelhome" element={< Travelhome />} />
-        </Routes>
-        <Footer />
-      </Router>
-
+        <Route path="/travelhome" element={< Travelhome />} />
+      </Routes>
+      <Footer />
 
     </>
   );

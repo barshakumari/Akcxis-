@@ -1,0 +1,122 @@
+[
+    {
+        "img": "../Components/images/australia-flag.png",
+        "countryName": "CANADA",
+        "isBadge": true,
+        "badgeLink": "/CanadaPr",
+        "points": [
+            {
+                "href": "/canadastudy",
+                "label": "Study"
+            },
+            {
+                "href": "/CanadaWork",
+                "label": "Work Visa"
+            },
+            {
+                "href": "/canadaVisit",
+                "label": "Visitor Visa"
+            }
+        ]
+    },
+    {
+        "img": "/images/canada-flag.png",
+        "countryName": "CANADA",
+        "isBadge": true,
+        "badgeLink": "/CanadaPr",
+        "points": [
+            {
+                "href": "/canadastudy",
+                "label": "Study"
+            },
+            {
+                "href": "/CanadaWork",
+                "label": "Work Visa"
+            },
+            {
+                "href": "/canadaVisit",
+                "label": "Visitor Visa"
+            }
+        ]
+    },
+    {
+        "img": "/images/canada-flag.png",
+        "countryName": "CANADA",
+        "isBadge": true,
+        "badgeLink": "/CanadaPr",
+        "points": [
+            {
+                "href": "/canadastudy",
+                "label": "Study"
+            },
+            {
+                "href": "/CanadaWork",
+                "label": "Work Visa"
+            },
+            {
+                "href": "/canadaVisit",
+                "label": "Visitor Visa"
+            }
+        ]
+    },
+    {
+        "img": "/images/canada-flag.png",
+        "countryName": "CANADA",
+        "isBadge": true,
+        "badgeLink": "/CanadaPr",
+        "points": [
+            {
+                "href": "/canadastudy",
+                "label": "Study"
+            },
+            {
+                "href": "/CanadaWork",
+                "label": "Work Visa"
+            },
+            {
+                "href": "/canadaVisit",
+                "label": "Visitor Visa"
+            }
+        ]
+    },
+    {
+        "img": "/images/canada-flag.png",
+        "countryName": "CANADA",
+        "isBadge": true,
+        "badgeLink": "/CanadaPr",
+        "points": [
+            {
+                "href": "/canadastudy",
+                "label": "Study"
+            },
+            {
+                "href": "/CanadaWork",
+                "label": "Work Visa"
+            },
+            {
+                "href": "/canadaVisit",
+                "label": "Visitor Visa"
+            }
+        ]
+    },
+    {
+        "img": "/images/canada-flag.png",
+        "countryName": "CANADA",
+        "isBadge": true,
+        "badgeLink": "/CanadaPr",
+        "points": [
+            {
+                "href": "/canadastudy",
+                "label": "Study"
+            },
+            {
+                "href": "/CanadaWork",
+                "label": "Work Visa"
+            },
+            {
+                "href": "/canadaVisit",
+                "label": "Visitor Visa"
+            }
+        ]
+    }
+]

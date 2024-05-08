@@ -1,11 +1,11 @@
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    font-family:  sans-serif !important;
+
+body {
+    font-family: sans-serif !important;
 
 }
 
@@ -33,17 +33,18 @@ body{
     text-transform: uppercase;
     color: #003465;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-} 
+}
 
-.heading-title2 h1::after{
+.heading-title2 h1::after {
 
-        /* content: ' ';
+    /* content: ' ';
         display: block;
         border-bottom: 3px solid #d80027;
         width: 84px;
         margin-top: 5px; */
-   
+
 }
+
 .heading-title1 h1::after {
     content: "";
     position: absolute;
@@ -55,20 +56,25 @@ body{
     left: calc(50% - 25px);
 
 }
-p{
+
+p {
     font-family: Arial, Helvetica, sans-serif;
 }
-body p{
-   font-size: 18px !important;
-   text-align: justify;
+
+body p {
+    font-size: 18px !important;
+    text-align: justify;
 }
-.section4 p{
+
+.section4 p {
     font-size: 15px !important;
-    text-align:center;
+    text-align: center;
 }
+
 .section1 {
     margin-top: 118px;
 }
+
 .section4,
 .section10,
 .section6 h6,
@@ -84,11 +90,11 @@ body p{
     background-color: #fad703;
 }
 
-.section2 a:hover{
-    color:#00008B !important;
+.section2 a:hover {
+    color: #00008B !important;
 }
 
-.section3{
+.section3 {
     background-color: #f2fbff;
 }
 
@@ -96,49 +102,63 @@ body p{
     color: #00008B !important;
 }
 
-.section3 h1 ,.section10 h1 , .section4 h1, .section9 h1 , .section7 h1, .section6 h1{
-/* font-style: italic; */
-color: #003465 !important;
+.section3 h1,
+.section10 h1,
+.section4 h1,
+.section9 h1,
+.section7 h1,
+.section6 h1 {
+    /* font-style: italic; */
+    color: #003465 !important;
 }
 
-.section3 a{
- text-decoration: none;
- color: black;
+.section3 a {
+    text-decoration: none;
+    color: black;
 }
-.section3 a:hover{
+
+.section3 a:hover {
     color: #00008B;
     cursor: pointer;
     text-decoration: underline;
 }
-.section3 .cardbox{
+
+.section3 .cardbox {
     padding: 15px;
 }
+
 .section3 .cardbox h5 {
     color: #003465;
     padding-top: 8px;
     padding-bottom: 8px;
 }
-.section3 .cardbox h5:hover{
+
+.section3 .cardbox h5:hover {
     color: black;
     cursor: pointer;
 }
-.section4 .card p{
-text-align: start;
-font-size: 14px !important;
+
+.section4 .card p {
+    text-align: start;
+    font-size: 14px !important;
 }
-.section4 .card:hover{
-cursor: pointer;
-transform: scale(1.1);
-transition: all ease 0.5s;
+
+.section4 .card:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: all ease 0.5s;
 }
-.section4 .card-body:hover{
+
+.section4 .card-body:hover {
     background-color: aliceblue;
 }
-.section4 .card-title{
+
+.section4 .card-title {
     color: #003465;
     text-align: center;
     font-weight: bold;
 }
+
 .section5 button,
 .section6 button,
 .section7 button {
@@ -204,10 +224,12 @@ transition: all ease 0.5s;
     margin: 0 .5rem;
     padding: 15px;
 }
-.section3 .cardbox:hover{
+
+.section3 .cardbox:hover {
     transform: scale(1.1);
     transition: all ease 0.5s;
 }
+
 .section3 .cardbox img {
     /* width: 80px; */
 }
@@ -241,13 +263,15 @@ transition: all ease 0.5s;
     width: 30%;
 
 }
-  .section10 .icon{
+
+.section10 .icon {
     color: #003465;
-  }
-.section10
-{
+}
+
+.section10 {
     background-color: #f2fbff;
 }
+
 /* apply now button */
 .cardMain .applyNow-btn {
     position: fixed;
@@ -261,29 +285,37 @@ transition: all ease 0.5s;
 
 }
 
-.section5 .img-bounce{
+.section5 .img-bounce {
     /* transition: transform 0.2s ease; */
     animation: bounceIn 0.3s;
 }
-.img-bounce:hover{
+
+.img-bounce:hover {
     animation: bounceIn 2s infinite 1s;
     cursor: pointer;
 }
 
 @keyframes bounceIn {
-	0%, 20%, 50%, 80%, 100% {
-    transform: translateY(0);
-    opacity: 1;
-  }
-	40% {
-    transform: translateY(-30px);
-  }
-	60% {
-    transform: translateY(-15px);
-  }
+
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+
+    40% {
+        transform: translateY(-30px);
+    }
+
+    60% {
+        transform: translateY(-15px);
+    }
 }
 
-  
+
 
 @media screen and (max-width:768px) {
     .section8 .detail img {
@@ -315,6 +347,7 @@ transition: all ease 0.5s;
     .section10 .box-1 {
         flex-wrap: wrap;
     }
+
     .section10 .box {
         height: 49vh !important;
     }
@@ -327,17 +360,21 @@ transition: all ease 0.5s;
 @media screen and (max-width:414px) {
     .section1 {
         margin-top: 110px;
-      
+
     }
+
     .section1 {
         height: 20vh;
     }
-   .section1 .img1{
-    height: 20vh;
-   }
-   .section2{
-    font-size: 15px !important;
-   }
+
+    .section1 .img1 {
+        height: 20vh;
+    }
+
+    .section2 {
+        font-size: 15px !important;
+    }
+
     .section8 .detail img {
         display: none;
     }
@@ -370,28 +407,35 @@ transition: all ease 0.5s;
         bottom: 50px;
         /* left: calc(100vw - 285px); */
     }
+
     .section8 .detail h3 {
         margin-top: 190px;
         /* margin-left: 80px; */
     }
+
     .section10 .box {
         height: auto !important
     }
-    .cardMain{
+
+    .cardMain {
         display: none;
     }
 }
+
 @media screen and (max-width:600px) {
     .section10 .box {
         height: auto !important
     }
-      .section3 .cardbox {
+
+    .section3 .cardbox {
         height: auto !important;
     }
-    .section2{
+
+    .section2 {
         font-size: 13px !important;
-       }
-       .section8 .detail {
+    }
+
+    .section8 .detail {
         flex-direction: column;
         bottom: calc(100vh - 500px);
     }
@@ -402,14 +446,17 @@ transition: all ease 0.5s;
         bottom: 70px;
         /* left: calc(100vw - 340px); */
     }
+
     .section8 .detail h3 {
         margin-top: 80px !important;
         /* margin-left: 80px; */
     }
-    .cardMain{
+
+    .cardMain {
         display: none;
     }
 }
+
 @media screen and (max-width:992px) {
 
     .section3 .country {
@@ -448,15 +495,18 @@ transition: all ease 0.5s;
     .section10 .box {
         height: 55vh;
     }
+
     .section3 .cardbox {
         height: 68vh;
         width: 350px;
-    
+
     }
+
     .section10 .box {
         height: 63vh;
-    
+
     }
+
     .section3 .cardbox {
         height: 40vh;
         width: 350px;

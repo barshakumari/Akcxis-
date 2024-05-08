@@ -12,3 +12,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.nav-item,
+.dropdown-item,
+.country-list a {
+  font-size: 14px;
+}

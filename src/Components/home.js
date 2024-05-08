@@ -65,9 +65,10 @@ import Modal from './modal'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from 'react-slick'
+
 const Home = () => {
   const settings = {
-    dots: true, 
+    dots: true,
     infinite: true,
     autoplay: true,
     autoplaySpeed: 4000,
@@ -120,19 +121,25 @@ const Home = () => {
           <Modal title="Get in Touch" className=" fw-bold fs-5 " />
         </div>
         <div className='heading-title1'>
-        <h1 className='text-center '>CHOOSE YOUR COUNTRY</h1>
+          <h1 className='text-center '>CHOOSE YOUR COUNTRY</h1>
         </div>
         <div className='d-flex justify-content-between align-items-center country px-0'>
           <div className='cardbox border border-dark border-opacity-25 rounded-3 shadow-lg country'>
             <div className='d-flex justify-content-center'>
               <img src={canada} alt="" className="img-fluid  w-100" />
-            </div>                                                                                                                  
-            <h5 className="text-center mt-2">CANADA</h5>
+            </div>
+            <h5 className="text-center mt-2">
+              <span>CANADA
+                <Link to={'/CanadaPr'} class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-info">
+                  PR
+                  <span class="visually-hidden">unread messages</span>
+                </Link>
+              </span>
+            </h5>
             <ul type="disc" className='country-list'>
               <li ><a href='/canadastudy' className='lh-base'>Study Visa</a></li>
               <li><a href='/CanadaWork'>Work Visa</a></li>
               <li><a href='/canadaVisit'>Visitor Visa</a></li>
-              <li><a href='/CanadaPr'>PR</a></li>
             </ul>
           </div>
 
@@ -140,12 +147,18 @@ const Home = () => {
             <div className='d-flex justify-content-center'>
               <img src={australia} alt="" className="img-fluid w-100 " />
             </div>
-            <h5 className="  text-center mt-2">AUSTRALIA</h5>
+            <h5 className="  text-center mt-2">
+              <span>AUSTRALIA
+                <Link to={'/AusPr'} class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-info">
+                  PR
+                  <span class="visually-hidden">unread messages</span>
+                </Link>
+              </span>
+            </h5>
             <ul type="disc" className='country-list'>
               <li><a href='/australiastudy' className=''>Study Visa</a></li>
               <li><a href='/AusWork'>Work Visa</a></li>
               <li><a href='/AusVisit'>Visitor Visa</a></li>
-              <li><a href='/AusPr'>PR</a></li>
             </ul>
           </div>
           <div className="cardbox border border-dark border-opacity-25 rounded-3 shadow-lg">
@@ -161,7 +174,7 @@ const Home = () => {
               <li><a href='/Nzvisit'>Visitor Visa</a></li>
             </ul>
           </div>
-          
+
           <div className="cardbox border border-dark border-opacity-25 rounded-3 shadow-lg">
             <div className='d-flex justify-content-center'>
               <img src={us} alt="" className="img-fluid w-100" />
@@ -195,7 +208,7 @@ const Home = () => {
               <li><a href='/GermanyVisit'>Visitor Visa</a></li>
             </ul>
           </div>
-        
+
           <div className="cardbox border border-dark border-opacity-25 rounded-3 shadow-lg">
             <div className='d-flex justify-content-center'>
               <img src={singapore} alt="" className="img-fluid w-100" />
@@ -212,7 +225,7 @@ const Home = () => {
 
 
       {/* section4 */}
-   
+
       <div className="section4 px-3 pt-4 pb-5">
         <div className="row p-0 m-0 row-cols-lg-5 ">
           <div className="col-lg-12 text-center mb-3">
@@ -237,56 +250,56 @@ const Home = () => {
             <div className="card border border-dark border-opacity-25 rounded-3 shadow-lg">
               <img src={img2} alt="" className='img-fluid' />
               <a href='/work' className='text-decoration-none'>
-              <div className="card-body">
-                <div className="card-title fs-4 fw-semibold">
-                  Work Visa
+                <div className="card-body">
+                  <div className="card-title fs-4 fw-semibold">
+                    Work Visa
+                  </div>
+                  <p className='text-secondary'>Work visa is a legal imprint in your passport that grants you permission to visit, stay and work in that particular nation for a specified period of time mention in the visa.</p>
                 </div>
-                <p className='text-secondary'>Work visa is a legal imprint in your passport that grants you permission to visit, stay and work in that particular nation for a specified period of time mention in the visa.</p>
-              </div>
               </a>
-             
+
             </div>
           </div>
           <div className="col-md-6 col-sm-12  mb-5">
             <div className="card border border-dark border-opacity-25 rounded-3 shadow-lg">
               <img src={img4} alt="" className='img-fluid' />
               <a href='/migrate' className='text-decoration-none'>
-              <div className="card-body">
-                <div className="card-title fs-4 fw-semibold">
-                  PR 
+                <div className="card-body">
+                  <div className="card-title fs-4 fw-semibold">
+                    PR
+                  </div>
+                  <p className='text-secondary'>Permanent Resident visa permits the holder to travel, work and settle in a foreign nation with his or her family. It is a path way for citizenship for that country.</p>
                 </div>
-                <p className='text-secondary'>Permanent Resident visa permits the holder to travel, work and settle in a foreign nation with his or her family. It is a path way for citizenship for that country.</p>
-              </div>
               </a>
-           
+
             </div>
           </div>
           <div className="col-md-6 col-sm-12  mb-5">
             <div className="card border border-dark border-opacity-25 rounded-3 shadow-lg">
               <img src={img3} alt="" className='img-fluid' />
               <a href='/career' className='text-decoration-none'>
-              <div className="card-body">
-                <div className="card-title fs-4 fw-semibold">
-                  Business Visa
+                <div className="card-body">
+                  <div className="card-title fs-4 fw-semibold">
+                    Business Visa
+                  </div>
+                  <p className='text-secondary'>Business visa is a sort of travel authorisation that enables a person to go to another country for a specified amount of time to conduct business there.</p>
                 </div>
-                <p className='text-secondary'>Business visa is a sort of travel authorisation that enables a person to go to another country for a specified amount of time to conduct business there.</p>
-              </div>
               </a>
-           
+
             </div>
           </div>
           <div className="col-md-6 col-sm-12  mb-5">
             <div className="card border border-dark border-opacity-25 rounded-3 shadow-lg">
               <img src={img5} alt="" className='img-fluid' />
               <a href='/visit' className='text-decoration-none'>
-              <div className="card-body">
-                <div className="card-title fs-4 fw-semibold">
-                 Visitor Visa
+                <div className="card-body">
+                  <div className="card-title fs-4 fw-semibold">
+                    Visitor Visa
+                  </div>
+                  <p className='text-secondary'>Visitor visa is a temporary visa that permits the holder to travel to and remain in a foreign nation solely for tourist and leisure purposes.</p>
                 </div>
-                <p className='text-secondary'>Visitor visa is a temporary visa that permits the holder to travel to and remain in a foreign nation solely for tourist and leisure purposes.</p>
-              </div>
               </a>
-             
+
             </div>
           </div>
         </div>
@@ -364,9 +377,9 @@ const Home = () => {
       {/* section5 */}
       <div className='section6 py-4 '>
         <div className='container'>
-           <div className='heading-title1'>
-        <h1 className=''>ABOUT AKCXIS IMMIGRATIONS</h1>
-        </div>
+          <div className='heading-title1'>
+            <h1 className=''>ABOUT AKCXIS IMMIGRATIONS</h1>
+          </div>
           <div className='row '>
             <div className='col-lg-6 d-flex justify-content-center align-items-center'>
               <div>
@@ -388,9 +401,9 @@ const Home = () => {
 
       <div className='section7 pt-5'>
         <div className='container'>
-           <div className='heading-title1'>
-        <h1 className=' '>Become a global citizen </h1>
-        </div>
+          <div className='heading-title1'>
+            <h1 className=' '>Become a global citizen </h1>
+          </div>
           <div className='row '>
             <div className='col-lg-6 d-flex justify-content-center align-items-center'>
               <div>
@@ -432,13 +445,13 @@ const Home = () => {
 
       {/* section9 */}
       <div className='section10 py-5 '>
-         <div className='heading-title1'>
-        <h1 className=''>TESTIMONIALS</h1>
+        <div className='heading-title1'>
+          <h1 className=''>TESTIMONIALS</h1>
         </div>
         <div className='container py-3'>
           <div>
             <Slider {...settings}>
-              <div>               
+              <div>
                 <div className='d-flex justify-content-center'>
                   <img src={sahera} className='img-fluid ' alt='' />
                 </div>
@@ -446,7 +459,7 @@ const Home = () => {
                 <p className='text-center text-warning fs-4'><FaStar /><FaStar /><FaStar /><FaStar /><FaStar /></p>
                 <p className=' text-center fs-5'> <RiDoubleQuotesL className='fs-3 mb-3 icon' />Hey everyone, Sahera Thaman here! Just wanted to share some exciting news — I've been granted my UK study visa, and I achieved a solid 7 band in IELTS! Big shoutout to Akcxis Immigrations for their incredible support and guidance throughout. They made the process smooth and stress-free. Can't wait to embark on this new adventure in the UK! <RiDoubleQuotesR className='fs-3 mt-1 icon' /></p>
               </div>
-              <div>               
+              <div>
                 <div className='d-flex justify-content-center'>
                   <img src={pawan} className='img-fluid ' alt='' />
                 </div>
@@ -462,7 +475,7 @@ const Home = () => {
                 <p className='text-center text-warning fs-4'><FaStar /><FaStar /><FaStar /><FaStar /><IoIosStarOutline /></p>
                 <p className=' text-center fs-5'><RiDoubleQuotesL className='fs-3 mb-3 icon' /> I really appreciate Akcxis Immigrations for getting my first international multi-entry tourist visa within 10 days, at the age of 48. Thank you so much for making this dream come true for me. <RiDoubleQuotesR className='fs-3 mt-1 icon' /></p>
               </div>
-              <div>               
+              <div>
                 <div className='d-flex justify-content-center'>
                   <img src={rahul} className='img-fluid ' alt='' />
                 </div>
@@ -470,14 +483,14 @@ const Home = () => {
                 <p className='text-center text-warning fs-4'><FaStar /><FaStar /><FaStar /><FaStar /><FaStar /></p>
                 <p className=' text-center fs-5'> <RiDoubleQuotesL className='fs-3 mb-3 icon' /> Hi…my name is Rohan Das and currently I am studying in Australia. I processed my whole study visa process from Akcxis Immigrations in 2022. I really thank them for helping me to reach here within six months and fulfilling my dream to study in Australia. <RiDoubleQuotesR className='fs-3 mt-1 icon' /></p>
               </div>
-             
+
               <div>
                 <div className='d-flex justify-content-center '>
                   <img src={sneha} className='img-fluid ' alt='' />
                 </div>
                 <h4 className='text-center mt-3 fw-bold'>Sneha Sharma</h4>
                 <p className='text-center text-warning fs-4'><FaStar /><FaStar /><FaStar /><FaStar /><FaStar /></p>
-                <p className=' text-center fs-5'><RiDoubleQuotesL className='fs-3 mb-3 icon'/> I am Sneha Sharma and right now I am a permanent resident in Canada and my whole process was completed under the supervision of Akcxis Immigrations. I am really thankful to the PR visa team of Akcxis Immigrations who guided and helped me look for a job and handle my entire process of filing so well. <RiDoubleQuotesR className='fs-3 mt-1 icon' /></p>
+                <p className=' text-center fs-5'><RiDoubleQuotesL className='fs-3 mb-3 icon' /> I am Sneha Sharma and right now I am a permanent resident in Canada and my whole process was completed under the supervision of Akcxis Immigrations. I am really thankful to the PR visa team of Akcxis Immigrations who guided and helped me look for a job and handle my entire process of filing so well. <RiDoubleQuotesR className='fs-3 mt-1 icon' /></p>
               </div>
               <div>
                 <div className='d-flex justify-content-center'>
