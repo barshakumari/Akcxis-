@@ -2,17 +2,22 @@ import React, { useEffect, useState } from 'react'
 import img from './images/AVTAR.png'
 import services from "../backend/services";
 import './popup.css'
+import { useLocation } from 'react-router-dom';
 const Popup = () => {
   const [show, setShow] = useState(false)
+  const { pathname } = useLocation()
   useEffect(() => {
-    const timer = setTimeout(() => {
-      setShow(true)
-    }, 4000)
+    let timer;
+    if (pathname.startsWith("/") || pathname.startsWith("/coaching") || pathname.startsWith("/studyabroad") || pathname.startsWith("/migrate")) {
+      timer = setTimeout(() => {
+        setShow(true)
+      }, 3200)
+    }
 
     return () => {
       clearTimeout(timer)
     }
-  }, [])
+  }, [pathname])
 
   const [userData, setUserData] = useState({
     name: "",
