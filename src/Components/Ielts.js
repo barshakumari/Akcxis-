@@ -45,7 +45,7 @@ const Ielts = () => {
             </p>
             <p>When planning to move to an English-speaking country for studies or employability, you’ll have to provide a proof of your English language proficiency skills in most cases, which is where IELTS can be of great help. The IELTS results are recognised by more than 10,000 organisations, including educational institutions, employers, professional associations and governments, in 140 countries around the world.</p>
 
-            <table class="table table-bordered border-dark  table-striped my-5">
+            <table className="table table-bordered border-dark  table-striped my-5">
               <thead className='table-dark'>
                 <tr>
                   <th colspan="3" className='text-center'>IELTS ACADEMIC TEST FORMAT [TOTAL DURATION: 2 HOURS 45 MINUTES]</th>
@@ -80,7 +80,7 @@ const Ielts = () => {
             <h5 className='fw-bold mb-3'>2. IELTS General Training:</h5>
             <p >IELTS General Training test measures your proficiency in English language proficiency in a very every day, practical context. It is suited for candidates wanting to pursue studies in a high school or a vocational training program. It is mandatory for candidates planning to migrate to Australia, Canada, New Zealand and the UK. </p>
 
-            <table class="table table-bordered border-dark  table-striped my-5">
+            <table className="table table-bordered border-dark  table-striped my-5">
               <thead className='table-dark'>
                 <tr>
                   <th colspan="3" className='text-center '>IELTS GENERAL TRAINING TEST FORMAT [TOTAL DURATION: 2 HOURS 45 MINUTES]</th>
@@ -136,7 +136,7 @@ const Ielts = () => {
           {/* exam format */}
           <div className=''>
             <h3 className='  '>IELTS Exam Format</h3>
-            <table class="table table-bordered border-dark  table-striped my-4">
+            <table className="table table-bordered border-dark  table-striped my-4">
 
               <thead className='table-dark'>
                 <tr className='fs-5 text-center'>
@@ -226,7 +226,7 @@ const Ielts = () => {
           {/* comparison IELTS PTE TOEFL */}
           <div className='score comparison '>
             <h3 className=' mb-3'>Equivalency of IELTS, TOEFL and PTE Scores</h3>
-            <table class="table table-bordered border-dark table-striped my-4">
+            <table className="table table-bordered border-dark table-striped my-4">
               <thead className='table-dark text-center '>
                 <tr className='fs-5'>
                   <th scope="col">Proficiency Level</th>
@@ -334,7 +334,7 @@ const Ielts = () => {
             <div className='row my-4'>
               <div className='col-lg-4 col-md-12'>
                 <h5 className='text-center text-uppercase fw-bold'>Academic Reading </h5>
-                <table class="table table-bordered border-dark table-striped ">
+                <table className="table table-bordered border-dark table-striped ">
                   <thead className='table-dark text-center'>
                     <tr className='fs-5'>
                       <th scope="col">Correct Answers</th>
@@ -403,7 +403,7 @@ const Ielts = () => {
               </div>
               <div className='col-lg-4 col-md-12'>
                 <h5 className='text-center  fw-bold'>General Reading </h5>
-                <table class="table table-bordered border-dark table-striped ">
+                <table className="table table-bordered border-dark table-striped ">
                   <thead className='table-dark'>
                     <tr className='fs-5 text-center'>
                       <th scope="col">Corrrect Answers</th>
@@ -471,7 +471,7 @@ const Ielts = () => {
 
               <div className='col-lg-4 col-md-12'>
                 <h5 className='text-center text-uppercase fw-bold'>Listening </h5>
-                <table class="table table-bordered border-dark table-striped ">
+                <table className="table table-bordered border-dark table-striped ">
                   <thead className='table-dark'>
                     <tr className='fs-5 text-center'>
                       <th scope="col">Corrrect Answers</th>

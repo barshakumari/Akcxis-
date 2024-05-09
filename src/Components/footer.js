@@ -79,7 +79,7 @@ console.log(location)
                   <i className="fas fa-envelope me-3 fs-5" />info@akcxis.com
                 </p>
                 <p className='fs-5'><i className="fas fa-phone me-3 fs-5" />+91-98728-33369</p>
-                {/* <p className='fs-5'><i class="fa-brands fa-whatsapp me-3 fs-5"></i>+91-98727-33369</p> */}
+                {/* <p className='fs-5'><i className="fa-brands fa-whatsapp me-3 fs-5"></i>+91-98727-33369</p> */}
                 <div className='icons py-3 links'>
                   <h4 className='mb-3 fw-bold'>FOLLOW US:</h4>
                   <a className="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/akcxis.immigrations/" role="button"><i className="fab fa-instagram" /></a>
@@ -88,9 +88,9 @@ console.log(location)
 
                   <a className="btn btn-outline-light btn-floating m-1" href="https://twitter.com/akcxis" role="button"><i className="fab fa-twitter" /></a>
 
-                  <a className="btn btn-outline-light btn-floating m-1" href="https://in.linkedin.com/in/akcxis-immigrations-431662268" role="button"><i class="fab fa-linkedin-in"></i></a>
+                  <a className="btn btn-outline-light btn-floating m-1" href="https://in.linkedin.com/in/akcxis-immigrations-431662268" role="button"><i className="fab fa-linkedin-in"></i></a>
 
-                  <a className="btn btn-outline-light btn-floating m-1" href="https://www.youtube.com/channel/UCasY-vAYFfDITb-OpSRweGQ" role="button"><i class="fab fa-youtube"></i></a>
+                  <a className="btn btn-outline-light btn-floating m-1" href="https://www.youtube.com/channel/UCasY-vAYFfDITb-OpSRweGQ" role="button"><i className="fab fa-youtube"></i></a>
                 </div>
               </div>
             </div>

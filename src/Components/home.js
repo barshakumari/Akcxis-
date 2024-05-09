@@ -130,9 +130,9 @@ const Home = () => {
             </div>
             <h5 className="text-center mt-2">
               <span>CANADA
-                <Link to={'/CanadaPr'} class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-info">
+                <Link to={'/CanadaPr'} className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-info">
                   PR
-                  <span class="visually-hidden">unread messages</span>
+                  <span className="visually-hidden">unread messages</span>
                 </Link>
               </span>
             </h5>
@@ -149,9 +149,9 @@ const Home = () => {
             </div>
             <h5 className="  text-center mt-2">
               <span>AUSTRALIA
-                <Link to={'/AusPr'} class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-info">
+                <Link to={'/AusPr'} className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-info">
                   PR
-                  <span class="visually-hidden">unread messages</span>
+                  <span className="visually-hidden">unread messages</span>
                 </Link>
               </span>
             </h5>
@@ -457,7 +457,7 @@ const Home = () => {
                 </div>
                 <h4 className='text-center mt-3 fw-bold'>Sahera Thaman</h4>
                 <p className='text-center text-warning fs-4'><FaStar /><FaStar /><FaStar /><FaStar /><FaStar /></p>
-                <p className=' text-center fs-5'> <RiDoubleQuotesL className='fs-3 mb-3 icon' />Hey everyone, Sahera Thaman here! Just wanted to share some exciting news — I've been granted my UK study visa, and I achieved a solid 7 band in IELTS! Big shoutout to Akcxis Immigrations for their incredible support and guidance throughout. They made the process smooth and stress-free. Can't wait to embark on this new adventure in the UK! <RiDoubleQuotesR className='fs-3 mt-1 icon' /></p>
+                <p className=' text-center '> <RiDoubleQuotesL className='fs-3 mb-3 icon' />Hey everyone, Sahera Thaman here! Just wanted to share some exciting news — I've been granted my UK study visa, and I achieved a solid 7 band in IELTS! Big shoutout to Akcxis Immigrations for their incredible support and guidance throughout. They made the process smooth and stress-free. Can't wait to embark on this new adventure in the UK! <RiDoubleQuotesR className='fs-3 mt-1 icon' /></p>
               </div>
               <div>
                 <div className='d-flex justify-content-center'>
@@ -465,7 +465,7 @@ const Home = () => {
                 </div>
                 <h4 className='text-center mt-3 fw-bold'>Pawandeep Kaur</h4>
                 <p className='text-center text-warning fs-4'><FaStar /><FaStar /><FaStar /><FaStar /><FaStar /></p>
-                <p className=' text-center fs-5'> <RiDoubleQuotesL className='fs-3 mb-3 icon' />"I'm thrilled to have received my Canada study visa with the help of Akcxis Immigrations. Their dedicated team, provided invaluable support throughout the process. Thanks to them, I'm now pursuing my academic dreams in Canada. Highly recommend their services!"<RiDoubleQuotesR className='fs-3 mt-1 icon' /></p>
+                <p className=' text-center '> <RiDoubleQuotesL className='fs-3 mb-3 icon' />"I'm thrilled to have received my Canada study visa with the help of Akcxis Immigrations. Their dedicated team, provided invaluable support throughout the process. Thanks to them, I'm now pursuing my academic dreams in Canada. Highly recommend their services!"<RiDoubleQuotesR className='fs-3 mt-1 icon' /></p>
               </div>
               <div>
                 <div className='d-flex justify-content-center'>
@@ -473,7 +473,7 @@ const Home = () => {
                 </div>
                 <h4 className='text-center mt-3 fw-bold'>Aanjney Vig</h4>
                 <p className='text-center text-warning fs-4'><FaStar /><FaStar /><FaStar /><FaStar /><IoIosStarOutline /></p>
-                <p className=' text-center fs-5'><RiDoubleQuotesL className='fs-3 mb-3 icon' /> I really appreciate Akcxis Immigrations for getting my first international multi-entry tourist visa within 10 days, at the age of 48. Thank you so much for making this dream come true for me. <RiDoubleQuotesR className='fs-3 mt-1 icon' /></p>
+                <p className=' text-center '><RiDoubleQuotesL className='fs-3 mb-3 icon' /> I really appreciate Akcxis Immigrations for getting my first international multi-entry tourist visa within 10 days, at the age of 48. Thank you so much for making this dream come true for me. <RiDoubleQuotesR className='fs-3 mt-1 icon' /></p>
               </div>
               <div>
                 <div className='d-flex justify-content-center'>
@@ -481,7 +481,7 @@ const Home = () => {
                 </div>
                 <h4 className='text-center mt-3 fw-bold'>Rohan Das</h4>
                 <p className='text-center text-warning fs-4'><FaStar /><FaStar /><FaStar /><FaStar /><FaStar /></p>
-                <p className=' text-center fs-5'> <RiDoubleQuotesL className='fs-3 mb-3 icon' /> Hi…my name is Rohan Das and currently I am studying in Australia. I processed my whole study visa process from Akcxis Immigrations in 2022. I really thank them for helping me to reach here within six months and fulfilling my dream to study in Australia. <RiDoubleQuotesR className='fs-3 mt-1 icon' /></p>
+                <p className=' text-center '> <RiDoubleQuotesL className='fs-3 mb-3 icon' /> Hi…my name is Rohan Das and currently I am studying in Australia. I processed my whole study visa process from Akcxis Immigrations in 2022. I really thank them for helping me to reach here within six months and fulfilling my dream to study in Australia. <RiDoubleQuotesR className='fs-3 mt-1 icon' /></p>
               </div>
 
               <div>
@@ -490,7 +490,7 @@ const Home = () => {
                 </div>
                 <h4 className='text-center mt-3 fw-bold'>Sneha Sharma</h4>
                 <p className='text-center text-warning fs-4'><FaStar /><FaStar /><FaStar /><FaStar /><FaStar /></p>
-                <p className=' text-center fs-5'><RiDoubleQuotesL className='fs-3 mb-3 icon' /> I am Sneha Sharma and right now I am a permanent resident in Canada and my whole process was completed under the supervision of Akcxis Immigrations. I am really thankful to the PR visa team of Akcxis Immigrations who guided and helped me look for a job and handle my entire process of filing so well. <RiDoubleQuotesR className='fs-3 mt-1 icon' /></p>
+                <p className=' text-center'><RiDoubleQuotesL className='fs-3 mb-3 icon' /> I am Sneha Sharma and right now I am a permanent resident in Canada and my whole process was completed under the supervision of Akcxis Immigrations. I am really thankful to the PR visa team of Akcxis Immigrations who guided and helped me look for a job and handle my entire process of filing so well. <RiDoubleQuotesR className='fs-3 mt-1 icon' /></p>
               </div>
               <div>
                 <div className='d-flex justify-content-center'>
@@ -498,7 +498,7 @@ const Home = () => {
                 </div>
                 <h4 className='text-center mt-3 fw-bold'>Gagandeep Singh</h4>
                 <p className='text-center text-warning fs-4'><FaStar /><FaStar /><FaStar /><FaStar /><FaStar /></p>
-                <p className=' text-center fs-5'><RiDoubleQuotesL className='fs-3 mb-3 icon' /> Hello, I am Gagandeep Singh and I am thankful to the Akcxis Immigrations from the bottom of my heart as they helped me to get my Canadian study visa after two refusals. I had lost all hope but they were true to their word and I am going to Canada for a two year study course in the month of May. Thank you so much Akcxis Immigrations. <RiDoubleQuotesR className='fs-3 mt-1 icon' /></p>
+                <p className=' text-center '><RiDoubleQuotesL className='fs-3 mb-3 icon' /> Hello, I am Gagandeep Singh and I am thankful to the Akcxis Immigrations from the bottom of my heart as they helped me to get my Canadian study visa after two refusals. I had lost all hope but they were true to their word and I am going to Canada for a two year study course in the month of May. Thank you so much Akcxis Immigrations. <RiDoubleQuotesR className='fs-3 mt-1 icon' /></p>
               </div>
               <div>
                 <div className='d-flex justify-content-center'>
@@ -506,7 +506,7 @@ const Home = () => {
                 </div>
                 <h4 className='text-center mt-3 fw-bold'>Rahul Verma</h4>
                 <p className='text-center text-warning fs-4'><FaStar /><FaStar /><FaStar /><FaStar /><IoIosStarOutline /></p>
-                <p className=' text-center fs-5'><RiDoubleQuotesL className='fs-3 mb-3 icon' /> My name is Rahul Verma. Currently I am in UK. I came from a government school. All thanks to the teachers of Akcxis Immigrations who helped me to reach here by getting 6.5 bands in IELTS. The teachers are very hard working and were always there to motivate me and solve my problems.<RiDoubleQuotesR className='fs-3 mt-1 icon' /></p>
+                <p className=' text-center '><RiDoubleQuotesL className='fs-3 mb-3 icon' /> My name is Rahul Verma. Currently I am in UK. I came from a government school. All thanks to the teachers of Akcxis Immigrations who helped me to reach here by getting 6.5 bands in IELTS. The teachers are very hard working and were always there to motivate me and solve my problems.<RiDoubleQuotesR className='fs-3 mt-1 icon' /></p>
               </div>
             </Slider>
           </div>

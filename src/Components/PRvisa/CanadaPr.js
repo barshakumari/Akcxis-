@@ -96,8 +96,8 @@ const CanadaPr = () => {
                 <h3 className='text-center fw-bold text-white'>CANADA PR</h3>
 
               </div>
-              <div class="list-group mb-4 bg-primary">
-                <a href="/AusPr" class="list-group-item list-group-item-action py-3 " aria-current="true">
+              <div className="list-group mb-4 bg-primary">
+                <a href="/AusPr" className="list-group-item list-group-item-action py-3 " aria-current="true">
                  Australia PR
                 </a>
 

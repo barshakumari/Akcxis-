@@ -17,42 +17,42 @@ const Contact = () => {
     phone: "",
     email: "",
     city: "",
-});
+  });
 
-const [countryData, setCountryData] = useState({ countryCode: "", countryName: '' })
+  const [countryData, setCountryData] = useState({ countryCode: "", countryName: '' })
 
-const [country, setCountry] = useState([])
-const [error, setError] = useState({ error: false, msg: '' })
-const submitForm = async (e) => {
+  const [country, setCountry] = useState([])
+  const [error, setError] = useState({ error: false, msg: '' })
+  const submitForm = async (e) => {
     e.preventDefault();
-    if (!userData.email || !userData.city || !userData.name ||!userData.phone) {
-        return setError({ error: true, msg: 'Please fill all input feilds.' })
+    if (!userData.email || !userData.city || !userData.name || !userData.phone) {
+      return setError({ error: true, msg: 'Please fill all input feilds.' })
     }
     if (userData.phone.length < 10 || userData.phone.length > 10) {
-        return  setError({ error: true, msg: 'Invalid phone number.' });
+      return setError({ error: true, msg: 'Invalid phone number.' });
     }
- 
+
     let data = { namne: userData.name, phone: userData.phone, email: userData.email, city: userData.city, countryCode: countryData.countryCode }
     await services
-        .postCountries(data)
-        .then(() => {
-            setError({ error: false, msg: 'Your form is submitted.' })
-        })
-        .catch((error) => {
-            setError({ error: true, msg:error.message })
-        });
-};
+      .postCountries(data)
+      .then(() => {
+        setError({ error: false, msg: 'Your form is submitted.' })
+      })
+      .catch((error) => {
+        setError({ error: true, msg: error.message })
+      });
+  };
 
-useEffect(() => {
+  useEffect(() => {
     getCountryData()
     console.log(country)
-}, [])
+  }, [])
 
-const getCountryData = async () => {
+  const getCountryData = async () => {
     await services.getCountries().then(data => {
-        setCountry(data.docs.map(doc => ({ ...doc.id }, doc.data())));
+      setCountry(data.docs.map(doc => ({ ...doc.id }, doc.data())));
     }).catch(err => console.log(err))
-}
+  }
   return (
     <>
       {/* section32 */}
@@ -61,7 +61,7 @@ const getCountryData = async () => {
         <div className='contact1'>
           <h1 className='fw-bold text-center text-light display-2'>Contact</h1>
         </div>
-      </div> 
+      </div>
 
 
       {/* go to home page */}
@@ -70,20 +70,20 @@ const getCountryData = async () => {
           <Link to="/" className='text-dark fw-semibold border-end border-white pe-3 text-decoration-none fs-6'>Home</Link>
           <Modal title="Contact Us" className="ms-1 fw-semibold fs-6" />
         </div>
-      </div>  
+      </div>
       {/* section33 */}
-      <div className="section33 py-3">
+      {/* <div className="section33 py-3">
         <div className="container">
-          <div className="row"> 
+          <div className="row">
             <div className="col-lg-6">
               <h5 className='text-center fw-semibold text-uppercase'>Get In Touch </h5>
               <div className='contact-form mt-4'>
                 <div className='row py-5 border'>
                   <div className='col-lg-8 '>
-                     {error.msg && <div className={`alert alert-${error.error?'danger':'success'} alert-dismissible fade show`} role="alert">{error.msg }
-                            <button onClick={()=>{setError({error:false,msg:''})}} type="button" className="btn-close" data-bs-dismiss="alert" aria-label="Close" />
-                        </div>
-                        }
+                    {error.msg && <div className={`alert alert-${error.error ? 'danger' : 'success'} alert-dismissible fade show`} role="alert">{error.msg}
+                      <button onClick={() => { setError({ error: false, msg: '' }) }} type="button" className="btn-close" data-bs-dismiss="alert" aria-label="Close" />
+                    </div>
+                    }
                     <form onSubmit={submitForm}>
                       <div>
                         <div className="form-floating mb-3">
@@ -154,86 +154,50 @@ const getCountryData = async () => {
             </div>
           </div >
         </div>
-      </div >
+      </div > */}
 
-      {/* section34 */}
-      < div className="section34 py-3" >
-        <div className="container  ">
-          <h5 className='fw-semibold text-uppercase text-center'>OUR OFFICES NETWORK</h5>
-          <div>
-            <ul className="nav nav-tabs" id="myTab" role="tablist">
-              <li className="nav-item" role="presentation">
-                <button className="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Ludhiana</button>
-              </li>
-              <li className="nav-item" role="presentation">
-                <button className="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Bhatinda </button>
-              </li>
-              <li className="nav-item" role="presentation">
-                <button className="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">Kurukshetra</button>
-              </li>
-              <li className="nav-item" role="presentation">
-                <button className="nav-link" id="preet-tab" data-bs-toggle="tab" data-bs-target="#preet-tab-pane" type="button" role="tab" aria-controls="preet-tab-pane" aria-selected="false">Faridkot</button>
-              </li>
-              <li className="nav-item" role="presentation">
-                <button className="nav-link" id="nepal-tab" data-bs-toggle="tab" data-bs-target="#nepal-tab-pane" type="button" role="tab" aria-controls="nepal-tab-pane" aria-selected="false">Nepal</button>
-              </li>
-              <li className="nav-item" role="presentation">
-                <button className="nav-link" id="dubai-tab" data-bs-toggle="tab" data-bs-target="#dubai-tab-pane" type="button" role="tab" aria-controls="dubai-tab-pane" aria-selected="false">Dubai</button>
-              </li>
-            </ul>
-            <div className="tab-content" id="myTabContent">
-              <div className="tab-pane fade show active mt-2" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabIndex={0}>
-                <div className='border border-dark border-opacity-25 rounded-3 shadow-lg p-2 '>
-                  <h6>Akcxis Immigartions</h6>
-                  <p className='fw-semibold text-secondary mt-3'><BiMap className='fs-4 text-dark' />&nbsp;&nbsp;209-B, Ground Floor, Block D, Model Town Extension, Dugri Road, Ludhiana-141002</p>
-                  <p className='text-secondary'><FiPhone className='fs-5 text-dark' />&nbsp;&nbsp; <a href='tel:+91-98727-33369' className='text-dark'>+91-98727-33369</a> </p>
+      <div className='contact-detail py-5 bg-light'>
+        <div className='container'>
+          <div className='form-detail border shadow-lg p-5 mb-5 bg-body rounded'>
+            <h1 className='text-center mb-5 fw-bold'>Get In Touch With Us</h1>
+            <form className='fs-5' >
+              <div className='row'>
+                <div className='col-lg-6 mb-3'>
+                  <label htmlFor="exampleInputEmail1" className="form-label">First Name*</label>
+                  <input 
+                   type="text" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />
+                </div>
+                <div className='col-lg-6 mb-3'>
+                  <label htmlFor="exampleInputEmail1" className="form-label">Last Name*</label>
+                  <input
+                  type="text" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />
+                </div>
+                <div className='col-lg-6 mb-3'>
+                  <label htmlFor="exampleInputEmail1" className="form-label">Phone Number*</label>
+                  <input  type="text" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />
+                </div>
+                <div className='col-lg-6 mb-3'>
+                  <label htmlFor="exampleInputEmail1" className="form-label">Email address</label>
+                  <input  type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />
+                </div>
+
+                <div className="col-lg-12 mb-3">
+                  <label htmlFor="floatingTextarea2">Message</label>
+                  <textarea className="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style={{ height: 100 }} defaultValue={""} />
                 </div>
               </div>
-              <div className="tab-pane fade mt-2" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabIndex={0}>
-                {/* <div className='border border-dark border-opacity-25 rounded-3 shadow-lg p-2 w-25'>
-                  <h6>Bhatinda  Branch Office</h6>
-                  <p className='fw-semibold text-secondary mt-3'><BiMap className='fs-4 text-dark' />&nbsp;&nbsp;Ghorewala Chowk, Near IOB Bank, Bhatinda, Punjab - 151005</p>
-                  <p className='text-secondary'><FiPhone className='fs-5 text-dark' />&nbsp;&nbsp;+91 98722-66128</p>
-                </div> */}
+              <div className='button text-center mt-3'>
+                <button type="submit" className="btn fs-5 fw-bold rounded-5 px-5 py-3 btn-outline-dark">Submit</button>
               </div>
-              <div className="tab-pane fade mt-2" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabIndex={0}>
-
-                {/* <div className='border border-dark border-opacity-25 rounded-3 shadow-lg p-2 w-25'>
-                  <h6>Kurukshetra Branch Office</h6>
-                  <p className='fw-semibold text-secondary mt-3'><BiMap className='fs-4 text-dark' />&nbsp;&nbsp;209-B, Ground Floor, Block D, Model Town Extension, Dugri Road, Ludhiana-141002</p>
-                  <p className='text-secondary'><FiPhone className='fs-5 text-dark' />&nbsp;&nbsp;+91-98727-33369</p>
-                </div> */}
-              </div>
-
-              <div className="tab-pane fade mt-2" id="preet-tab-pane" role="tabpanel" aria-labelledby="preet-tab" tabIndex={0}>
-                {/* <div className='border border-dark border-opacity-25 rounded-3 shadow-lg p-2 w-25'>
-                  <h6>Faridkot Branch Office</h6>
-                  <p className='fw-semibold text-secondary mt-3'><BiMap className='fs-4 text-dark' />&nbsp;&nbsp;209-B, Ground Floor, Block D, Model Town Extension, Dugri Road, Ludhiana-141002</p>
-                  <p className='text-secondary'><FiPhone className='fs-5 text-dark' />&nbsp;&nbsp;+91-98727-33369</p>
-                </div> */}
-              </div>
-
-              <div className="tab-pane fade mt-2" id="nepal-tab-pane" role="tabpanel" aria-labelledby="nepal-tab" tabIndex={0}>
-                {/* <div className='border border-dark border-opacity-25 rounded-3 shadow-lg p-2 w-25'>
-                  <h6>Nepal Branch Office</h6>
-                  <p className='fw-semibold text-secondary mt-3'><BiMap className='fs-4 text-dark' />&nbsp;&nbsp;209-B, Ground Floor, Block D, Model Town Extension, Dugri Road, Ludhiana-141002</p>
-                  <p className='text-secondary'><FiPhone className='fs-5 text-dark' />&nbsp;&nbsp;+91-98727-33369</p>
-                </div> */}
-              </div>
-
-              <div className="tab-pane fade mt-2" id="dubai-tab-pane" role="tabpanel" aria-labelledby="dubai-tab" tabIndex={0}>
-                {/* <div className='border border-dark border-opacity-25 rounded-3 shadow-lg p-2 w-25'>
-                  <h6>Dubai Branch Office</h6>
-                  <p className='fw-semibold text-secondary mt-3'><BiMap className='fs-4 text-dark' />&nbsp;&nbsp;209-B, Ground Floor, Block D, Model Town Extension, Dugri Road, Ludhiana-141002</p>
-                  <p className='text-secondary'><FiPhone className='fs-5 text-dark' />&nbsp;&nbsp;+91-98727-33369</p>
-                </div> */}
-              </div>
-
-            </div>
+            </form>
           </div>
-
         </div>
-      </div >
+      </div>
+
+      {/* map */}
+      <div className='container-fluid'>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3424.21929105382!2d75.8454672760796!3d30.880525878474142!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa58d9dd6a30e953b%3A0x596bc6d72f9bedba!2sAkcxis%20Immigrations%2C%20India!5e0!3m2!1sen!2sin!4v1715235549546!5m2!1sen!2sin" height={500} style={{ border: 0 }} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" className='w-100'></iframe>
+      </div>
 
     </>
   )

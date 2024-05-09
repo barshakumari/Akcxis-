@@ -79,11 +79,11 @@ function App() {
       {
         !pathname.startsWith("/travelhome") && <a
           href="https://wa.me/9872833369?text="
-          class="whatsapp_float"
+          className="whatsapp_float"
           target="_blank"
           rel="noopener noreferrer"
         >
-          {/* <i class="fa fa-whatsapp whatsapp-icon"></i> */}
+          {/* <i className="fa fa-whatsapp whatsapp-icon"></i> */}
           <img src={chatimg} alt='' className='img-fluid whatsapp-icon ' />
         </a>
       }

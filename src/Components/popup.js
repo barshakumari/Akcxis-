@@ -71,79 +71,73 @@ const Popup = () => {
                     <button className='fs-5 fw-bold  btn  btn-close' onClick={() => { setShow(false) }}></button>
                   </div>
                 </div>
-                <div className='row mx-2 my-1'>
-                  <div className="col-lg-8 ">
-                    {error.msg && <div className={`alert alert-${error.error ? 'danger' : 'success'} alert-dismissible fade show`} role="alert">{error.msg}
-                      <button onClick={() => { setError({ error: false, msg: '' }) }} type="button" className="btn-close" data-bs-dismiss="alert" aria-label="Close" />
+                <form className='p-4'>
+                  <div className="row">
+                    <div className="col-sm-12 col-lg-6 mb-2">
+                      <div className="form-floating mb-3">
+                        <input type="text" className="form-control" id="name" placeholder="John Cena" />
+                        <label htmlFor="name">Full name</label>
+                      </div>
                     </div>
-                    }
-                    <form onSubmit={submitForm}>
+                    <div className="col-sm-12 col-lg-6 mb-2">
                       <div className="form-floating mb-3">
-                        <input value={userData.name}
-                          onChange={(e) => {
-                            setUserData({
-                              ...userData,
-                              name: e.target.value,
-                            });
-                          }} type="text" className="form-control" id="floatingInput" placeholder="Name" />
-                        <label htmlFor="floatingInput">Name</label>
+                        <input type="text" className="form-control" id="contact-number" placeholder="+91-xxx-xxx-xxxx" />
+                        <label htmlFor="contact-number">Contact number</label>
                       </div>
-                      <div className='form-group input-group phone h-50 mb-3 mt-3'>
-                        <select onChange={e => setCountryData({ ...countryData, countryCode: e.target.value })} className='form-select select' name="" id="">
-                          <option value="">+91</option>
-                          {country.map(data => data.countries.map(code => <option value={code.countryCode} id={code.countryCode} key={code.countryCode}>+{code.countryCode}</option>))}
+                    </div>
+                    <div className="col-sm-12 col-lg-6 mb-2">
+                      <div className="form-floating mb-3">
+                        <input type="email" className="form-control" id="email" placeholder="name@domain.com" />
+                        <label htmlFor="email">Email address</label>
+                      </div>
+                    </div>
+                    <div className="col-sm-12 col-lg-6 mb-2">
+                      <div className="form-floating mb-3">
+                        <select className="form-select" id="floatingSelect" aria-label="Floating label select example">
+                          <option selected value="">Visa Type</option>
+                          <option value="Study visa">Study visa</option>
+                          <option value="Work visa">Work visa</option>
+                          <option value="PR">PR</option>
+                          <option value="Visitor visa">Visitor visa</option>
                         </select>
-                        <input value={userData.phone}
-                          onChange={(e) => {
-                            setUserData({
-                              ...userData,
-                              phone: e.target.value,
-                            });
-                          }} type="text" className="form-control" id="floatingInput" placeholder="Phone Number" />
+                        <label htmlFor="floatingSelect">Visa Type</label>
                       </div>
+                    </div>
+                    <div className="col-sm-12 col-lg-6 mb-2">
                       <div className="form-floating mb-3">
-                        <input value={userData.city}
-                          onChange={(e) => {
-                            setUserData({
-                              ...userData,
-                              city: e.target.value,
-                            });
-                          }} type="text" className="form-control" id="floatingInput" placeholder="City" />
-                        <label htmlFor="floatingInput">City</label>
-                      </div>
-                      <div class="form-floating mb-3">
-                        <select class="form-select" aria-label="Default select example">
-                          <option selected>Select Category</option>
-                          <option value="1">IELTS/PTE</option>
-                          <option value="2">Study Visa</option>
-                          <option value="3">Work Visa</option>
-                          <option value="4">Tourist Visa</option>
-                          <option value="5">PR</option>
+                        <select className="form-select" id="consultation" aria-label="Floating label select example">
+                          <option selected value="">Preferred Consultation Type</option>
+                          <option value="Phone Consultation">Phone Consultation (15 Minutes)</option>
+                          <option value="Video Consultation">Video Consultation (Upto 60 Minutes)</option>
+                          <option value="In-Person Consultation">In-Person Consultation (Over a Coffee)</option>
                         </select>
+                        <label htmlFor="consultation">Preferred Consultation Type</label>
                       </div>
+                    </div>
+                    <div className="col-sm-12 col-lg-6 mb-2">
                       <div className="form-floating mb-3">
-                        <input value={userData.email}
-                          onChange={(e) => {
-                            setUserData({
-                              ...userData,
-                              email: e.target.value,
-                            });
-                          }} type="email" className="form-control" id="floatingInput" placeholder="Email" />
-                        <label htmlFor="floatingInput">Email</label>
+                        <select className="form-select" id="language" aria-label="Floating label select example">
+                          <option selected value="">Language test given</option>
+                          <option value="IELTS">IELTS</option>
+                          <option value="PTE">PTE</option>
+                          <option value="TOEFL">TOEFL</option>
+                          <option value="Other">Other</option>
+                        </select>
+                        <label htmlFor="language">Language test given</label>
                       </div>
-                      <div className='mt-3'>
-                        <button type='submit' className='btn btn-dark fs-5 fw-bolder w-75 '>Submit</button>
-                      </div>
-                    </form>
+                    </div>
+                    <div class="form-check ps-5 col-12 mb-3">
+                      <input class="form-check-input" type="checkbox" value="" id="terms-conditions" />
+                      <label class="form-check-label" for="terms-conditions">
+                        I agree to <strong>terms & conditions</strong>
+                      </label>
+                    </div>
+                    <button className="btn btn-primary col-12">Submit</button>
                   </div>
-                  <div className="col-lg-4  ">
-                    <img src={img} alt="" className='img-fluid w-100 ' />
-                  </div>
-                </div>
+                </form>
               </div>
             </div>
           </div>
-          // </div>
         )}
     </>
 

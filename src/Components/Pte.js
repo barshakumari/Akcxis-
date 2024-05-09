@@ -112,7 +112,7 @@ const Pte = () => {
                         {/*exam format  */}
                         <div className='exam-format py-5'>
                             <h3 className=' '>Exam Format</h3>
-                            <table class="table table-bordered border-dark  table-striped my-4">
+                            <table className="table table-bordered border-dark  table-striped my-4">
                                 <thead className='table-dark'>
                                     <tr className='fs-5 text-center '>
                                         <th scope="col">PTE Exam section</th>
@@ -215,7 +215,7 @@ const Pte = () => {
                         {/* comparison */}
                         <div className='pte-comparison py-4'>
                             <h3 className=' '>PTE and IELTS Comparision</h3>
-                            <table class="table table-bordered border-dark table-striped my-4">
+                            <table className="table table-bordered border-dark table-striped my-4">
                                 <thead className='table-dark'>
                                     <tr className='fs-5'>
                                         <th scope="col">IELTS English Level</th>
