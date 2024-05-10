@@ -8,13 +8,12 @@ const Popup = () => {
   const { pathname } = useLocation()
   useEffect(() => {
     let timer;
-    if (pathname.startsWith("/") || pathname.startsWith("/coaching") || pathname.startsWith("/studyabroad") || pathname.startsWith("/migrate")) {
+    if (pathname.startsWith("/") || pathname.startsWith("/coaching") || pathname.startsWith("/studyabroad") || pathname.startsWith("/migrate"))   {
       timer = setTimeout(() => {
         setShow(true)
-      }, 3200)
+      }, 3200) &&  !pathname.startsWith("/travelhome")
     }
-
-    return () => {
+   return () => {
       clearTimeout(timer)
     }
   }, [pathname])
@@ -27,7 +26,6 @@ const Popup = () => {
   });
 
   const [countryData, setCountryData] = useState({ countryCode: "", countryName: '' })
-
   const [country, setCountry] = useState([])
   const [error, setError] = useState({ error: false, msg: '' })
   const submitForm = async (e) => {
@@ -65,7 +63,6 @@ const Popup = () => {
     <>
       {
         show && (
-
           <div className='d-flex justify-content-center align-items-center  buttonForm  '>
             <div className='overlay'></div>
             <div className="card-1  border border-dark border-opacity-25 rounded-4  shadow-lg">
