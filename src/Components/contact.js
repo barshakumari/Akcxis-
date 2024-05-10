@@ -158,7 +158,7 @@ const Contact = () => {
 
       <div className='contact-detail py-5 bg-light'>
         <div className='container'>
-          <div className='form-detail border shadow-lg p-5 mb-5 bg-body rounded'>
+          <div className='form-detail border shadow-lg p-5 mb-5 bg-body rounded'>-
             <h1 className='text-center mb-5 fw-bold'>Get In Touch With Us</h1>
             <form className='fs-5' >
               <div className='row'>
