@@ -23,7 +23,6 @@ import newzealand from "./images/newzealand-flag.png"
 import uk from "./images/uk-flag.png"
 import geremany from "./images/germany-flag.png"
 import us from "./images/usa-flag.png"
-import uae from "./images/uae.png"
 import singapore from "./images/singapore-flag.png"
 
 import canadaflag from "./images/canada.png"
@@ -41,25 +40,17 @@ import anjna from "./images/testi2.png"
 import sneha from "./images/testi3.png"
 import gagan from "./images/testi4.png"
 import rahul from "./images/testi5.png"
-import testimonial from './images/testimonial.png'
 import sahera from './images/sahera.png'
-import urmila from './images/urmila.png'
 import pawan from './images/pawan.png'
 
-import { AiFillStar } from 'react-icons/ai';
-import { AiOutlineStar } from "react-icons/ai"
-import { ImQuotesRight } from "react-icons/im"
 
 import { FaStar } from "react-icons/fa";
 import { IoIosStarOutline } from "react-icons/io";
 import { RiDoubleQuotesL } from "react-icons/ri";
 import { RiDoubleQuotesR } from "react-icons/ri";
 
-import AOS from 'aos'
 import 'aos/dist/aos.css';
 import "./home.css"
-// import Form from './form'
-import Popup from './popup';
 import Modal from './modal'
 
 import "slick-carousel/slick/slick.css";
@@ -78,7 +69,6 @@ const Home = () => {
 
   return (
     <>
-      <Popup />
       {/*section1 slider */}
       <div className="section1 ">
         <div id="carouselExampleInterval" className="carousel slide" data-bs-ride="carousel">

@@ -65,7 +65,8 @@ import Termcondition from './Components/termcondition';
 import Privacypolicy from './Components/privacypolicy';
 import Travelhome from './Components/travel/travelhome';
 import Testimonial from './Components/testimonial';
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
+import Popup from './Components/popup';
 
 
 function App() {
@@ -75,7 +76,7 @@ function App() {
   }, [pathname])
   return (
     <>
-
+      <Popup />
       {
         !pathname.startsWith("/travelhome") && <a
           href="https://wa.me/9872833369?text="
@@ -116,14 +117,14 @@ function App() {
         <Route path="/germanystudy" element={< Germanystudy />} />
         <Route path="/singaporestudy" element={< Singaporestudy />} />
 
-          <Route path="/canadaWork" element={< CanadaWork />} />
-          <Route path="/UkWork" element={< UkWork />} />
-          <Route path="/UsaWork" element={< UsaWork />} />
-          <Route path="/AusWork" element={< AusWork />} />
-          <Route path="/polandWork" element={< PolandWork />} />
-          <Route path="/maltaWork" element={< MaltaWork />} />
-          <Route path="/franceWork" element={< FranceWork />} />
-          <Route path="/belgiumWork" element={< BelgiumWork/>} />
+        <Route path="/canadaWork" element={< CanadaWork />} />
+        <Route path="/UkWork" element={< UkWork />} />
+        <Route path="/UsaWork" element={< UsaWork />} />
+        <Route path="/AusWork" element={< AusWork />} />
+        <Route path="/polandWork" element={< PolandWork />} />
+        <Route path="/maltaWork" element={< MaltaWork />} />
+        <Route path="/franceWork" element={< FranceWork />} />
+        <Route path="/belgiumWork" element={< BelgiumWork />} />
 
         <Route path="/CanadaPr" element={< CanadaPr />} />
         <Route path="/AusPr" element={< AusPr />} />
