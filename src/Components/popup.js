@@ -6,14 +6,15 @@ import { useLocation } from 'react-router-dom';
 const Popup = () => {
   const [show, setShow] = useState(false)
   const { pathname } = useLocation()
+  
   useEffect(() => {
     let timer;
-    if (pathname.startsWith("/") || pathname.startsWith("/coaching") || pathname.startsWith("/studyabroad") || pathname.startsWith("/migrate"))   {
+    if (pathname.startsWith("/") || pathname.startsWith("/coaching") || pathname.startsWith("/studyabroad") || pathname.startsWith("/migrate")) {
       timer = setTimeout(() => {
         setShow(true)
-      }, 3200) &&  !pathname.startsWith("/travelhome")
+      }, 3200) && !pathname.startsWith("/travelhome")
     }
-   return () => {
+    return () => {
       clearTimeout(timer)
     }
   }, [pathname])
@@ -73,8 +74,8 @@ const Popup = () => {
                     <button className='fs-5 fw-bold  btn  btn-close' onClick={() => { setShow(false) }}></button>
                   </div>
                 </div>
-                <form className='p-4'>
-                  <div className="row">
+                <form className='p-4 row m-0 p-0'>
+                  <div className="row col-lg-6 col-sm-12 m-0">
                     <div className="col-sm-12 col-lg-6 mb-2">
                       <div className="form-floating mb-3">
                         <input type="text" className="form-control" id="name" placeholder="John Cena" />
@@ -108,7 +109,7 @@ const Popup = () => {
                       </div>
                     </div>
 
-                    <div className="col-sm-12 col-lg-6 mb-2">
+                    <div className="col-sm-12 mb-2">
                       <div className="form-floating mb-3">
                         <select className="form-select" id="floatingSelect" aria-label="Floating label select example">
                           <option selected value="">Select Country</option>
@@ -122,7 +123,7 @@ const Popup = () => {
                       </div>
                     </div>
 
-                    <div className="col-sm-12 col-lg-6 mb-2">
+                    <div className="col-sm-12 mb-2">
                       <div className="form-floating mb-3">
                         <select className="form-select" id="floatingSelect" aria-label="Floating label select example">
                           <option selected value="">Visa Type</option>
@@ -135,8 +136,11 @@ const Popup = () => {
                       </div>
                     </div>
 
+                    <button className="btn btn-primary col-12">Submit</button>
+                  </div>
 
-                    <div className="col-sm-12 col-lg-6 mb-2">
+                  <div className="col-lg-6 col-sm-12 mb-2 row">
+                    <div className="col-sm-12 mb-2">
                       <div className="form-floating mb-3">
                         <select className="form-select" id="consultation" aria-label="Floating label select example">
                           <option selected value="">Preferred Consultation Type</option>
@@ -148,7 +152,7 @@ const Popup = () => {
                       </div>
                     </div>
 
-                    <div className="col-sm-12 col-lg-6 mb-2">
+                    <div className="col-sm-12 mb-2">
                       <div className="form-floating mb-3">
                         <select className="form-select" id="language" aria-label="Floating label select example">
                           <option selected value="">Language test given</option>
@@ -160,20 +164,17 @@ const Popup = () => {
                         <label htmlFor="language">Language test given</label>
                       </div>
                     </div>
-
-                    <div className="col-lg-12 col-sm-12 mb-2">
-                      <label htmlFor="floatingTextarea2">Message/Any specific requirement (optional)</label>
-                      <textarea className="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style={{ height: 100 }} defaultValue={""} />
+                    <div>
+                      <textarea className="form-control" placeholder="Message/Any specific requirement (optional)" id="floatingTextarea2" style={{ height: 100 }} defaultValue={""} />
                     </div>
-
                     <div class="form-check ps-5 col-12 mb-3">
                       <input class="form-check-input" type="checkbox" value="" id="terms-conditions" />
                       <label class="form-check-label" for="terms-conditions">
                         I agree to <strong>terms & conditions</strong>
                       </label>
                     </div>
-                    <button className="btn btn-primary col-12">Submit</button>
                   </div>
+
                 </form>
               </div>
             </div>
