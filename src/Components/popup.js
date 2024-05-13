@@ -9,7 +9,11 @@ const Popup = () => {
   useEffect(() => {
 
     const timer = setTimeout(() => {
-      if (pathname.startsWith("/") || pathname.startsWith("/coaching") || pathname.startsWith("/ielts") || pathname.startsWith("/pte") || pathname.startsWith("/toefl") || pathname.startsWith("/studyabroad") || pathname.startsWith("/migrate") || pathname.startsWith("/work") || pathname.startsWith("/visit")) {
+      if (pathname.startsWith("/coaching") || pathname.startsWith("/ielts") || pathname.startsWith("/pte") || pathname.startsWith("/toefl") || pathname.startsWith("/studyabroad") || pathname.startsWith("/migrate") || pathname.startsWith("/work") || pathname.startsWith("/visit")) {
+        setShow({ class: "show", display: "block" })
+      } else if (pathname.startsWith("/travelhome") || pathname.includes("/about") || pathname.includes("/contact")) {
+        setShow({ class: "", display: "none" })
+      } else if (pathname.includes("/")) {
         setShow({ class: "show", display: "block" })
       }
     }, 3200)
@@ -64,11 +68,11 @@ const Popup = () => {
   return (
     <>
       <div className={`modal fade ${show.class}`} id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" aria-modal='true' role='dialog' style={{ display: show.display }}>
-        <div className="modal-dialog">
+        <div className="modal-dialog modal-dialog-centered">
           <div className="modal-content">
             <div className="modal-header bg-white">
               <h1 className="modal-title fs-4 text-center" id="exampleModalLabel">Fill the form & Get a call from Expert !</h1>
-              <button onClick={() => setShow({ class: "", display: "none" })} type="button" className= "btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              <button onClick={() => setShow({ class: "", display: "none" })} type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div className="modal-body">
               <form className='row p-0 m-0'>

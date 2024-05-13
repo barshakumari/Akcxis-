@@ -1,7 +1,5 @@
 import React from 'react'
 import img1 from './images/work1.png'
-import { Link } from 'react-router-dom'
-import { BsCheck2Square } from 'react-icons/bs';
 import image1 from './images/Documents (3).png'
 import image2 from './images/Opportunity (2).png'
 import image3 from './images/Interview (2).png'
@@ -23,7 +21,6 @@ import croatia from './images/Croatia.png'
 import malta from './images/malta.png'
 import portugal from './images/Portugal.png'
 // import Card from './card';
-import Form from './form';
 import './work.css'
 import Modal from './modal';
 
