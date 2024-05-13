@@ -33,18 +33,27 @@ const About = () => {
         <div className='about1'>
           <h1 className='fw-bold text-center text-light display-2'>About Us</h1>
         </div>
-        {/* <div className='position-sticy end-0 fix-1'>
-          <Form/>
-        </div> */}
       </div>
 
       {/* go to home page */}
-      <div className='direct py-2 d-flex justify-content-center align-items-center '>
+      <div className='heading-linking'>
+        <div className='container'>
+          <ol>
+            <li>
+              <a href='/'>Home</a>
+            </li>
+            <li>
+              <a href='/contact'>Contact</a>
+            </li>
+          </ol>
+        </div>
+      </div>
+      {/* <div className='direct py-2 d-flex justify-content-center align-items-center '>
         <div className='d-flex justify-content-between align-items-center'>
           <Link to="/" className='text-dark fs-6 fw-semibold border-end border-white pe-3 text-decoration-none '>Home</Link>
           <Link to="/contact" className='text-dark fs-6 fw-semibold  ps-3 text-decoration-none'>Contact Us</Link>
         </div>
-      </div>
+      </div> */}
       {/* section15 */}
       <div className="section15 py-4 bg-light">
         <div className="container">

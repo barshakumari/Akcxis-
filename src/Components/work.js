@@ -42,12 +42,19 @@ const Work = () => {
       </div>
 
       {/* go to home page */}
-      <div className='direct py-2 d-flex justify-content-center align-items-center '>
-        <div className='d-flex justify-content-between align-items-center'>
-          <Link to="/" className='text-dark fs-6 fw-semibold border-end border-white pe-3 text-decoration-none'>Home</Link>
-          <Link to="/contact" className='text-dark fs-6 fw-semibold  ps-3 text-decoration-none'>Book a Free Demo</Link>
+      <div className='heading-linking'>
+        <div className='container'>
+          <ol>
+            <li>
+              <a href='/'>Home</a>
+            </li>
+            <li>
+              <a href='/contact'>Contact</a>
+            </li>
+          </ol>
         </div>
       </div>
+
 
       {/* work2 */}
       <div className='work2 py-5'>

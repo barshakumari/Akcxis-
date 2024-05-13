@@ -11,6 +11,22 @@ const UkWork = () => {
         <img src={uk} alt="" className='img-fluid w-100' />
       </div>
 
+      <div className='heading-linking'>
+                <div className='container'>
+                    <ol>
+                        <li>
+                            <a href='/'>Home</a>
+                        </li>
+                        <li>
+                            <a href='/work'>Work</a>
+                        </li>
+                        <li>
+                            <a >UK</a>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+
       {/* content */}
       <div className='main-section py-5'>
         <div className='container'>

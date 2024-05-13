@@ -27,10 +27,26 @@ const Pte = () => {
             </div>
 
             {/* go to home page */}
-            <div className='direct py-1 d-flex justify-content-center align-items-center '>
+            {/* <div className='direct py-1 d-flex justify-content-center align-items-center '>
                 <div className='d-flex justify-content-between align-items-center'>
                     <Link to="/" className='text-dark fs-6 fw-semibold border-end border-white pe-3 text-decoration-none'>Home</Link>
                     <Modal title="Book a Free Demo " className="ms-1 fw-semibold fs-6" />
+                </div>
+            </div> */}
+
+            <div className='heading-linking'>
+                <div className='container'>
+                    <ol>
+                        <li>
+                            <a href='/'>Home</a>
+                        </li>
+                        <li>
+                            <a href='/coaching'>Coaching</a>
+                        </li>
+                        <li>
+                            <a >PTE</a>
+                        </li>
+                    </ol>
                 </div>
             </div>
 

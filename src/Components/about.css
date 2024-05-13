@@ -13,6 +13,18 @@ body{
 .section12 img {
     filter: brightness(30%);
 }
+.heading-section{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: auto;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   /* filter: brightness(80%); */
+  }
 
 .direct {
     background-color: #fad703;

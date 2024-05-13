@@ -52,12 +52,19 @@ const Visit = () => {
       </div>
 
       {/* go to home page */}
-      <div className='direct py-1 d-flex justify-content-center align-items-center '>
-        <div className='d-flex justify-content-between align-items-center'>
-          <Link to="/" className='text-dark fw-semibold border-end border-white pe-3 text-decoration-none fs-6'>Home</Link>
-          <Modal title="Book an Appointment" className="ms-1 fw-semibold fs-6" />
+      <div className='heading-linking'>
+        <div className='container'>
+          <ol>
+            <li>
+              <a href='/'>Home</a>
+            </li>
+            <li>
+              <a href='/contact'>Contact</a>
+            </li>
+          </ol>
         </div>
       </div>
+
 
       {/* visit heading */}
       <div className='visit-heading py-5'>

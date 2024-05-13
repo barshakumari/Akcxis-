@@ -20,12 +20,22 @@ const Usastudy = () => {
             </div>
 
             {/* go to home page */}
-            {/* <div className='direct d-flex justify-content-center align-items-center '>
-                <div className='d-flex justify-content-between align-items-center'>
-                    <Link to="/" className='text-dark fs-5 fw-semibold border-end border-white pe-3 text-decoration-none'>Home</Link>
-                    <Modal title="Book a Free Demo " className="ms-1 fw-semibold fs-5" />
+     
+            <div className='heading-linking'>
+                <div className='container'>
+                    <ol>
+                        <li>
+                            <a href='/'>Home</a>
+                        </li>
+                        <li>
+                            <a href='/studyabroad'>Study Abroad</a>
+                        </li>
+                        <li>
+                            <a >USA</a>
+                        </li>
+                    </ol>
                 </div>
-            </div> */}
+            </div>
 {/* 
             <div className='py-4'>
                 <div className='container'>

@@ -65,12 +65,19 @@ const Contact = () => {
 
 
       {/* go to home page */}
-      <div className='direct py-1 d-flex justify-content-center align-items-center'>
-        <div className='d-flex justify-content-between align-items-center'>
-          <Link to="/" className='text-dark fw-semibold border-end border-white pe-3 text-decoration-none fs-6'>Home</Link>
-          <Modal title="Contact Us" className="ms-1 fw-semibold fs-6" />
+      <div className='heading-linking'>
+        <div className='container'>
+          <ol>
+            <li>
+              <a href='/'>Home</a>
+            </li>
+            <li>
+              <a href='/contact'>Contact</a>
+            </li>
+          </ol>
         </div>
       </div>
+
       {/* section33 */}
       {/* <div className="section33 py-3">
         <div className="container">
