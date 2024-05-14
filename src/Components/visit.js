@@ -41,16 +41,18 @@ const Visit = () => {
   return (
     <>
       {/* visit */}
-      <div className='visit'>
+      {/* <div className='visit'>
         <img src={img} alt="" className='img-fluid w-100 bg-img' />
         <div className='visit1'>
           <h1 className='fw-bold text-center text-light display-2'>Visit</h1>
         </div>
-        {/* <div className='position-sticy end-0 fix-1'>
-          <Form/>
-        </div> */}
+      </div> */}
+      
+      <div classname="section16">
+        <div className='heading-section' style={{ backgroundImage: `url(${img})` }}>
+          <h1 className='display-1 fw-bold '>Visit</h1>
+        </div>
       </div>
-
       {/* go to home page */}
       <div className='heading-linking'>
         <div className='container'>

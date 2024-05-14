@@ -18,14 +18,16 @@ const Studyabroad = () => {
   return (
     <>
       {/* section20 */}
-      <div className='section20'>
+      {/* <div className='section20'>
         <img src={img1} alt="" className='img-fluid w-100 bg-img' />
         <div className='studyabroad1'>
           <h1 className='fw-bold text-center text-light display-2'>Study Abroad</h1>
         </div>
-        {/* <div className='position-sticy end-0 fix-1'>
-          <Form />
-        </div> */}
+      </div> */}
+                  <div classname="section16">
+        <div className='heading-section' style={{ backgroundImage: `url(${img1})` }}>
+          <h1 className='display-1 fw-bold '>Study Abroad</h1>
+        </div>
       </div>
 
       {/* go to home page */}

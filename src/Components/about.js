@@ -28,10 +28,16 @@ const About = () => {
   return (
     <>
       {/* section12 */}
-      <div className='section12'>
+      {/* <div className='section12'>
         <img src={img1} alt="" className='img-fluid w-100 bg-img' />
         <div className='about1'>
           <h1 className='fw-bold text-center text-light display-2'>About Us</h1>
+        </div>
+      </div> */}
+
+      <div classname="section12">
+        <div className='heading-section' style={{ backgroundImage: `url(${img1})` }}>
+          <h1 className='display-1 fw-bold '>About Us</h1>
         </div>
       </div>
 

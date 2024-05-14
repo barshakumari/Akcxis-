@@ -56,10 +56,15 @@ const Contact = () => {
   return (
     <>
       {/* section32 */}
-      <div className='section32'>
+      {/* <div className='section32'>
         <img src={img1} alt="" className='img-fluid w-100' />
         <div className='contact1'>
           <h1 className='fw-bold text-center text-light display-2'>Contact</h1>
+        </div>
+      </div> */}
+                  <div classname="section16">
+        <div className='heading-section' style={{ backgroundImage: `url(${img1})` }}>
+          <h1 className='display-1 fw-bold '>Contact</h1>
         </div>
       </div>
 

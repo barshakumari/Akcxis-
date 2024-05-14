@@ -67,6 +67,9 @@ const Popup = () => {
 
   return (
     <>
+    {/* <div className='buttonForm'>
+    <div className='overlay'></div>
+    </div> */}
       <div className={`modal fade ${show.class}`} id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" aria-modal='true' role='dialog' style={{ display: show.display }}>
         <div className="modal-dialog modal-dialog-centered">
           <div className="modal-content">

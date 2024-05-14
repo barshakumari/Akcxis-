@@ -88,7 +88,6 @@ function App() {
           <img src={chatimg} alt='' className='img-fluid whatsapp-icon ' />
         </a>
       }
-
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />

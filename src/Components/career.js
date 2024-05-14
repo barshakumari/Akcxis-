@@ -18,14 +18,17 @@ const Career = () => {
     <>
       {/* section24 */}
       
-      <div className='section24'>
+      {/* <div className='section24'>
         <img src={img1} alt="" className='img-fluid w-100 bg-img' />
         <div className='career1'>
           <h1 className='fw-bold text-center text-light display-2'>Career</h1>
         </div>
-        {/* <div className='position-sticy end-0 fix-1'>
-          <Form />
-        </div> */}
+    
+      </div> */}
+                  <div classname="section16">
+        <div className='heading-section' style={{ backgroundImage: `url(${img1})` }}>
+          <h1 className='display-1 fw-bold '>Career</h1>
+        </div>
       </div>
 
       {/* go to home page */}

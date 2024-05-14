@@ -24,14 +24,16 @@ const Coaching = () => {
   return (
     <>
       {/* section16 */}
-      <div className='section16 '>
+      {/* <div className='section16 '>
         <img src={img1} alt="" className='img-fluid w-100 bg-img' />
         <div className='coaching1'>
           <h1 className='fw-bold text-center text-light display-2'>Coaching</h1>
         </div>
-        {/* <div className='position-sticy end-0 fix-1'>
-          <Form/>
-        </div> */}
+      </div> */}
+      <div classname="section16">
+        <div className='heading-section' style={{ backgroundImage: `url(${img1})` }}>
+          <h1 className='display-1 fw-bold '>Coaching</h1>
+        </div>
       </div>
       {/* go to home page */}
       <div className='heading-linking'>
@@ -51,38 +53,38 @@ const Coaching = () => {
       {/* heading */}
       <div className="heading py-5 ">
         <div className="container">
-        <div className='heading-title1'>
-        <h1 className='text-center '>CREATE A NEW FUTURE</h1>
-        </div>
+          <div className='heading-title1'>
+            <h1 className='text-center '>CREATE A NEW FUTURE</h1>
+          </div>
           <div className="row">
             <div className="col-lg-6 d-flex justify-content-center align-items-center">
-              <img src={image9} alt="" className='img-fluid '/>
+              <img src={image9} alt="" className='img-fluid ' />
             </div>
             <div className="col-lg-6 d-flex justify-content-center align-items-center" >
               <div>
-              <h5 className=' fw-semibold  text-uppercase'>Explore your Coaching options with us</h5>
-               <p className=' mt-3'>
-               Standardized tests help the universities/colleges, employers and visa officers to ensure and measure the skills of the applicant against a common globally accepted platform. Most of the universities and colleges abroad look for a proof of English Language Proficiency from the students.  The English language Proficiency proof would be required by employers and visa officers for the purpose of study visa, work visa or PR as well. The candidates must carefully look for the requirements of the specific university or college and the country they are keen to go to, before selecting the right course. At Akcxis Immigrations, we make sure that you ace these standardized tests and achieve the highest score possible.
-               </p>
-               </div>
+                <h5 className=' fw-semibold  text-uppercase'>Explore your Coaching options with us</h5>
+                <p className=' mt-3'>
+                  Standardized tests help the universities/colleges, employers and visa officers to ensure and measure the skills of the applicant against a common globally accepted platform. Most of the universities and colleges abroad look for a proof of English Language Proficiency from the students.  The English language Proficiency proof would be required by employers and visa officers for the purpose of study visa, work visa or PR as well. The candidates must carefully look for the requirements of the specific university or college and the country they are keen to go to, before selecting the right course. At Akcxis Immigrations, we make sure that you ace these standardized tests and achieve the highest score possible.
+                </p>
+              </div>
             </div>
           </div>
         </div>
       </div>
       {/* section17 */}
       <div className="section17 bg-light py-5">
-      <div className="cardMain">
-          <Modal title="Apply Now" className="ms-1 fw-semibold fs-5"/>
+        <div className="cardMain">
+          <Modal title="Apply Now" className="ms-1 fw-semibold fs-5" />
         </div>
         <div className='heading-title1'>
-        <h1 className='text-center '>CHECKOUT THE SOLUTION</h1>
+          <h1 className='text-center '>CHECKOUT THE SOLUTION</h1>
         </div>
         <h5 className='text-center fw-semibold  text-uppercase'>Most Ranked Courses</h5>
         <div className='d-flex justify-content-evenly align-items-center mx-3 material'>
           <div className='cardstudy border border-dark border-opacity-25 rounded-3 shadow-lg'>
             <a href="/ielts" className='text-decoration-none text-dark'>
               <div className='d-flex justify-content-center'>
-                <img src={img3} alt="" className='img-fluid w-50 mb-5'/>
+                <img src={img3} alt="" className='img-fluid w-50 mb-5' />
               </div>
               {/* <h4 className="text-center mt-5">IELTS</h4> */}
               <p className="">International English Language Testing System exam is one of the most popular exams for students, professionals and individuals who want to go abroad for higher education, work or to settle Abroad.</p>
@@ -92,7 +94,7 @@ const Coaching = () => {
           <div className='cardstudy border border-dark border-opacity-25 rounded-3 shadow-lg'>
             <a href="/Pte" className='text-decoration-none text-dark'>
               <div className='d-flex justify-content-center'>
-                <img src={img4} alt=""  className='img-fluid mb-5 w-75'/>
+                <img src={img4} alt="" className='img-fluid mb-5 w-75' />
               </div>
               {/* <h4 className="mt-3 text-center">PTE</h4> */}
               <p className="">Pearson Test of English is a completely AI based computer test dedicated for testing English language usage of non-native English speakers. The test is widely accepted by Universities, colleges and governments across the globe.</p>
@@ -101,7 +103,7 @@ const Coaching = () => {
           <div className='cardstudy border border-dark border-opacity-25 rounded-3 shadow-lg'>
             <a href="/Toefl" className='text-decoration-none text-dark'>
               <div className="d-flex justify-content-center">
-                <img src={img5} alt=""  className='img-fluid  mb-5 ' />
+                <img src={img5} alt="" className='img-fluid  mb-5 ' />
               </div>
               {/* <h4 className="mt-3 text-center"> TOEFL</h4> */}
               <p className="">TOEFL stands for Test of English as a Foreign Language. It is a standardized test to measure the english language proficiency. TOEFL can be given as internet based or paper based test.</p>
@@ -140,8 +142,8 @@ const Coaching = () => {
       </div>
       {/* section18 */}
       <div className=' section18  py-4 '>
-      <div className='heading-title1'>
-        <h1 className='text-center '>YOUR PATH WAY TO SUCCESS</h1>
+        <div className='heading-title1'>
+          <h1 className='text-center '>YOUR PATH WAY TO SUCCESS</h1>
         </div>
         <h5 className='fw-semibold  text-uppercase text-center'>Why Akcxis Immigrations?</h5>
         <div className='row mt-5 w-100'>
@@ -178,10 +180,10 @@ const Coaching = () => {
           </div>
           <div className='col-lg-3 col-md-6 col-sm-12 text-center'>
             <img src={image8} alt="" className='img-fluid w-25' />
-            <p className='text-center'>Tips & Tricks</p>  
+            <p className='text-center'>Tips & Tricks</p>
           </div>
         </div>
-      </div>                                        
+      </div>
       {/* section19 */}
       < div className="section19 py-4 bg-light" >
         <div className="container">
@@ -208,9 +210,9 @@ const Coaching = () => {
               <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                 <div className="accordion-body">
                   A: Both IELTS and PTE are English proficiency tests. PTE is a completely computer-based test and is widely accepted by countries for immigration and study purposes, especially in countries like Australia, New Zealand, UK, USA, Singapore etc.
-                  <br/>
-                  <br/> IELTS is accepted by all immigration departments and more than 11,000 organizations, including universities, colleges, employers etc. for study, work and migration purposes.
-                  <br/><br/>To make the right choice, the applicant would need to check and consider the following points: <br />
+                  <br />
+                  <br /> IELTS is accepted by all immigration departments and more than 11,000 organizations, including universities, colleges, employers etc. for study, work and migration purposes.
+                  <br /><br />To make the right choice, the applicant would need to check and consider the following points: <br />
                   1. Purpose for giving the exam i.e., study, work or migration <br />
                   2. Course requirements <br />
                   3. Specific country's immigration policy
@@ -226,7 +228,7 @@ const Coaching = () => {
               <div id="collapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                 <div className="accordion-body">
                   The TOEFL iBT test is widely recognized for educational purposes by countries like UK, Ireland, Australia, Canada and New Zealand. More than 90% institutes in United States accept TOEFL iBT scores for admission purposes. Leading institutions throughout Europe, especially France and Germany accept TOEFL iBT scores as well.
-                  <br/><br/>TOEFL scores although widely accepted for study purpose, might not be accepted for direct PR in some countries. The applicant is advised to check for eligibility criteria of the country he/she is interested in, before appearing for TOEFL for migration purpose.
+                  <br /><br />TOEFL scores although widely accepted for study purpose, might not be accepted for direct PR in some countries. The applicant is advised to check for eligibility criteria of the country he/she is interested in, before appearing for TOEFL for migration purpose.
                 </div>
               </div>
             </div>
