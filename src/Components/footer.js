@@ -10,10 +10,6 @@ const location=useLocation()
 console.log(location)
   return (
     <>
-
-
-
-
       <footer className="footer bg-dark text-white" style={{display:location.pathname==='/travelhome'?'none':'block'}}>
         {/* Grid container */}
         <div className="container p-4">
@@ -36,7 +32,7 @@ console.log(location)
             {/*Grid column*/}
             {/*Grid column*/}
             <div className="col-lg-3 col-md-6 mb-4 mb-md-0 mb-4 links d-flex justify-content-center align-items-center">
-              <div>
+              <div className='quick-link'>
                 <h4 className="text-uppercase mb-4 fw-bold">
                   Quick Links
                 </h4>
