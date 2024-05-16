@@ -1,5 +1,5 @@
 import React from 'react'
-import img1 from "../Components/images/coaching.jpg"
+import img1 from "../Components/images/coaching.png"
 import img3 from "../Components/images/ielts.png"
 import img4 from "../Components/images/pte.png"
 import img5 from "../Components/images/toeflicon.png"
@@ -23,18 +23,12 @@ import Form from './form'
 const Coaching = () => {
   return (
     <>
-      {/* section16 */}
-      {/* <div className='section16 '>
-        <img src={img1} alt="" className='img-fluid w-100 bg-img' />
-        <div className='coaching1'>
-          <h1 className='fw-bold text-center text-light display-2'>Coaching</h1>
-        </div>
-      </div> */}
-      <div classname="section16">
-        <div className='heading-section' style={{ backgroundImage: `url(${img1})` }}>
-          <h1 className='display-1 fw-bold '>Coaching</h1>
-        </div>
+
+      <div className='section12'>
+        <img src={img1} className='img-fluid w-100' />
+
       </div>
+
       {/* go to home page */}
       <div className='heading-linking'>
         <div className='container'>

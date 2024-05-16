@@ -1,5 +1,5 @@
 import React from 'react'
-import img1 from "../Components/images/career.jpg"
+import img1 from "../Components/images/career.png"
 import Q from "../Components/images/Q.png"
 import sitting from "../Components/images/sitting.png"
 import man from "../Components/images/man.png"
@@ -18,18 +18,11 @@ const Career = () => {
     <>
       {/* section24 */}
       
-      {/* <div className='section24'>
-        <img src={img1} alt="" className='img-fluid w-100 bg-img' />
-        <div className='career1'>
-          <h1 className='fw-bold text-center text-light display-2'>Career</h1>
-        </div>
+      <div className='section12'>
+        <img src={img1} alt="" className='img-fluid w-100 ' />
     
-      </div> */}
-                  <div classname="section16">
-        <div className='heading-section' style={{ backgroundImage: `url(${img1})` }}>
-          <h1 className='display-1 fw-bold '>Career</h1>
-        </div>
       </div>
+
 
       {/* go to home page */}
       <div className='heading-linking'>

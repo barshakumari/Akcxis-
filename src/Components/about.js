@@ -1,5 +1,5 @@
 import React from 'react'
-import img1 from "../Components/images/about1.jpg"
+import img1 from "../Components/images/about1.png"
 import img2 from "../Components/images/about2.png"
 import img4 from "../Components/images/visionimg.png"
 import tropy from '../Components/images/akcxis trofy.png'
@@ -27,18 +27,9 @@ const About = () => {
 
   return (
     <>
-      {/* section12 */}
-      {/* <div className='section12'>
-        <img src={img1} alt="" className='img-fluid w-100 bg-img' />
-        <div className='about1'>
-          <h1 className='fw-bold text-center text-light display-2'>About Us</h1>
-        </div>
-      </div> */}
+      <div className='section12'>
+        <img src={img1} className='img-fluid w-100' />
 
-      <div classname="section12">
-        <div className='heading-section' style={{ backgroundImage: `url(${img1})` }}>
-          <h1 className='display-1 fw-bold '>About Us</h1>
-        </div>
       </div>
 
       {/* go to home page */}

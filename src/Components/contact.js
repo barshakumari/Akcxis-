@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import img1 from "../Components/images/contact.jpg"
+import img1 from "../Components/images/contact.png"
 import img from './images/AVTAR.png'
 import services from "../backend/services";
 import "./contact.css"
@@ -56,18 +56,9 @@ const Contact = () => {
   return (
     <>
       {/* section32 */}
-      {/* <div className='section32'>
+      <div className='section12'>
         <img src={img1} alt="" className='img-fluid w-100' />
-        <div className='contact1'>
-          <h1 className='fw-bold text-center text-light display-2'>Contact</h1>
-        </div>
-      </div> */}
-                  <div classname="section16">
-        <div className='heading-section' style={{ backgroundImage: `url(${img1})` }}>
-          <h1 className='display-1 fw-bold '>Contact</h1>
-        </div>
       </div>
-
 
       {/* go to home page */}
       <div className='heading-linking'>
@@ -172,28 +163,84 @@ const Contact = () => {
         <div className='container'>
           <div className='form-detail border shadow-lg p-5 mb-5 bg-body rounded'>-
             <h1 className='text-center mb-5 fw-bold'>Get In Touch With Us</h1>
-            <form className='fs-5' >
+            <form className='' >
               <div className='row'>
-                <div className='col-lg-6 mb-3'>
+                <div className='col-lg-6 mb-4'>
                   <label htmlFor="exampleInputEmail1" className="form-label">First Name*</label>
-                  <input 
-                   type="text" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />
+                  <input
+                    type="text" className="form-control" placeholder='Enter First Name' id="exampleInputEmail1" aria-describedby="emailHelp" />
                 </div>
-                <div className='col-lg-6 mb-3'>
+                <div className='col-lg-6 mb-4'>
                   <label htmlFor="exampleInputEmail1" className="form-label">Last Name*</label>
                   <input
-                  type="text" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />
+                    type="text" className="form-control" id="exampleInputEmail1" placeholder='Enter Last Name' aria-describedby="emailHelp" />
                 </div>
-                <div className='col-lg-6 mb-3'>
+                <div className='col-lg-6 mb-4'>
                   <label htmlFor="exampleInputEmail1" className="form-label">Phone Number*</label>
-                  <input  type="text" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />
+                  <input type="text" className="form-control" id="exampleInputEmail1" placeholder='Enter Phone Number' aria-describedby="emailHelp" />
                 </div>
-                <div className='col-lg-6 mb-3'>
+                <div className='col-lg-6 mb-4'>
                   <label htmlFor="exampleInputEmail1" className="form-label">Email address</label>
-                  <input  type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />
+                  <input type="email" className="form-control" id="exampleInputEmail1" placeholder='Enter Email' aria-describedby="emailHelp" />
                 </div>
 
-                <div className="col-lg-12 mb-3">
+                <div className=" mb-4 col-lg-6 col-sm-12">
+                <label htmlFor="exampleInputEmail1" className="form-label">Select Country</label>
+                  <select class="form-select" aria-label="Where are you from">
+                    <option selected value="">Select</option>
+                    <option value="canada">Canada</option>
+                    <option value="usa">USA</option>
+                    <option value="uk">UK</option>
+                    <option value="aus">Australia</option>
+                    <option value="other">Others</option>
+                  </select>
+                </div>
+
+                <div className=" mb-4 col-lg-6 col-sm-12">
+                <label htmlFor="exampleInputEmail1" className="form-label">Where are you from</label>
+                  <select class="form-select" aria-label="Where are you from">
+                    <option selected value="">Where are you from</option>
+                    <option value="Ludhiana">Ludhiana</option>
+                    <option value="chandigarh">Chandigarh</option>
+                    <option value="Bathinda">Bathinda</option>
+                    <option value="Amritsar">Amritsar</option>
+                    <option value="Other">Others</option>
+                  </select>
+                </div>
+
+
+                <div className=" mb-4 col-lg-6 col-sm-12">
+                <label htmlFor="exampleInputEmail1" className="form-label">Select Visa</label>
+                  <select class="form-select" aria-label="Where are you from">
+                    <option selected value="">Visa Type</option>
+                    <option value="Study visa">Study visa</option>
+                    <option value="Work visa">Work visa</option>
+                    <option value="PR">PR</option>
+                    <option value="Visitor visa">Visitor visa</option>
+                  </select>
+                </div>
+                <div className="mb-4 col-lg-6 col-sm-12">
+                <label htmlFor="exampleInputEmail1" className="form-label ">Language test given</label>
+                  <select class="form-select" aria-label="Where are you from">
+                    <option selected value="">Language test given</option>
+                    <option value="IELTS">IELTS</option>
+                    <option value="PTE">PTE</option>
+                    <option value="TOEFL">TOEFL</option>
+                    <option value="Other">Other</option>
+                  </select>
+                </div>
+
+                <div className=" mb-4 col-lg-12 col-sm-12">
+                <label htmlFor="exampleInputEmail1" className="form-label">Preferred Consultation Type</label>
+                  <select class="form-select" aria-label="Where are you from">
+                    <option selected value="">Preferred Consultation Type</option>
+                    <option value="Phone Consultation">Phone Consultation (15 Minutes)</option>
+                    <option value="Video Consultation">Video Consultation (Upto 60 Minutes)</option>
+                    <option value="In-Person Consultation">In-Person Consultation (Over a Coffee)</option>
+                  </select>
+                </div>
+
+                <div className="col-lg-12 mb-4">
                   <label htmlFor="floatingTextarea2">Message</label>
                   <textarea className="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style={{ height: 100 }} defaultValue={""} />
                 </div>

@@ -3,44 +3,15 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     font-family: 'Montserrat', sans-serif !important;
 
 }
-.heading-section{
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    min-height: auto;
-    height: 500px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-   filter: brightness(90%);
-  }
- .section12{
+
+.section12 {
     margin-top: 118px;
 }
-.section12 img {
-    /* filter: brightness(30%); */
-}
-
-.direct {
-    background-color: #fad703;
-}
-
-.about1 {
-    z-index: 1;
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 250px;
-    margin-bottom: 15px;
-} 
-
-
-
 
 .section13 h6,
 .section15 h6,
@@ -70,88 +41,25 @@ body{
     .about1 {
         top: 130px !important;
     }
-   
-    .section12 {
-        max-height: calc(20vh - (-45px)) !important;
-    }
 
-    .section12 .bg-img{
-        width: auto !important;
-        max-height: 222px !important;
-    }
- .section12 .fix-1{
-    display: none;
- }
+
+
+
 }
 
- @media screen and (max-width:992px) {
-    .about1 {
-        top: 222px !important;
-    }
+@media screen and (max-width:992px) {}
 
-}  
-@media screen and (max-width:1280px) {
-    .about1 {
-        top: 120px;
-    }
+@media screen and (max-width:1280px) {}
 
-    .section12 {
-        height: calc(40vh - (-175px)) !important;
-    } 
-}
-
-@media screen and (max-width:1680px) {
-    .about1 {
-        top: 250px;
-    }
-
-    .section12 {
-        height: calc(34vh - (-115px)) !important;
-        top: 116px;
-    }
-
-    .section12 .bg-img{
-        width: auto !important;
-        height: 369px !important;
-    }
-}
+@media screen and (max-width:1680px) {}
 
 @media screen and (max-width:600px) {
-    .about1 {
-        top: 200px !important;
+    .section12{
+        height: 20vh;
     }
-   
- 
-    .section12 {
-        max-height: calc(20vh - (-30px)) !important;
+    .section12 img{
+        height: 100%;
     }
-
-    .section12 .bg-img{
-        width: auto !important;
-        max-height: 200px !important;
-    }
- .section12 .fix-1{
-    display: none;
- }
-  
- 
 }
 
-@media screen and (max-width:414px) {
-    .about1 {
-        top: 180px !important;
-    }
-   
-    .section12 {
-        max-height: calc(20vh - (-50px)) !important;
-    }
-
-    .section12 .bg-img{
-        width: auto !important;
-        max-height: 200px !important;
-    }
- .section12 .fix-1{
-    display: none;
- }
-    
-}
+@media screen and (max-width:414px) {}

@@ -6,17 +6,7 @@
 .section32{
     margin-top: 118px;
 }
-.section32 img{
-    filter: brightness(30%);
-}
-.contact1{
-    z-index: 1;
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 250px;
-    margin-bottom: 15px;
-}
+
 .section33 button:hover{
  background-color:  #FAD703;
  color: black;
@@ -31,11 +21,7 @@
 .select{
     max-width: 80px !important;
 }
-/* .section33 img{
-    position: absolute;
-    bottom:-155px;
-   padding-right: 250px; 
-} */
+
 @media screen and (max-width:768px) {
     .contact1 {
         top: 210px;

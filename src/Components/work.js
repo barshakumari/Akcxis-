@@ -28,18 +28,12 @@ const Work = () => {
   return (
     <>
       {/* work1*/}
-      {/* <div className='work1'>
+      <div className='section12'>
         <img src={img1} alt="" className='img-fluid w-100 bg-img' />
-        <div className='work'>
-          <h1 className='fw-bold text-center text-light display-2'>Work</h1>
-        </div>
+ 
 
-      </div> */}
-                  <div classname="section16">
-        <div className='heading-section' style={{ backgroundImage: `url(${img1})` }}>
-          <h1 className='display-1 fw-bold '>Work</h1>
-        </div>
       </div>
+   
 
       {/* go to home page */}
       <div className='heading-linking'>

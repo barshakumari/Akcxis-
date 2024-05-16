@@ -6,18 +6,7 @@
 .visit{
     margin-top: 118px;
 }
-.visit img {
-    filter: brightness(50%);
-}
 
-.visit1 {
-    z-index: 1;
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 250px;
-    margin-bottom: 15px;
-} 
 .visit-choose p,.visit-heading p{
     text-align: justify;
 }

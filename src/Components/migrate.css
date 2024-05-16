@@ -6,17 +6,8 @@
 .section28{
     margin-top: 118px;
 }
-.section28 img{
-    filter: brightness(30%);
-}
-.migrate1{
-    z-index: 1;
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 250px;
-    margin-bottom: 15px;
-}
+
+
 .section30 .box{
     height: 16vh;
     width: 250px;

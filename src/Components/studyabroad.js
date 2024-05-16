@@ -1,5 +1,5 @@
 import React from 'react'
-import img1 from "../Components/images/studyabroad1.jpg"
+import img1 from "../Components/images/studyabroad1.png"
 import Modal from './modal'
 import { BsArrowUpRightCircleFill } from 'react-icons/bs';
 import { BsCheck2Square } from 'react-icons/bs';
@@ -17,17 +17,11 @@ import Form from './form';
 const Studyabroad = () => {
   return (
     <>
-      {/* section20 */}
-      {/* <div className='section20'>
-        <img src={img1} alt="" className='img-fluid w-100 bg-img' />
-        <div className='studyabroad1'>
-          <h1 className='fw-bold text-center text-light display-2'>Study Abroad</h1>
-        </div>
-      </div> */}
-                  <div classname="section16">
-        <div className='heading-section' style={{ backgroundImage: `url(${img1})` }}>
-          <h1 className='display-1 fw-bold '>Study Abroad</h1>
-        </div>
+
+
+      <div className="section12">
+        <img src={img1} className='img-fluid w-100' />
+
       </div>
 
       {/* go to home page */}
@@ -190,7 +184,7 @@ const Studyabroad = () => {
       <div className='destination py-5'>
         <div className='container'>
           <div className='heading-title1'>
-          <h1 className=''>Popular Study Destination</h1>
+            <h1 className=''>Popular Study Destination</h1>
           </div>
           <h5 className='fw-bold  mt-4 text-uppercase mb-3'>The United States of America</h5>
           <p className=' '>The United States of America as a country boasts of some of the best universities across the globe. International students are attracted to USA for its quality education and high academic standards.
@@ -274,7 +268,7 @@ const Studyabroad = () => {
       <div className='document py-5 bg-light  '>
         <div className='container'>
           <div className='heading-title1'>
-          <h1 className=' text-cente'>Document Checklist</h1>
+            <h1 className=' text-cente'>Document Checklist</h1>
           </div>
           <div className=''>
             <ul>

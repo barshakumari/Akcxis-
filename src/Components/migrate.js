@@ -1,5 +1,5 @@
 import React from 'react'
-import img1 from "../Components/images/migrate1.jpg"
+import img1 from "../Components/images/migrate1.png"
 import canada from "./images/canada.png"
 import australia from "./images/australia.png"
 import uk from "./images/uk.png"
@@ -15,17 +15,8 @@ import Form from './form'
 const Migrate = () => {
   return (
     <>
-      {/* section28 */}
-      {/* <div className='section28 '>
-        <img src={img1} alt="" className='img-fluid w-100 bg-img' />
-        <div className='migrate1'>
-          <h1 className='fw-bold text-center text-light display-2'>Migrate/PR</h1>
-        </div>
-      </div> */}
-            <div classname="section16">
-        <div className='heading-section' style={{ backgroundImage: `url(${img1})` }}>
-          <h1 className='display-1 fw-bold '>Migrate/PR</h1>
-        </div>
+      <div className="section12">
+      <img src={img1} className='img-fluid w-100'/>
       </div>
 
       {/* go to home page */}
@@ -41,7 +32,6 @@ const Migrate = () => {
           </ol>
         </div>
       </div>
-
 
       {/* maigrate-heading */}
       <div className='migrate-heading py-5'>

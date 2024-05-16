@@ -6,17 +6,7 @@
 .section20{
     margin-top: 118px;
 }
-.section20 img{
-    filter: brightness(30%) ;
-}
-.studyabroad1{
-    z-index: 1;
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 250px;
-    margin-bottom: 15px;
-}
+
 
 .study h6{
     text-align:left;

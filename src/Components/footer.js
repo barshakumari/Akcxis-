@@ -12,7 +12,7 @@ console.log(location)
     <>
       <footer className="footer bg-dark text-white" style={{display:location.pathname==='/travelhome'?'none':'block'}}>
         {/* Grid container */}
-        <div className="container p-4">
+        <div className="container p-5">
           {/*Grid row*/}
           <div className="row ">
             {/*Grid column*/}

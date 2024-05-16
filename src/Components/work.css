@@ -6,18 +6,8 @@
 .work1{
     margin-top: 118px;
 }
-.work1 img {
-    filter: brightness(40%);
-}
 
-.work {
-    z-index: 1;
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 250px;
-    margin-bottom: 15px;
-}
+
 
 .work4 .service-box {
     height: 25vh;
