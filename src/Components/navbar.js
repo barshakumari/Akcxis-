@@ -22,16 +22,16 @@ const Navbar = () => {
             {/* navbar1 */}
             <div className='section fixed-top bg-white' style={{ display: location.pathname === '/travelhome' ? 'none' : 'block' }}>
                 <div className='navbar1 w-100 container-fluid'>
-                    <div className='py-1 d-flex justify-content-between align-items-center'>
+                    <div className='py-1  d-flex justify-content-between align-items-center'>
                         <div>
                             <a href='/'><img src={img1} alt="" className='img-fluid ' /></a>
                         </div>
                         <div className='text-center'>
-                            <h6 className='fw-bolder text-center'><RiWhatsappFill className='fs-5' /><a href='https://api.whatsapp.com/message/A475MHX2ZGQGO1?autoload=1&app_absent=0' className='text-black text-decoration-none'> +91-98728-33369  </a>  &nbsp;<BsFillTelephoneFill className='' /><a href='tel:+91-98727-33369' className='text-black text-decoration-none'> +91-98727-33369 </a></h6>
+                            <h6 className='fw-bolder text-center'><RiWhatsappFill className='' /><a href='https://api.whatsapp.com/message/A475MHX2ZGQGO1?autoload=1&app_absent=0' className='text-black text-decoration-none'> +91-98728-33369  </a>  &nbsp;<BsFillTelephoneFill className='' /><a href='tel:+91-98727-33369' className='text-black text-decoration-none'> +91-98727-33369 </a></h6>
                         </div>
                     </div>
                 </div>
-                {/* navbar2 */}
+
                 <nav expanded={isNavExpanded} onToggle={handleNavToggle} className="navbar navbar-expand-lg bg-body-tertiary py-0">
                     <div className="container-fluid">
                         <a className="navbar-brand " to="#" href="/">
@@ -48,28 +48,20 @@ const Navbar = () => {
                                 <li className="nav-item">
                                     <a className="nav-link active me-1 " aria-current="page" href="/">Home</a>
                                 </li>
-                            
                                 <li className="nav-item dropdown active  me-1">
                                     <a className="nav-link dropdown-toggle active   " href="/about">About us</a>
                                     <ul className="dropdown-menu dropdown-menu-white p-3">
                                         <li><a className="dropdown-item " href="/testimonial">Testimonial</a></li>
-                                        <li><a className="dropdown-item " href="/">Gallery</a></li>
                                     </ul>
                                 </li>
-
                                 <li className="nav-item dropdown">
                                     <a className="nav-link dropdown-toggle active me-1 " href="/coaching">Coaching</a>
                                     <ul className="dropdown-menu dropdown-menu-white p-3">
                                         <li><a className="dropdown-item " href="/ielts">IELTS</a></li>
                                         <li><a className="dropdown-item " href="/Pte">PTE</a></li>
                                         <li><a className="dropdown-item " href="/Toefl">TOEFL</a></li>
-                                        {/* <li><a className="dropdown-item" href="#">CELPIP</a></li>
-                                        <li><a className="dropdown-item" href="#">Spoken Engligh</a></li>
-                                        <li><a className="dropdown-item" href="#">French</a></li> */}
                                     </ul>
                                 </li>
-
-
                                 <li className="nav-item dropdown active  me-1">
                                     <a className="nav-link dropdown-toggle active " href="/studyabroad">
                                         study abroad
@@ -84,7 +76,6 @@ const Navbar = () => {
                                         <li><a className="dropdown-item " href="/singaporestudy">Singapore</a></li>
                                     </ul>
                                 </li>
-
                                 <li className="nav-item dropdown active  me-1">
                                     <a className="nav-link dropdown-toggle  active   " href="work">work</a>
                                     <ul className="dropdown-menu dropdown-menu-white p-3">
@@ -99,7 +90,6 @@ const Navbar = () => {
                                         <li><a className="dropdown-item " href="/polandWork">Poland</a></li>
                                     </ul>
                                 </li>
-
                                 <li className="nav-item dropdown active  me-1">
                                     <a className="nav-link dropdown-toggle active   " href="migrate">pr</a>
                                     <ul className="dropdown-menu dropdown-menu-white p-3">
@@ -107,7 +97,6 @@ const Navbar = () => {
                                         <li><a className="dropdown-item " href="/AusPr">Austalia</a></li>
                                     </ul>
                                 </li>
-
                                 <li className="nav-item dropdown active  me-1">
                                     <a className="nav-link dropdown-toggle  active   " href="visit">visit</a>
                                     <ul className="dropdown-menu dropdown-menu-white p-3">
@@ -118,26 +107,19 @@ const Navbar = () => {
                                         <li><a className="dropdown-item " href="/SingaporeVisit">Singapore</a></li>
                                         <li><a className="dropdown-item " href="/NzVisit">New Zealand</a></li>
                                         <li><a className="dropdown-item " href="/GermanyVisit">Germany</a></li>
-
                                     </ul>
                                 </li>
                                 <li className="nav-item">
                                     <a className="nav-link active  me-1  " href="career">career</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link active  " href="contact">contact us</a>
+                                    <a className="nav-link active  " href="contact">contact</a>
                                 </li>
                             </ul>
                         </div>
                     </div>
                 </nav>
-
-
-
             </div>
-
-
-
         </>
     )
 }

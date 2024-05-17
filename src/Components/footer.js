@@ -74,7 +74,8 @@ console.log(location)
                 <p className='fs-5'>
                   <i className="fas fa-envelope me-3 fs-5" />info@akcxis.com
                 </p>
-                <p className='fs-5'><i className="fas fa-phone me-3 fs-5" />+91-98728-33369</p>
+                <p className='fs-5'><i class="bi bi-whatsapp me-3 fs-5"></i>+91-98728-33369</p>
+                <p className='fs-5'><i className="fas fa-phone me-3 fs-5" />+91-98727-33369</p>
                 {/* <p className='fs-5'><i className="fa-brands fa-whatsapp me-3 fs-5"></i>+91-98727-33369</p> */}
                 <div className='icons py-3 links'>
                   <h4 className='mb-3 fw-bold'>FOLLOW US:</h4>
