@@ -1,7 +1,9 @@
 import React, { useEffect, useState } from 'react'
-import services from "../backend/services";
 import './popup.css'
 import { useLocation } from 'react-router-dom';
+import { useForm } from '../redux/store';
+import { useDispatch } from 'react-redux';
+import { setInputField } from '../redux/feature/form-slice';
 const Popup = () => {
   const [show, setShow] = useState({ class: "", display: "none" })
   const { pathname } = useLocation()
@@ -25,44 +27,37 @@ const Popup = () => {
 
   }, [pathname])
 
-  const [userData, setUserData] = useState({
-    name: "",
-    phone: "",
-    email: "",
-    city: "",
-  });
+  const { firstName, lastName, email,
+    phoneNumber, country, city,
+    visaType, consultationType,
+    language, message } = useForm(state => state.formSlice)
 
-  const [countryData, setCountryData] = useState({ countryCode: "", countryName: '' })
-  const [country, setCountry] = useState([])
-  const [error, setError] = useState({ error: false, msg: '' })
-  const submitForm = async (e) => {
-    e.preventDefault();
-    if (!userData.email || !userData.city || !userData.name || !userData.phone) {
-      return setError({ error: true, msg: 'Please fill all input feilds.' })
+  const dispatch = useDispatch()
+  const [form, setForm] = useState({
+    firstName, lastName, email, phoneNumber, country, city,
+    visaType, consultationType,
+    language, message
+  })
+
+  const [error, setError] = useState({ error: false, message: "" })
+
+  const handleChange = (event) => {
+    const { name, value } = event.target
+    setForm(prev => ({
+      ...prev,
+      [name]: value
+    }))
+  }
+
+  const handleSubmitForm = () => {
+
+    if (!firstName || !email || !phoneNumber || !visaType || !consultationType || !language) {
+      setError({ error: true, message: "Please fill all required fields." })
+      return
     }
-    if (userData.phone.length < 10 || userData.phone.length > 10) {
-      return setError({ error: true, msg: 'Invalid phone number.' });
-    }
-    let data = { namne: userData.name, phone: userData.phone, email: userData.email, city: userData.city, countryCode: countryData.countryCode }
-    await services
-      .postCountries(data)
-      .then(() => {
-        setError({ error: false, msg: 'Your form is submitted.' })
-      })
-      .catch((error) => {
-        setError({ error: true, msg: error.message })
-      });
-  };
 
-  useEffect(() => {
-    getCountryData()
-    console.log(country)
-  }, [])
-
-  const getCountryData = async () => {
-    await services.getCountries().then(data => {
-      setCountry(data.docs.map(doc => ({ ...doc.id }, doc.data())));
-    }).catch(err => console.log(err))
+    dispatch(setInputField(form))
+    console.log(form);
   }
 
   return (
@@ -78,21 +73,21 @@ const Popup = () => {
               <button onClick={() => setShow({ class: "", display: "none" })} type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div className="modal-body">
-              <form className='row p-0 m-0'>
+              <form className='row p-0 m-0' onSubmit={handleSubmitForm}>
                 <div className="form-group mb-2 col-lg-6 col-sm-12">
-                  <input type="text" name="firstname" id="firstname" className="form-control" placeholder='First name' />
+                  <input onChange={handleChange} value={form.firstName} type="text" name="firstName" id="firstname" className="form-control" placeholder='First name' />
                 </div>
                 <div className="form-group mb-2 col-lg-6 col-sm-12">
-                  <input type="text" name="lastname" id="lastname" className="form-control" placeholder='Last name' />
+                  <input onChange={handleChange} value={form.lastName} type="text" name="lastName" id="lastname" className="form-control" placeholder='Last name' />
                 </div>
                 <div className="form-group mb-2 col-lg-6 col-sm-12">
-                  <input type="email" name="email" id="email" className="form-control" placeholder='john@domain.com' />
+                  <input onChange={handleChange} value={form.email} type="email" name="email" id="email" className="form-control" placeholder='john@domain.com' />
                 </div>
                 <div className="form-group mb-2 col-lg-6 col-sm-12">
-                  <input type="tel" name="phone" id="phone" className="form-control" placeholder='+91-xxx-xxx-xxxx' />
+                  <input onChange={handleChange} value={form.phoneNumber} type="tel" name="phoneNumber" id="phoneNumber" className="form-control" placeholder='+91-xxx-xxx-xxxx' />
                 </div>
                 <div className="form-group mb-2 col-lg-6 col-sm-12">
-                  <select class="form-select" aria-label="Where are you from">
+                  <select name='country' onChange={handleChange} value={form.country} class="form-select" aria-label="Where are you from">
                     <option selected value="">Select Country</option>
                     <option value="canada">Canada</option>
                     <option value="usa">USA</option>
@@ -102,7 +97,7 @@ const Popup = () => {
                   </select>
                 </div>
                 <div className="form-group mb-2 col-lg-6 col-sm-12">
-                  <select class="form-select" aria-label="Where are you from">
+                  <select name='city' onChange={handleChange} value={form.city} class="form-select" aria-label="Where are you from">
                     <option selected value="">Where are you from</option>
                     <option value="Ludhiana">Ludhiana</option>
                     <option value="chandigarh">Chandigarh</option>
@@ -112,7 +107,7 @@ const Popup = () => {
                   </select>
                 </div>
                 <div className="form-group mb-2 col-lg-6 col-sm-12">
-                  <select class="form-select" aria-label="Where are you from">
+                  <select name='visaType' onChange={handleChange} value={form.visaType} class="form-select" aria-label="Where are you from">
                     <option selected value="">Visa Type</option>
                     <option value="Study visa">Study visa</option>
                     <option value="Work visa">Work visa</option>
@@ -121,7 +116,7 @@ const Popup = () => {
                   </select>
                 </div>
                 <div className="form-group mb-2 col-lg-6 col-sm-12">
-                  <select class="form-select" aria-label="Where are you from">
+                  <select onChange={handleChange} value={form.consultationType} name='consultationType' class="form-select" aria-label="Where are you from">
                     <option selected value="">Preferred Consultation Type</option>
                     <option value="Phone Consultation">Phone Consultation (15 Minutes)</option>
                     <option value="Video Consultation">Video Consultation (Upto 60 Minutes)</option>
@@ -129,7 +124,7 @@ const Popup = () => {
                   </select>
                 </div>
                 <div className="form-group mb-2 col-lg-12 col-sm-12">
-                  <select class="form-select" aria-label="Where are you from">
+                  <select onChange={handleChange} value={form.language} class="form-select" aria-label="Where are you from" name='language'>
                     <option selected value="">Language test given</option>
                     <option value="IELTS">IELTS</option>
                     <option value="PTE">PTE</option>
@@ -138,14 +133,20 @@ const Popup = () => {
                   </select>
                 </div>
                 <div className="col-lg-12 col-sm-12 mb-2">
-                  <textarea className="form-control" placeholder="Message/Any specific requirement (optional)" id="floatingTextarea2" style={{ height: 100, resize: "none" }} defaultValue={""} />
+                  <textarea onChange={handleChange} name='message' value={form.message} className="form-control" placeholder="Message/Any specific requirement (optional)" id="floatingTextarea2" style={{ height: 100, resize: "none" }} />
                 </div>
               </form>
             </div>
             <div className="modal-footer d-flex justify-content-center">
               {/* <button onClick={() => setShow({ class: "", display: "none" })} type="button" className="btn btn-secondary" data-bs-dismiss="modal">Close</button> */}
-              <button type="button" className="btn btn-primary">Send Message</button>
+              <button type="button" onClick={handleSubmitForm} className="btn btn-primary">Send Message</button>
             </div>
+            {
+              error.error && <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                {error.message}
+                <button onClick={() => setError({ error: false, message: "" })} type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+              </div>
+            }
           </div>
         </div>
       </div>

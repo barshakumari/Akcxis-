@@ -3,7 +3,6 @@ import img1 from "../Components/images/studyabroad1.png"
 import Modal from './modal'
 import { BsArrowUpRightCircleFill } from 'react-icons/bs';
 import { BsCheck2Square } from 'react-icons/bs';
-import { Link } from 'react-router-dom'
 import layer from './images/Layer5.png'
 import "./studyabroad.css"
 import canada from "./images/canada.png"
@@ -12,7 +11,6 @@ import uk from "./images/uk.png"
 import us from "./images/us.png"
 import singapore from "./images/singapore.png"
 import germany from "./images/Germany.png"
-import Form from './form';
 
 const Studyabroad = () => {
   return (

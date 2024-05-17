@@ -1,4 +1,4 @@
-import React, { useRef } from 'react'
+import React from 'react'
 import anjna from "./images/testi2.png"
 import sneha from "./images/testi3.png"
 import gagan from "./images/testi4.png"

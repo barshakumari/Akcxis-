@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import img from './images/visit.png'
 import Modal from './modal'
 import './visit.css'
@@ -34,7 +33,6 @@ import team from './images/team.png'
 import success from './images/success.png'
 import document from './images/document.png'
 import support from './images/support.png'
-import Form from './form'
 
 
 const Visit = () => {
