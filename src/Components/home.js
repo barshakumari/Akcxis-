@@ -124,16 +124,17 @@ const Home = () => {
             </div>
             <h5 className="text-center mt-2">
               <span>CANADA
-                <Link to={'/CanadaPr'} className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-info">
+                {/* <Link to={'/CanadaPr'} className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-info">
                   PR
                   <span className="visually-hidden">unread messages</span>
-                </Link>
+                </Link> */}
               </span>
             </h5>
             <ul type="disc" className='country-list'>
               <li ><a href='/canadastudy' className='lh-base'>Study Visa</a></li>
               <li><a href='/CanadaWork'>Work Visa</a></li>
               <li><a href='/canadaVisit'>Visitor Visa</a></li>
+              <li><a href='/CanadaPr'>PR</a></li>
             </ul>
           </div>
 
@@ -143,16 +144,17 @@ const Home = () => {
             </div>
             <h5 className="  text-center mt-2">
               <span>AUSTRALIA
-                <Link to={'/AusPr'} className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-info">
+                {/* <Link to={'/AusPr'} className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-info">
                   PR
                   <span className="visually-hidden">unread messages</span>
-                </Link>
+                </Link> */}
               </span>
             </h5>
             <ul type="disc" className='country-list'>
               <li><a href='/australiastudy' className=''>Study Visa</a></li>
               <li><a href='/AusWork'>Work Visa</a></li>
               <li><a href='/AusVisit'>Visitor Visa</a></li>
+              <li><a href='/AusPr'>PR</a></li>
             </ul>
           </div>
           <div className="cardbox border border-dark border-opacity-25 rounded-3 shadow-lg">

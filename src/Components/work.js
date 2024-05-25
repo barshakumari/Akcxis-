@@ -20,6 +20,7 @@ import hungary from './images/hungary.png'
 import croatia from './images/Croatia.png'
 import malta from './images/malta.png'
 import portugal from './images/Portugal.png'
+import france from './images/France.png'
 // import Card from './card';
 import './work.css'
 import Modal from './modal';
@@ -179,9 +180,9 @@ const Work = () => {
             </div>
             <div className='box border-dark border-opacity-25 rounded-3 shadow-lg'>
               <div className='d-flex justify-content-center '>
-                <img src={newzealand} alt='' className='img-fluid  py-2' />
+                <img src={uk} alt='' className='img-fluid  py-2' />
               </div>
-              <h6 className='text-center fw-bold'>NEW ZEALAND</h6>
+              <h6 className='text-center fw-bold'>UK</h6>
             </div>
             <div className='box border-dark border-opacity-25 rounded-3 shadow-lg'>
               <div className='d-flex justify-content-center'>
@@ -191,9 +192,9 @@ const Work = () => {
             </div>
             <div className='box  border-dark border-opacity-25 rounded-3 shadow-lg'>
               <div className='d-flex justify-content-center'>
-                <img src={uk} alt='' className='img-fluid  py-2' />
+                <img src={us} alt='' className='img-fluid  py-2' />
               </div>
-              <h6 className='text-center fw-bold'>UK</h6>
+              <h6 className='text-center fw-bold'>USA</h6>
             </div>
 
           </div>
@@ -201,21 +202,21 @@ const Work = () => {
           <div className='countryimg1 d-flex justify-content-around align-items-center '>
             <div className='box  border-dark border-opacity-25 rounded-3 shadow-lg'>
               <div className='d-flex justify-content-center'>
-                <img src={ireland} alt='' className='img-fluid  py-2' />
+                <img src={poland} alt='' className='img-fluid  py-2' />
               </div>
-              <h6 className='text-center fw-bold'>IRELAND</h6>
+              <h6 className='text-center fw-bold'>POLAND</h6>
             </div>
             <div className='box border-dark border-opacity-25 rounded-3 shadow-lg'>
               <div className='d-flex justify-content-center '>
-                <img src={us} alt='' className='img-fluid  py-2' />
+                <img src={malta} alt='' className='img-fluid  py-2' />
               </div>
-              <h6 className='text-center fw-bold'>USA</h6>
+              <h6 className='text-center fw-bold'>MALTA</h6>
             </div>
             <div className='box border-dark border-opacity-25 rounded-3 shadow-lg'>
               <div className='d-flex justify-content-center'>
-                <img src={portugal} alt='' className='img-fluid py-2' />
+                <img src={france} alt='' className='img-fluid py-2' />
               </div>
-              <h6 className='text-center fw-bold'>PORTUGAL</h6>
+              <h6 className='text-center fw-bold'>FRANCE</h6>
             </div>
             <div className='box  border-dark border-opacity-25 rounded-3 shadow-lg'>
               <div className='d-flex justify-content-center'>
@@ -225,7 +226,7 @@ const Work = () => {
             </div>
 
           </div>
-
+{/* 
           <div className='countryimg1 d-flex justify-content-around align-items-center'>
             <div className='box  border-dark border-opacity-25 rounded-3 shadow-lg'>
               <div className='d-flex justify-content-center'>
@@ -252,9 +253,9 @@ const Work = () => {
               <h6 className='text-center fw-bold'>DENMARK</h6>
             </div>
 
-          </div>
+          </div> */}
 
-          <div className='countryimg1 d-flex justify-content-around align-items-center '>
+          {/* <div className='countryimg1 d-flex justify-content-around align-items-center '>
             <div className='box  border-dark border-opacity-25 rounded-3 shadow-lg'>
               <div className='d-flex justify-content-center'>
                 <img src={uae} alt='' className='img-fluid  py-2' />
@@ -280,7 +281,7 @@ const Work = () => {
               <h6 className='text-center fw-bold'>SINGAPORE</h6>
             </div>
 
-          </div>
+          </div> */}
         </div>
       </div>
 

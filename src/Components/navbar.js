@@ -28,7 +28,7 @@ const Navbar = () => {
                         </div>
                         <div className='text-center'>
                             <h6 className='fw-bolder text-center'><RiWhatsappFill className='' /><a href='https://api.whatsapp.com/message/A475MHX2ZGQGO1?autoload=1&app_absent=0' className='text-black text-decoration-none'> +91-98728-33369  </a>  &nbsp;<BsFillTelephoneFill className='' /><a href='tel:+91-98727-33369' className='text-black text-decoration-none'> +91-98727-33369 </a></h6>
-                        </div>
+                         </div>
                     </div>
                 </div>
                 <nav expanded={isNavExpanded} onToggle={handleNavToggle} className="navbar navbar-expand-lg bg-body-tertiary py-0">
@@ -56,9 +56,9 @@ const Navbar = () => {
                                 <li className="nav-item dropdown">
                                     <a className="nav-link dropdown-toggle active me-1 " href="/coaching">Coaching</a>
                                     <ul className="dropdown-menu dropdown-menu-white p-3">
-                                        <li><a className="dropdown-item " href="/ielts">IELTS</a></li>
-                                        <li><a className="dropdown-item " href="/Pte">PTE</a></li>
-                                        <li><a className="dropdown-item " href="/Toefl">TOEFL</a></li>
+                                        <li><a className="dropdown-item" href="/ielts">IELTS</a></li>
+                                        <li><a className="dropdown-item" href="/Pte">PTE</a></li>
+                                        <li><a className="dropdown-item" href="/Toefl">TOEFL</a></li>
                                     </ul>
                                 </li>
                                 <li className="nav-item dropdown active  me-1">
