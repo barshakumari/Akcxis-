@@ -3,8 +3,8 @@ import React, { useState } from 'react'
 import { useLocation } from 'react-router-dom'
 // import { Link } from "react-router-dom"
 import img1 from "../Components/images/vidhata logo png.png"
-import img2 from "../Components/images/akcxislogo.png"
-import travellogo from '../Components/images/travellogo.png'
+import img2 from "../Components/images/AkcxisLogo1.png"
+import travellogo from '../Components/images/AkcxisTravel1.png'
 import { BsFillTelephoneFill } from 'react-icons/bs';
 import { RiWhatsappFill } from 'react-icons/ri';
 import "./nav.css"
@@ -31,7 +31,6 @@ const Navbar = () => {
                         </div>
                     </div>
                 </div>
-
                 <nav expanded={isNavExpanded} onToggle={handleNavToggle} className="navbar navbar-expand-lg bg-body-tertiary py-0">
                     <div className="container-fluid">
                         <a className="navbar-brand " to="#" href="/">
@@ -77,7 +76,7 @@ const Navbar = () => {
                                     </ul>
                                 </li>
                                 <li className="nav-item dropdown active  me-1">
-                                    <a className="nav-link dropdown-toggle  active   " href="work">work</a>
+                                    <a className="nav-link dropdown-toggle  active" href="work">work</a>
                                     <ul className="dropdown-menu dropdown-menu-white p-3">
                                         <li><a className="dropdown-item " href="/UsaWork">USA</a></li>
                                         <li><a className="dropdown-item " href="/CanadaWork">Canada</a></li>
@@ -91,7 +90,7 @@ const Navbar = () => {
                                     </ul>
                                 </li>
                                 <li className="nav-item dropdown active  me-1">
-                                    <a className="nav-link dropdown-toggle active   " href="migrate">pr</a>
+                                    <a className="nav-link dropdown-toggle active" href="migrate">pr</a>
                                     <ul className="dropdown-menu dropdown-menu-white p-3">
                                         <li><a className="dropdown-item " href="/CanadaPr">Canada</a></li>
                                         <li><a className="dropdown-item " href="/AusPr">Austalia</a></li>

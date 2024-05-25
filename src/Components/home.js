@@ -42,6 +42,10 @@ import gagan from "./images/testi4.png"
 import rahul from "./images/testi5.png"
 import sahera from './images/sahera.png'
 import pawan from './images/pawan.png'
+import mahay from './images/mahay.png'
+import bikramjeet from './images/bikramjeet.png'
+import mandeep from './images/mandeep.png'
+import urmila from './images/urmila.png'
 
 
 import { FaStar } from "react-icons/fa";
@@ -467,20 +471,37 @@ const Home = () => {
               </div>
               <div>
                 <div className='d-flex justify-content-center'>
-                  <img src={rahul} className='img-fluid ' alt='' />
+                  <img src={bikramjeet} className='img-fluid' alt='' />
                 </div>
-                <h4 className='text-center mt-3 fw-bold'>Rohan Das</h4>
+                <h4 className='text-center mt-3 fw-bold'>Bikramjeet Singh</h4>
+                <p className='text-center text-warning fs-4'><FaStar /><FaStar /><FaStar /><FaStar /><IoIosStarOutline /></p>
+                <p className=' text-center '><RiDoubleQuotesL className='fs-3 mb-3 icon' /> I am incredibly grateful for the expertise and dedication of Akcxis Immigrations in successfully securing my UK spouse visa after four previous refusals. Their meticulous approach, deep understanding of immigration laws, and unwavering support were invaluable throughout the process. I highly recommend their services to anyone navigating complex visa applications.  <RiDoubleQuotesR className='fs-3 mt-1 icon' /></p>
+              </div>
+              <div>
+                <div className='d-flex justify-content-center'>
+                  <img src={mahay} className='img-fluid' alt='' />
+                </div>
+                <h4 className='text-center mt-3 fw-bold'>Bhupinder Singh Mahay</h4>
+                <p className='text-center text-warning fs-4'><FaStar /><FaStar /><FaStar /><FaStar /><IoIosStarOutline /></p>
+                <p className=' text-center '><RiDoubleQuotesL className='fs-3 mb-3 icon' />Your expertise and dedicated support were crucial to our successful Canada Tourist visas. Your proactive guidance led us seamlessly through each step. We deeply appreciate your exceptional service and invaluable counsel for my family. Thank you for opening doors to exciting new possibilities in the Canada! </p>
+           
+              </div>
+              <div>
+                <div className='d-flex justify-content-center'>
+                  <img src={mandeep} className='img-fluid ' alt='' />
+                </div>
+                <h4 className='text-center mt-3 fw-bold'>Mandeep Kaur</h4>
                 <p className='text-center text-warning fs-4'><FaStar /><FaStar /><FaStar /><FaStar /><FaStar /></p>
-                <p className=' text-center '> <RiDoubleQuotesL className='fs-3 mb-3 icon' /> Hi…my name is Rohan Das and currently I am studying in Australia. I processed my whole study visa process from Akcxis Immigrations in 2022. I really thank them for helping me to reach here within six months and fulfilling my dream to study in Australia. <RiDoubleQuotesR className='fs-3 mt-1 icon' /></p>
+                <p className=' text-center '> <RiDoubleQuotesL className='fs-3 mb-3 icon' />Hey everyone, it's Mandeep Kaur here. I just wanted to share some great news—I got my UK study visa with the awesome support from Akcxis Immigration! They were so helpful and made the whole process easy for me. Now, I can't wait to pursue my dreams in the UK thanks to them! <RiDoubleQuotesR className='fs-3 mt-1 icon' /></p>
               </div>
 
               <div>
                 <div className='d-flex justify-content-center '>
-                  <img src={sneha} className='img-fluid ' alt='' />
+                  <img src={urmila} className='img-fluid ' alt='' />
                 </div>
-                <h4 className='text-center mt-3 fw-bold'>Sneha Sharma</h4>
+                <h4 className='text-center mt-3 fw-bold'>Urmila</h4>
                 <p className='text-center text-warning fs-4'><FaStar /><FaStar /><FaStar /><FaStar /><FaStar /></p>
-                <p className=' text-center'><RiDoubleQuotesL className='fs-3 mb-3 icon' /> I am Sneha Sharma and right now I am a permanent resident in Canada and my whole process was completed under the supervision of Akcxis Immigrations. I am really thankful to the PR visa team of Akcxis Immigrations who guided and helped me look for a job and handle my entire process of filing so well. <RiDoubleQuotesR className='fs-3 mt-1 icon' /></p>
+                <p className=' text-center'><RiDoubleQuotesL className='fs-3 mb-3 icon' /> Hello, I'm Urmila. I'm thrilled to share that I've obtained my UK study visa through Akcxis Immigration. Their team provided exceptional support and guidance throughout the process, keeping me motivated and informed every step of the way. Overall, my experience with Akcxis Immigration was outstanding! <RiDoubleQuotesR className='fs-3 mt-1 icon' /></p>
               </div>
               <div>
                 <div className='d-flex justify-content-center'>

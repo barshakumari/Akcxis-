@@ -20,7 +20,6 @@ const Contact = () => {
   });
 
   const [countryData, setCountryData] = useState({ countryCode: "", countryName: '' })
-
   const [country, setCountry] = useState([])
   const [error, setError] = useState({ error: false, msg: '' })
   const submitForm = async (e) => {
@@ -31,7 +30,6 @@ const Contact = () => {
     if (userData.phone.length < 10 || userData.phone.length > 10) {
       return setError({ error: true, msg: 'Invalid phone number.' });
     }
-
     let data = { namne: userData.name, phone: userData.phone, email: userData.email, city: userData.city, countryCode: countryData.countryCode }
     await services
       .postCountries(data)

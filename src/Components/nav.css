@@ -71,7 +71,7 @@ body {
     }
 
     .navbar-brand img {
-        margin-left: 1px;
+        /* margin-left: 1px; */
 
     }
 
@@ -85,6 +85,9 @@ body {
         width: 50px;
 
     }
+    .navbar-brand img {
+        width: 100%;
+    }
 
     .navbar1 h6 {
         font-size: 13px;
@@ -93,4 +96,16 @@ body {
     .navbar-brand:nth-child(2) {
         display: none;
     }
+}
+
+@media screen and (max-width:1300px) {
+    
+    .navbar-brand img {
+        width: 77%;
+        margin-left: 30px;
+    }
+
+  
+
+  
 }
